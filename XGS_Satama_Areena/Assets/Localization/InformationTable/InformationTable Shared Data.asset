@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: InformationTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: InformationTable
+  m_TableCollectionNameGuidString: 3c799641276d70748a082cdd90783d6e
+  m_Entries:
+  - m_Id: 3826529816576
+    m_Key: LanguageText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7908808151040
+    m_Key: SceneText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9784035332096
+    m_Key: 'EmptyText
+
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10310894440448
+    m_Key: ConcertText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10449700737024
+    m_Key: SeminarText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11336464683008
+    m_Key: ExhibitionText
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8680122495528075288
+  references:
+    version: 2
+    RefIds:
+    - rid: 8680122495528075288
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1716198776758
