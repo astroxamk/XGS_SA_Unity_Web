@@ -22,10 +22,6 @@ MonoBehaviour:
     m_Localized: Scener
     m_Metadata:
       m_Items: []
-  - m_Id: 3826529816576
-    m_Localized: "Spr\xE5k"
-    m_Metadata:
-      m_Items: []
   - m_Id: 9784035332096
     m_Localized: Tomt
     m_Metadata:
@@ -40,6 +36,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 11336464683008
     m_Localized: "Utst\xE4llning"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338043524567040
+    m_Localized: Uppdelning av huvudhallen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338884314746880
+    m_Localized: Flytta till Sal
     m_Metadata:
       m_Items: []
   references:

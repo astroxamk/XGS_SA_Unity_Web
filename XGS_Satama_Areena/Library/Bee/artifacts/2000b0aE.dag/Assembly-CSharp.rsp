@@ -341,6 +341,11 @@
 -analyzer:"D:/Unity/2022.3.29f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Unity/2022.3.29f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/LocaleSelector.cs"
+"Assets/Scripts/MoveCamera.cs"
+"Assets/Scripts/PlayerCam.cs"
+"Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/StartController.cs"
+"Assets/Scripts/UIController.cs"
 -langversion:9.0
 /deterministic
 /optimize+

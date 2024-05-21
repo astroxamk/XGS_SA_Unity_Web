@@ -22,10 +22,6 @@ MonoBehaviour:
     m_Localized: "N\xE4kym\xE4t"
     m_Metadata:
       m_Items: []
-  - m_Id: 3826529816576
-    m_Localized: Kieli
-    m_Metadata:
-      m_Items: []
   - m_Id: 9784035332096
     m_Localized: "Tyhj\xE4"
     m_Metadata:
@@ -40,6 +36,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 11336464683008
     m_Localized: "N\xE4yttely"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338043524567040
+    m_Localized: "P\xE4\xE4salin Jako"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338884314746880
+    m_Localized: 'Liiku Saliin:'
     m_Metadata:
       m_Items: []
   references:
