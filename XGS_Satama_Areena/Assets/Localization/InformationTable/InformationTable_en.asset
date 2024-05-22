@@ -46,6 +46,45 @@ MonoBehaviour:
     m_Localized: 'Move To:'
     m_Metadata:
       m_Items: []
+  - m_Id: 727696178106368
+    m_Localized: Instructions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727902030352384
+    m_Localized: 'To enter settings press "escape" key
+
+
+
+      Alternatively on
+      mobile press the 3 dots on the top right and enable mobile controls
+
+
+
+      Scenes:
+      Change the scene in the main Hall
+
+
+
+      Main Hall Split: The main hall is
+      modular and allows for multiple variations of it
+
+
+
+      Move To: Move to
+      a selected hall if the hall is enabled'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 729616842182656
+    m_Localized: Contact
+    m_Metadata:
+      m_Items: []
+  - m_Id: 729796903653376
+    m_Localized: "Business inquiries: Marjukka Relander (marjukka.relander@satama.fi)\n\n\nVirtual
+      environment by Xamk Game Studios, team Satama Bytes\n\n\nProgramming Roope
+      Astr\xE9n\n\n3D Models: XGS and Daria Khilchuck\n\nMaterials and misc.: Viktoriia
+      Gorovaia"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

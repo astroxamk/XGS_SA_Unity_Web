@@ -46,6 +46,28 @@ MonoBehaviour:
     m_Localized: 'Liiku Saliin:'
     m_Metadata:
       m_Items: []
+  - m_Id: 727696178106368
+    m_Localized: Ohjeet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727902030352384
+    m_Localized: "P\xE4\xE4set asetuksiin painamalla \"escape\"-n\xE4pp\xE4int\xE4\n\nVaihtoehtoisesti
+      matkapuhelimessa paina 3 pistett\xE4 oikeassa yl\xE4kulmassa ja ota k\xE4ytt\xF6\xF6n
+      mobiiliohjaus.\n\nN\xE4kym\xE4t: Vaihda p\xE4\xE4salin n\xE4kym\xE4\xE4.\n\nP\xE4\xE4salin
+      jako: P\xE4\xE4sali on modulaarinen ja mahdollistaa useita mahdolisuuksia\n\nLiiku
+      Saliin: Siirry valittuun saliin, jos sali on valittu k\xE4ytt\xF6\xF6n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 729616842182656
+    m_Localized: "Ota yhteytt\xE4"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 729796903653376
+    m_Localized: "Yritystiedustelut: Marjukka Relander (marjukka.relander@satama.fi)\n\n\nVirtuaaliymp\xE4rist\xF6:
+      Xamk Game Studios, tiimi Satama Bytes\n\n\nOhjelmointi Roope Astr\xE9n\n\n3D-mallit:
+      XGS ja Daria Khilchuck\n\nMateriaalit ja muut: Viktoriia Gorovaia"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
