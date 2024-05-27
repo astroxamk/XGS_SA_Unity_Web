@@ -5,14 +5,12 @@ using UnityEngine;
 public class PlayerCam : MonoBehaviour
 {
     [Header("Sensitivity")]
-    public float xAxisSens;
-    public float yAxisSens;
-    // [Header("Rotation")]
-    float xAxisRot;
-    float yAxisRot;
+    public float mouseSensitivity = 100f;
 
     [Header("Player Orientation")]
-    public Transform orientation;
+    public Transform playerBody;
+
+    float xRotation = 0f;
 
     public void DisableCursor()
     {
@@ -23,15 +21,13 @@ public class PlayerCam : MonoBehaviour
     private void Update()
     {
         // Mouse Inputs
-        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * xAxisSens;
-        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * yAxisSens;
+        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * mouseSensitivity;
+        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * mouseSensitivity;
 
-        yAxisRot += mouseX;
-        xAxisRot -= mouseY;
-        xAxisRot = Mathf.Clamp(xAxisRot, -90f, 90f);
+        xRotation -= mouseY;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        // Rotate camera and orientation
-        transform.rotation = Quaternion.Euler(xAxisRot, yAxisRot, 0);
-        orientation.rotation = Quaternion.Euler(0, yAxisRot, 0);
+        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        playerBody.Rotate(Vector3.up * mouseX);
     }
 }
