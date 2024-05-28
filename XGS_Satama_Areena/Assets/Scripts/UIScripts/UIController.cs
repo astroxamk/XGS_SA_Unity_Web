@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +10,7 @@ public class UIController : MonoBehaviour
     public GameObject SettingsView;
     public PlayerCam playerCamera;
     public PlayerController playerController;
+    public GameObject settingsLeft;
 
     private bool isSettingsViewActive = false;
 
@@ -22,7 +21,7 @@ public class UIController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             HandleMainMenuBtn();
         }
@@ -33,9 +32,18 @@ public class UIController : MonoBehaviour
         isSettingsViewActive = !isSettingsViewActive;
         SettingsView.SetActive(isSettingsViewActive);
 
-        if(isSettingsViewActive )
+        if(isSettingsViewActive)
         {
             EnableMouse();
+
+            if (Screen.height > 719f)
+            {
+                settingsLeft.SetActive(true);
+            }
+            else
+            {
+                settingsLeft.SetActive(false);
+            }
         }
         else
         {
