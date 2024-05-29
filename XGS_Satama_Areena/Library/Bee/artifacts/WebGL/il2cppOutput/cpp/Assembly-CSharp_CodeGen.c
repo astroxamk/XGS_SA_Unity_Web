@@ -64,8 +64,9 @@ extern void VariableJoystick_HandleInput_mD1BCF9A068737A9C057EE8CEB7E6DEB682CC03
 extern void VariableJoystick__ctor_m6C7B41973BE20A94F16DB5DCC9AA805C5D8DF852 (void);
 extern void MoveCamera_Update_mE6F636B6C3CDBA9DDC6BB61CBEBF6B2AE1A038C4 (void);
 extern void MoveCamera__ctor_m482685446D944F8C39671E937F0FCDE363291763 (void);
-extern void PlayerCam_DisableCursor_m382E34D59D108ADCF88E244E5B972EBA21491B5D (void);
 extern void PlayerCam_Update_mC96960542813F57B69A941C031EC9A859A30844C (void);
+extern void PlayerCam_TouchCam_m5A441E419B69A54EFE7C56D5629B9525654AF767 (void);
+extern void PlayerCam_KeyboardCam_m40962877125ED7A7C90297BAB598BFF6A3E617EB (void);
 extern void PlayerCam__ctor_m5A4401652352851B23213E65C908C89593DA8501 (void);
 extern void MobileManager_EnableMobileControls_mDC0C2920AE0FC9C23ABD71D4EF195969EE429909 (void);
 extern void MobileManager__ctor_m353F30D1D43313F917EE39F298BA085E158DFB56 (void);
@@ -94,6 +95,9 @@ extern void U3CSetLocaleU3Ed__2_System_Collections_IEnumerator_get_Current_m85E2
 extern void MobilePlayerController_Update_m5D93E2C710A2395A0D59B4874E299CA1E623B2F1 (void);
 extern void MobilePlayerController__ctor_mB50FB11E727A0C7208BFA181F8768601A1D20358 (void);
 extern void PlayerController_Update_m1F4051EB5BCBCCE5EEE2E3E49B7E278C3B14EC33 (void);
+extern void PlayerController_TouchControls_m59A7FBE967D6E487B5E16160DB43C9905418D985 (void);
+extern void PlayerController_KeyboardControls_m7430A68EAADB8F5C0B0639AA4DB04590240DC270 (void);
+extern void PlayerController_HandlePhysicsInGame_mD13F9DC0B065353B8DB4315DBB4E5C95A20D995E (void);
 extern void PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33 (void);
 extern void CloseBtnScript_OnMouseUpAsButton_mFA60C267C52A7A6D25206124A3DD6842E2719D94 (void);
 extern void CloseBtnScript__ctor_mEED5978947B186B86A8CCA39297424956F1B4826 (void);
@@ -111,7 +115,7 @@ extern void UIController_EnableMouse_m48DCF4AE3C77904D07AF5C9BBADEFCD841E5F027 (
 extern void UIController__ctor_mFF218DBC8CCEFE36AAC295D2376501658CD8B7A2 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[99] = 
+static Il2CppMethodPointer s_methodPointers[103] = 
 {
 	JoystickPlayerExample_FixedUpdate_m9AEDBA111F95D67A006A5D3821956048224541B7,
 	JoystickPlayerExample__ctor_m702422E0AE29402330CF41FDDBEE76F0506342E2,
@@ -165,8 +169,9 @@ static Il2CppMethodPointer s_methodPointers[99] =
 	VariableJoystick__ctor_m6C7B41973BE20A94F16DB5DCC9AA805C5D8DF852,
 	MoveCamera_Update_mE6F636B6C3CDBA9DDC6BB61CBEBF6B2AE1A038C4,
 	MoveCamera__ctor_m482685446D944F8C39671E937F0FCDE363291763,
-	PlayerCam_DisableCursor_m382E34D59D108ADCF88E244E5B972EBA21491B5D,
 	PlayerCam_Update_mC96960542813F57B69A941C031EC9A859A30844C,
+	PlayerCam_TouchCam_m5A441E419B69A54EFE7C56D5629B9525654AF767,
+	PlayerCam_KeyboardCam_m40962877125ED7A7C90297BAB598BFF6A3E617EB,
 	PlayerCam__ctor_m5A4401652352851B23213E65C908C89593DA8501,
 	MobileManager_EnableMobileControls_mDC0C2920AE0FC9C23ABD71D4EF195969EE429909,
 	MobileManager__ctor_m353F30D1D43313F917EE39F298BA085E158DFB56,
@@ -195,6 +200,9 @@ static Il2CppMethodPointer s_methodPointers[99] =
 	MobilePlayerController_Update_m5D93E2C710A2395A0D59B4874E299CA1E623B2F1,
 	MobilePlayerController__ctor_mB50FB11E727A0C7208BFA181F8768601A1D20358,
 	PlayerController_Update_m1F4051EB5BCBCCE5EEE2E3E49B7E278C3B14EC33,
+	PlayerController_TouchControls_m59A7FBE967D6E487B5E16160DB43C9905418D985,
+	PlayerController_KeyboardControls_m7430A68EAADB8F5C0B0639AA4DB04590240DC270,
+	PlayerController_HandlePhysicsInGame_mD13F9DC0B065353B8DB4315DBB4E5C95A20D995E,
 	PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33,
 	CloseBtnScript_OnMouseUpAsButton_mFA60C267C52A7A6D25206124A3DD6842E2719D94,
 	CloseBtnScript__ctor_mEED5978947B186B86A8CCA39297424956F1B4826,
@@ -213,7 +221,7 @@ static Il2CppMethodPointer s_methodPointers[99] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[99] = 
+static const int32_t s_InvokerIndices[103] = 
 {
 	6350,
 	6350,
@@ -270,6 +278,7 @@ static const int32_t s_InvokerIndices[99] =
 	6350,
 	6350,
 	6350,
+	6350,
 	5062,
 	6350,
 	6350,
@@ -312,6 +321,9 @@ static const int32_t s_InvokerIndices[99] =
 	6350,
 	6350,
 	6350,
+	6350,
+	6350,
+	6350,
 	9112,
 	6350,
 };
@@ -319,7 +331,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	99,
+	103,
 	s_methodPointers,
 	0,
 	NULL,

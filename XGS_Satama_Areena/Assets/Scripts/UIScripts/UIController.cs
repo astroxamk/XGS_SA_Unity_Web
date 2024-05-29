@@ -6,13 +6,16 @@ public class UIController : MonoBehaviour
     [Header ("Control Buttons")]
     public Button MenuBtn;
 
+    // Delete this line from final file
+    [Header ("Screen Height for Mobile Settings view")]
+    public float ScreenHeight = 720f;
+
     [Header ("Main Menu Genrals")]
     public GameObject SettingsView;
     public PlayerCam playerCamera;
-    public PlayerController playerController;
     public GameObject settingsLeft;
 
-    private bool isSettingsViewActive = false;
+    public bool isSettingsViewActive = false;
 
     void Start()
     {
@@ -36,7 +39,7 @@ public class UIController : MonoBehaviour
         {
             EnableMouse();
 
-            if (Screen.height > 719f)
+            if (Screen.height > ScreenHeight)
             {
                 settingsLeft.SetActive(true);
             }
@@ -52,16 +55,15 @@ public class UIController : MonoBehaviour
 
         bool newState = !playerCamera.enabled;
         playerCamera.enabled = newState;
-        playerController.enabled = newState;
     }
 
-    void DisableMouse()
+    public void DisableMouse()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
-    void EnableMouse()
+    public void EnableMouse()
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;

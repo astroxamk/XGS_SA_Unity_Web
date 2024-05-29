@@ -133,6 +133,30 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
   - assembly: Assembly-CSharp
+    fullTypeName: LocaleSelector
+    methodName: ChangeLocale
+  - assembly: Assembly-CSharp
+    fullTypeName: StartController
+    methodName: HandleButtonPress
+  - assembly: Assembly-CSharp
+    fullTypeName: LocaleSelector
+    methodName: ChangeLocale
+  - assembly: Assembly-CSharp
+    fullTypeName: StartController
+    methodName: HandleButtonPress
+  - assembly: Assembly-CSharp
+    fullTypeName: LocaleSelector
+    methodName: ChangeLocale
+  - assembly: Assembly-CSharp
+    fullTypeName: StartController
+    methodName: HandleButtonPress
+  - assembly: Assembly-CSharp
+    fullTypeName: LocaleSelector
+    methodName: ChangeLocale
+  - assembly: Assembly-CSharp
+    fullTypeName: StartController
+    methodName: HandleButtonPress
+  - assembly: Assembly-CSharp
     fullTypeName: QuitApplication
     methodName: HandleButtonPress
   - assembly: UnityEngine.CoreModule
@@ -192,30 +216,6 @@ ScriptsOnlyBuild:
   - assembly: Unity.TextMeshPro
     fullTypeName: TMPro.TMP_Text
     methodName: set_text
-  - assembly: Assembly-CSharp
-    fullTypeName: LocaleSelector
-    methodName: ChangeLocale
-  - assembly: Assembly-CSharp
-    fullTypeName: StartController
-    methodName: HandleButtonPress
-  - assembly: Assembly-CSharp
-    fullTypeName: LocaleSelector
-    methodName: ChangeLocale
-  - assembly: Assembly-CSharp
-    fullTypeName: StartController
-    methodName: HandleButtonPress
-  - assembly: Assembly-CSharp
-    fullTypeName: LocaleSelector
-    methodName: ChangeLocale
-  - assembly: Assembly-CSharp
-    fullTypeName: StartController
-    methodName: HandleButtonPress
-  - assembly: Assembly-CSharp
-    fullTypeName: LocaleSelector
-    methodName: ChangeLocale
-  - assembly: Assembly-CSharp
-    fullTypeName: StartController
-    methodName: HandleButtonPress
   - assembly: Unity.TextMeshPro
     fullTypeName: TMPro.TMP_Text
     methodName: set_text
@@ -263,61 +263,59 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1568}
+      Script: {instanceID: 16682}
     - Class: 114
-      Script: {instanceID: 1618}
+      Script: {instanceID: 16732}
     - Class: 114
-      Script: {instanceID: 2148}
+      Script: {instanceID: 17264}
     - Class: 114
-      Script: {instanceID: 2346}
+      Script: {instanceID: 17348}
     - Class: 114
-      Script: {instanceID: 2510}
+      Script: {instanceID: 17466}
     - Class: 114
-      Script: {instanceID: 2916}
+      Script: {instanceID: 17632}
     - Class: 114
-      Script: {instanceID: 3164}
+      Script: {instanceID: 18038}
     - Class: 114
-      Script: {instanceID: 3338}
+      Script: {instanceID: 18286}
     - Class: 114
-      Script: {instanceID: 3536}
+      Script: {instanceID: 18460}
     - Class: 114
-      Script: {instanceID: 4102}
+      Script: {instanceID: 18658}
     - Class: 114
-      Script: {instanceID: 4834}
+      Script: {instanceID: 18790}
     - Class: 114
-      Script: {instanceID: 5082}
+      Script: {instanceID: 19226}
     - Class: 114
-      Script: {instanceID: 5178}
+      Script: {instanceID: 19958}
     - Class: 114
-      Script: {instanceID: 5922}
+      Script: {instanceID: 20208}
     - Class: 114
-      Script: {instanceID: 5958}
+      Script: {instanceID: 20304}
     - Class: 114
-      Script: {instanceID: 6092}
+      Script: {instanceID: 20880}
     - Class: 114
-      Script: {instanceID: 6438}
+      Script: {instanceID: 21054}
     - Class: 114
-      Script: {instanceID: 6972}
+      Script: {instanceID: 21092}
     - Class: 114
-      Script: {instanceID: 7040}
+      Script: {instanceID: 21228}
     - Class: 114
-      Script: {instanceID: 7480}
+      Script: {instanceID: 21546}
     - Class: 114
-      Script: {instanceID: 9854}
+      Script: {instanceID: 21576}
     - Class: 114
-      Script: {instanceID: 9858}
+      Script: {instanceID: 21636}
     - Class: 114
-      Script: {instanceID: 9862}
+      Script: {instanceID: 22112}
     - Class: 114
-      Script: {instanceID: 9866}
+      Script: {instanceID: 22180}
     - Class: 114
-      Script: {instanceID: 351250}
+      Script: {instanceID: 22622}
     - Class: 114
-      Script: {instanceID: 533150}
+      Script: {instanceID: 23990}
     - Class: 114
-      Script: {instanceID: 814890}
-    - Class: 114
-      Script: {instanceID: 1035050}
+      Script: {instanceID: 24106}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -421,16 +419,34 @@ ScriptsOnlyBuild:
     className: StartController
   - hash:
       serializedVersion: 2
+      Hash: d35d813297b02080403ea856c9025c07
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FixedJoystick
+  - hash:
+      serializedVersion: 2
       Hash: b12640dfdb5966813e9dd838893e6c4a
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerEnterMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 5b91242e64b1a13495b40e691e68c478
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: VariableJoystick
+  - hash:
+      serializedVersion: 2
       Hash: 0c6de72eaf8c1070da824268c4bfad9d
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 05862ce5a3d9f416043970cb98618645
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MobilePlayerController
   - hash:
       serializedVersion: 2
       Hash: ad49e20f31ed572e586aa8bbaafb591b
@@ -565,7 +581,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: 067f9b45c561bad79c3942a80a71b897
+      Hash: cd205aa70cb56c657897319846e85d03
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerCam
@@ -611,6 +627,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a268d8bb12cc7552000326a589df7f9c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Page1BtnScript
   - hash:
       serializedVersion: 2
       Hash: d7c8092511063e0dae8106bfc8ed63dd
@@ -787,13 +809,19 @@ ScriptsOnlyBuild:
     className: DictionaryAsset
   - hash:
       serializedVersion: 2
+      Hash: 8a889661f39163fc91d896a8fc8aea2b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: JoystickPlayerExample
+  - hash:
+      serializedVersion: 2
       Hash: e7e95903ca66d58e1a7cbd71f824e16d
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
-      Hash: 2c8dd40c8b4e68b33d39be7af7f4fe5b
+      Hash: 4b0fba9998dd7ee8bf46670903e27564
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerController
@@ -859,6 +887,18 @@ ScriptsOnlyBuild:
     className: UnityOnTransformChildrenChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 68538fab8ae9c846a2cc8ba8a3bff104
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MobileManager
+  - hash:
+      serializedVersion: 2
+      Hash: f1504b36ea8dbb329123bfed7268467b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DynamicJoystick
+  - hash:
+      serializedVersion: 2
       Hash: 6d94138b60a9299798dda96c1ee6725f
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -901,7 +941,7 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: b401fb44a3f1a497e9f16546b7183c44
+      Hash: b6251d2c59e84d13ef859718a11aea1b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: UIController
@@ -923,6 +963,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: ab451d9cd6e084eda12896e95f785737
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Joystick
   - hash:
       serializedVersion: 2
       Hash: 191cd500c627cd6682ef6f70b8e47f2c
@@ -961,6 +1007,12 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
+      Hash: 721f4419bc7a7d3198ece1d73c79574b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Page2BtnScript
+  - hash:
+      serializedVersion: 2
       Hash: bf0842d88681628b29beb00b5e2ab785
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -977,6 +1029,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Localization
     namespaceName: UnityEngine.Localization.Components
     className: LocalizeStringEvent
+  - hash:
+      serializedVersion: 2
+      Hash: ffd3b02933517c5b5e75c97500224ed4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: QuitApplication
   - hash:
       serializedVersion: 2
       Hash: 1ce63d97d1ca25cba2d91d5f32fd5f79
@@ -1031,6 +1089,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ee8cd2be783205a7c712839d5deb3b3c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: JoystickSetterExample
   - hash:
       serializedVersion: 2
       Hash: 4f353524ce6564e40764f1ea080b2d85
@@ -1183,6 +1247,12 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
+      Hash: 13f3cf24e0245c69bcaa85f14201eaa3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FloatingJoystick
+  - hash:
+      serializedVersion: 2
       Hash: a89b0448af4e1cd103a77f9fec0a961f
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1219,6 +1289,12 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
+      Hash: af8fa1a23480f8402342cd9a59e6aa8c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SceneManager
+  - hash:
+      serializedVersion: 2
       Hash: d5cd7f207e91ca8336c65a577a6fb2a0
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -1229,6 +1305,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.ScriptableBuildPipeline
     namespaceName: UnityEngine.Build.Pipeline
     className: CompatibilityAssetBundleManifest
+  - hash:
+      serializedVersion: 2
+      Hash: 52d995c9ee96bdeabbbe71831732f5ed
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CloseBtnScript
   - hash:
       serializedVersion: 2
       Hash: 7f8b5cc4205dbc59dd8df6a875f91a12
@@ -1319,91 +1401,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 88dd920f42727a1800c9d112e9a50a27
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CloseBtnScript
-  - hash:
-      serializedVersion: 2
-      Hash: ffd3b02933517c5b5e75c97500224ed4
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: QuitApplication
-  - hash:
-      serializedVersion: 2
-      Hash: a268d8bb12cc7552000326a589df7f9c
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Page1BtnScript
-  - hash:
-      serializedVersion: 2
-      Hash: 721f4419bc7a7d3198ece1d73c79574b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Page2BtnScript
-  - hash:
-      serializedVersion: 2
-      Hash: af8fa1a23480f8402342cd9a59e6aa8c
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SceneManager
-  - hash:
-      serializedVersion: 2
-      Hash: 9f54d66e6c80f259aba95044cbea80f2
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MobileManager
-  - hash:
-      serializedVersion: 2
-      Hash: 05862ce5a3d9f416043970cb98618645
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MobilePlayerController
-  - hash:
-      serializedVersion: 2
-      Hash: 5b91242e64b1a13495b40e691e68c478
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: VariableJoystick
-  - hash:
-      serializedVersion: 2
-      Hash: 8a889661f39163fc91d896a8fc8aea2b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: JoystickPlayerExample
-  - hash:
-      serializedVersion: 2
-      Hash: d35d813297b02080403ea856c9025c07
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: FixedJoystick
-  - hash:
-      serializedVersion: 2
-      Hash: ab451d9cd6e084eda12896e95f785737
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Joystick
-  - hash:
-      serializedVersion: 2
-      Hash: 13f3cf24e0245c69bcaa85f14201eaa3
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: FloatingJoystick
-  - hash:
-      serializedVersion: 2
-      Hash: f1504b36ea8dbb329123bfed7268467b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: DynamicJoystick
-  - hash:
-      serializedVersion: 2
-      Hash: ee8cd2be783205a7c712839d5deb3b3c
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: JoystickSetterExample
   platform: 20
   scenePathNames:
   - Assets/Scenes/StartScene.unity
-  playerPath: C:/Users/Gamestudios VR/Documents/GitHub/XGS_SA_Unity_Web/XGS_Satama_Areena/Builds
+  playerPath: D:/GitHub/XGS_SA_Unity_Web/XGS_Satama_Areena/Builds

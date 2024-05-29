@@ -4,19 +4,34 @@ public class PlayerCam : MonoBehaviour
 {
     [Header("Sensitivity")]
     public float mouseSensitivity = 100f;
+    public float touchSensitivity = 50f;
 
     [Header("Player Orientation")]
     public Transform playerBody;
 
     float xRotation = 0f;
 
-    public void DisableCursor()
+    private void Update()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        if (Input.touchCount > 0)
+        {
+            TouchCam();
+        }
+        else
+        {
+            KeyboardCam();
+        }
     }
 
-    private void Update()
+    void TouchCam()
+    {
+        if(Input.touchCount > 0 && )
+        {
+
+        }
+    }
+
+    void KeyboardCam()
     {
         // Mouse Inputs
         float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * mouseSensitivity;

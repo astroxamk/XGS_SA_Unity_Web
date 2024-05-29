@@ -2,23 +2,18 @@ using UnityEngine;
 
 public class MobileManager : MonoBehaviour
 {
-    public GameObject mobileController;
-    public MobilePlayerController mobilePlayerController;
+    public GameObject mobileControls;
 
     bool mobileIsActive;
 
     public void EnableMobileControls(bool isEnabled)
     {
         if (isEnabled){
-            mobileIsActive = true;
-            mobileController.SetActive(mobileIsActive);
-            mobilePlayerController.enabled = mobileIsActive;
+            mobileControls.SetActive(true);
             Debug.Log("Mobile Controls Enabled");
         }
         else {
-            mobileIsActive = false;
-            mobileController.SetActive(mobileIsActive);
-            mobilePlayerController.enabled = mobileIsActive;
+            mobileControls.SetActive(false);
             Debug.Log("Mobile Controls Disabled");
         }
     }
