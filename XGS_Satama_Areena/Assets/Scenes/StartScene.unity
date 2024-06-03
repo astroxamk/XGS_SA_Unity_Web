@@ -36073,11 +36073,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2488294008873813853, guid: a6217ed5510ba9746a9f98e8baf95cf0, type: 3}
---- !u!4 &1275744914 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 739260753811064173, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
-  m_PrefabInstance: {fileID: 5289944324401436879}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1275786807 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4620679351368790086, guid: a6217ed5510ba9746a9f98e8baf95cf0, type: 3}
@@ -67747,7 +67742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5535137699978649446, guid: 27d1b30a61e3bc640bc8ad93b14d4c73, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6462378181997344577, guid: 27d1b30a61e3bc640bc8ad93b14d4c73, type: 3}
       propertyPath: m_AnchorMax.x
@@ -67877,6 +67872,10 @@ PrefabInstance:
     - target: {fileID: 6641524753881244470, guid: e0e9f474a8fde164a8379147606c5ca6, type: 3}
       propertyPath: m_Name
       value: InfoTable
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317897431540517367, guid: e0e9f474a8fde164a8379147606c5ca6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.95
       objectReference: {fileID: 0}
     - target: {fileID: 7473353325758751770, guid: e0e9f474a8fde164a8379147606c5ca6, type: 3}
       propertyPath: m_IsActive
@@ -68022,7 +68021,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6277904327169502768, guid: 78c557262fca2784e81401db3f3d11e7, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8975174375393984507, guid: 78c557262fca2784e81401db3f3d11e7, type: 3}
       propertyPath: m_SizeDelta.x
@@ -68031,6 +68030,10 @@ PrefabInstance:
     - target: {fileID: 8975174375393984507, guid: 78c557262fca2784e81401db3f3d11e7, type: 3}
       propertyPath: m_SizeDelta.y
       value: 225
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975174375648738304, guid: 78c557262fca2784e81401db3f3d11e7, type: 3}
+      propertyPath: m_Name
+      value: Movement Joystick
       objectReference: {fileID: 0}
     - target: {fileID: 8975174375648738305, guid: 78c557262fca2784e81401db3f3d11e7, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -69083,9 +69086,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7350450220396875913, guid: b1bd78c62178b064ab0f14d034d03f20, type: 3}
+      propertyPath: mobile
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7350450220396875913, guid: b1bd78c62178b064ab0f14d034d03f20, type: 3}
       propertyPath: uiController
       value: 
       objectReference: {fileID: 1281226757}
+    - target: {fileID: 7350450220396875913, guid: b1bd78c62178b064ab0f14d034d03f20, type: 3}
+      propertyPath: swipeControls
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7350450220396875913, guid: b1bd78c62178b064ab0f14d034d03f20, type: 3}
       propertyPath: mobileControls
       value: 
@@ -69115,38 +69126,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1398665182229877389, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
-      propertyPath: m_ClearFlags
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1398665182229877389, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
-      propertyPath: orthographic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1398665182229877389, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
-      propertyPath: field of view
-      value: 65
-      objectReference: {fileID: 0}
-    - target: {fileID: 1398665182229877389, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
-      propertyPath: m_BackGroundColor.b
-      value: 0.19215688
-      objectReference: {fileID: 0}
-    - target: {fileID: 1398665182229877389, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
-      propertyPath: m_BackGroundColor.g
-      value: 0.20053665
-      objectReference: {fileID: 0}
-    - target: {fileID: 1398665182229877389, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
-      propertyPath: m_BackGroundColor.r
-      value: 0.4745098
-      objectReference: {fileID: 0}
-    - target: {fileID: 1398665182229877389, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
-      propertyPath: m_CullingMask.m_Bits
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1398665182229877389, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
-      propertyPath: m_projectionMatrixMode
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1747684783275411594, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
       propertyPath: joystick
       value: 
@@ -69159,37 +69138,9 @@ PrefabInstance:
       propertyPath: mobileControls
       value: 
       objectReference: {fileID: 1478441639}
-    - target: {fileID: 1747684783275411594, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
-      propertyPath: groundMask.m_Bits
-      value: 1024
-      objectReference: {fileID: 0}
-    - target: {fileID: 1760559583450068292, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
-      propertyPath: joystick
-      value: 
-      objectReference: {fileID: 1503435413}
-    - target: {fileID: 1760559583450068292, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1760559583450068292, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
-      propertyPath: groundCheck
-      value: 
-      objectReference: {fileID: 1275744914}
-    - target: {fileID: 1760559583450068292, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
-      propertyPath: groundMask.m_Bits
-      value: 1024
-      objectReference: {fileID: 0}
     - target: {fileID: 5619961989935567103, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
       propertyPath: m_Name
       value: PlayerChar
-      objectReference: {fileID: 0}
-    - target: {fileID: 5619961989935567103, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6723970580576823303, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
-      propertyPath: mouseSensitivity
-      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 7593550574155994880, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -69197,7 +69148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7593550574155994880, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 47.65298
+      value: 45.653
       objectReference: {fileID: 0}
     - target: {fileID: 7593550574155994880, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -69231,8 +69182,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1760559583450068292, guid: 5080cf264605d2840803ef7aebeafaa1, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

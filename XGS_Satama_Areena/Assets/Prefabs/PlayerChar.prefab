@@ -59,7 +59,7 @@ Transform:
   m_GameObject: {fileID: 3340959698018566896}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.1, z: 0}
+  m_LocalPosition: {x: 0, y: 4.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -75,7 +75,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.21115166, g: 0.6132076, b: 0.5870284, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -98,7 +98,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 65
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b47e5b71b5e4e20468916e85f728b6dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 800
+  mouseSensitivity: 150
   playerBody: {fileID: 7593550574155994880}
 --- !u!1 &4169623871935214607
 GameObject:
@@ -167,7 +167,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7, y: 7, z: 7}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7593550574155994880}
@@ -256,7 +256,6 @@ GameObject:
   - component: {fileID: 7593550574155994880}
   - component: {fileID: 4036925974667120198}
   - component: {fileID: 1747684783275411594}
-  - component: {fileID: 1760559583450068292}
   m_Layer: 0
   m_Name: PlayerChar
   m_TagString: Untagged
@@ -301,8 +300,8 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 14
-  m_Radius: 3
+  m_Height: 10
+  m_Radius: 2.75
   m_SlopeLimit: 45
   m_StepOffset: 0.7
   m_SkinWidth: 0.08
@@ -322,28 +321,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 4036925974667120198}
   speed: 35
+  joystick: {fileID: 0}
+  mobileControls: {fileID: 0}
   groundCheck: {fileID: 739260753811064173}
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
     m_Bits: 1024
---- !u!114 &1760559583450068292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5619961989935567103}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75bc992e0b8877840af0a5d2ee0be91f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 4036925974667120198}
-  speed: 35
-  joystick: {fileID: 0}
-  groundCheck: {fileID: 0}
-  groundDistance: 0.4
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 0
+  uiController: {fileID: 0}

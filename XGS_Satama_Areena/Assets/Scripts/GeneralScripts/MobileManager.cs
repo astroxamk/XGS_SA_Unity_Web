@@ -4,8 +4,6 @@ public class MobileManager : MonoBehaviour
 {
     public GameObject mobileControls;
 
-    bool mobileIsActive;
-
     public void EnableMobileControls(bool isEnabled)
     {
         if (isEnabled){
