@@ -38,6 +38,9 @@ public class PlayerController : MonoBehaviour
         HandlePhysicsInGame();
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
     void TouchControls()
     {
         float horizontalMovementMobile = joystick.Horizontal;
@@ -49,6 +52,9 @@ public class PlayerController : MonoBehaviour
         controller.Move(movePlayerMobile * Time.deltaTime * speed);
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
     void KeyboardControls()
     {
         float horizontalMovementKeyboard = Input.GetAxis("Horizontal");
@@ -60,6 +66,9 @@ public class PlayerController : MonoBehaviour
         controller.Move(movePlayerKeyboard * Time.deltaTime * speed);
     }
     
+    /// <summary>
+    /// 
+    /// </summary>
     void HandlePhysicsInGame()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);

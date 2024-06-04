@@ -7,6 +7,9 @@ public class CloseBtnScript : MonoBehaviour
     public PlayerController playerController;
     public GameObject Menu_UI;
 
+    /// <summary>
+    /// 
+    /// </summary>
     private void OnMouseUpAsButton()
     {
         uiController.DisableMouse();

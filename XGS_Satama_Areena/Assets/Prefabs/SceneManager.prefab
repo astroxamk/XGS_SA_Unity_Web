@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7917866689154021787}
   - component: {fileID: 6353766471862030707}
+  - component: {fileID: 5724281418414320355}
+  - component: {fileID: 4581508205695911827}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -44,3 +46,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a133872be5932a6418af59bb37ebc5e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EmptyScene: {fileID: 0}
+  ConcertScene: {fileID: 0}
+  SeminarScene: {fileID: 0}
+  ExhibitionScene: {fileID: 0}
+--- !u!114 &5724281418414320355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400236109129505070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bee3196d453ee9847b9ef0c60e7290e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  extraLargeHall: {fileID: 0}
+  extraSmallAndLargeHall: {fileID: 0}
+  extraSmallMediumAndSmallHall: {fileID: 0}
+--- !u!114 &4581508205695911827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400236109129505070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c80c42b1709f64e875f7a28db29b3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mediumHallPosition: {fileID: 0}
+  smallHallPosition: {fileID: 0}
+  extraSmallHallPosition: {fileID: 0}

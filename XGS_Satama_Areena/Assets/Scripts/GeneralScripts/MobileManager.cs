@@ -4,6 +4,10 @@ public class MobileManager : MonoBehaviour
 {
     public GameObject mobileControls;
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="isEnabled"></param>
     public void EnableMobileControls(bool isEnabled)
     {
         if (isEnabled){

@@ -6,6 +6,10 @@ public class LocaleSelector : MonoBehaviour
 {
     private bool activeLocale = false;
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="localeID"></param>
     public void ChangeLocale(int localeID)
     {
         if (activeLocale)
@@ -13,6 +17,11 @@ public class LocaleSelector : MonoBehaviour
         StartCoroutine(SetLocale(localeID));
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="_localeID"></param>
+    /// <returns></returns>
     IEnumerator SetLocale(int _localeID)
     {
         activeLocale = true;

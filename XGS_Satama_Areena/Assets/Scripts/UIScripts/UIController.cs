@@ -5,10 +5,11 @@ public class UIController : MonoBehaviour
 {
     [Header ("Control Buttons")]
     public Button MenuBtn;
+    public KeyCode menuKey = KeyCode.Space;
 
-    // Delete this line from final file
+    // Make this private in final file
     [Header ("Screen Height for Mobile Settings view")]
-    public float ScreenHeight = 720f;
+    public float screenHeight = 720f;
 
     [Header ("Main Menu Genrals")]
     public GameObject SettingsView;
@@ -24,12 +25,15 @@ public class UIController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(menuKey))
         {
             HandleMainMenuBtn();
         }
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
     void HandleMainMenuBtn()
     {
         isSettingsViewActive = !isSettingsViewActive;
@@ -39,7 +43,7 @@ public class UIController : MonoBehaviour
         {
             EnableMouse();
 
-            if (Screen.height > ScreenHeight)
+            if (Screen.height > screenHeight)
             {
                 settingsLeft.SetActive(true);
             }
@@ -57,12 +61,18 @@ public class UIController : MonoBehaviour
         playerCamera.enabled = newState;
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
     public void DisableMouse()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
     public void EnableMouse()
     {
         Cursor.lockState = CursorLockMode.None;

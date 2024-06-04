@@ -8,6 +8,9 @@ public class Page2BtnScript : MonoBehaviour
     [Header("Buttons")]
     public GameObject Page1Btn;
 
+    /// <summary>
+    /// 
+    /// </summary>
     private void OnMouseUpAsButton()
     {
         TextInstructions.SetActive(false);
