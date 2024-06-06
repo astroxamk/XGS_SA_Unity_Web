@@ -14,7 +14,8 @@ public class HallManager : MonoBehaviour
     //[SerializeField] private GameObject curtainExtraSmallHall;
 
     /// <summary>
-    /// 
+    /// In a method call, it is possible to create a list of somethings that can be manipulated using the curly braces {} syntax.
+    /// The syntax new[] creates a new array of the type specified in the square brackets [].
     /// </summary>
     private void Start()
     {
@@ -30,11 +31,11 @@ public class HallManager : MonoBehaviour
     }
 
     /// <summary>
-    /// 
+    /// A method to handle the hall curtain activation
     /// </summary>
-    /// <param name="curtains"></param>
-    /// <param name="states"></param>
-    /// <param name="hallType"></param>
+    /// <param name="curtains"> A list of GameObjects that can be manipulated </param>
+    /// <param name="states"> A list of boolean states for the GameObjects. The key positions refer to each key position in the curtains list </param>
+    /// <param name="hallType"> Name of the Hall tat has been activated in the project </param>
     private void HandleHall(GameObject[] curtains, bool[] states, string hallType)
     {
         for (int i = 0; i < curtains.Length; i++)

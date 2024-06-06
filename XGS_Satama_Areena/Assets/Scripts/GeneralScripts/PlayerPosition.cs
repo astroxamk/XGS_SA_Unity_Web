@@ -19,7 +19,9 @@ public class PlayerPosition : MonoBehaviour
     private CharacterController characterController;
 
     /// <summary>
-    /// 
+    /// the " ()=> " is a lambda expression that allows us to pass a method as a parameter. 
+    /// While the AddListener method requires a delegate, the lambda expression allows us to pass a method 
+    /// as a parameter without explicitly defining a delegate.
     /// </summary>
     private void Start()
     {
@@ -31,10 +33,10 @@ public class PlayerPosition : MonoBehaviour
     }
 
     /// <summary>
-    /// 
+    /// A method that moves the player to a specific position in the project set with a set of empty GameObjects.
     /// </summary>
-    /// <param name="targetPos"></param>
-    /// <param name="targetName"></param>
+    /// <param name="targetPos">The position in the project determined by the empty GameObjects</param>
+    /// <param name="targetName">The name of the area the player has been moved to</param>
     private void MovePlayer(Transform targetPos, string targetName)
     {
         characterController.enabled = false;

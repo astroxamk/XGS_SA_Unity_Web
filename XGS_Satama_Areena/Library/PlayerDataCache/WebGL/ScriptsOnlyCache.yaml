@@ -37,8 +37,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Localization.LocalizationBehaviour
     - UnityEngine.Localization.Settings.LocalizationSettings
     - UnityEngine.Localization.VariantsPropertyDriver
-    Unity.ResourceManager.dll:
-    - MonoBehaviourCallbackHooks
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -232,63 +230,63 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1570}
+      Script: {instanceID: 16682}
     - Class: 114
-      Script: {instanceID: 1572}
+      Script: {instanceID: 16684}
     - Class: 114
-      Script: {instanceID: 2152}
+      Script: {instanceID: 17264}
     - Class: 114
-      Script: {instanceID: 2236}
+      Script: {instanceID: 17348}
     - Class: 114
-      Script: {instanceID: 2354}
+      Script: {instanceID: 17466}
     - Class: 114
-      Script: {instanceID: 2520}
+      Script: {instanceID: 17630}
     - Class: 114
-      Script: {instanceID: 2926}
+      Script: {instanceID: 18036}
     - Class: 114
-      Script: {instanceID: 3174}
+      Script: {instanceID: 18284}
     - Class: 114
-      Script: {instanceID: 3348}
+      Script: {instanceID: 18458}
     - Class: 114
-      Script: {instanceID: 3546}
+      Script: {instanceID: 18656}
     - Class: 114
-      Script: {instanceID: 3678}
+      Script: {instanceID: 18788}
     - Class: 114
-      Script: {instanceID: 4114}
+      Script: {instanceID: 19224}
     - Class: 114
-      Script: {instanceID: 4846}
+      Script: {instanceID: 19956}
     - Class: 114
-      Script: {instanceID: 5096}
+      Script: {instanceID: 20206}
     - Class: 114
-      Script: {instanceID: 5192}
+      Script: {instanceID: 20302}
     - Class: 114
-      Script: {instanceID: 5768}
+      Script: {instanceID: 20878}
     - Class: 114
-      Script: {instanceID: 5942}
+      Script: {instanceID: 21052}
     - Class: 114
-      Script: {instanceID: 5980}
+      Script: {instanceID: 21090}
     - Class: 114
-      Script: {instanceID: 6116}
+      Script: {instanceID: 21226}
     - Class: 114
-      Script: {instanceID: 6434}
+      Script: {instanceID: 21544}
     - Class: 114
-      Script: {instanceID: 6464}
+      Script: {instanceID: 21574}
     - Class: 114
-      Script: {instanceID: 6524}
+      Script: {instanceID: 21634}
     - Class: 114
-      Script: {instanceID: 7000}
+      Script: {instanceID: 22110}
     - Class: 114
-      Script: {instanceID: 7068}
+      Script: {instanceID: 22178}
     - Class: 114
-      Script: {instanceID: 7510}
+      Script: {instanceID: 22620}
     - Class: 114
-      Script: {instanceID: 8878}
+      Script: {instanceID: 23988}
     - Class: 114
-      Script: {instanceID: 8994}
+      Script: {instanceID: 24104}
     - Class: 114
-      Script: {instanceID: 461558}
+      Script: {instanceID: 24980}
     - Class: 114
-      Script: {instanceID: 461568}
+      Script: {instanceID: 24984}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -414,12 +412,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_StyleSheet
-  - hash:
-      serializedVersion: 2
-      Hash: 05862ce5a3d9f416043970cb98618645
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MobilePlayerController
   - hash:
       serializedVersion: 2
       Hash: ad49e20f31ed572e586aa8bbaafb591b
@@ -554,7 +546,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: a8159c780faafe89c2d62c4141512e99
+      Hash: 7f136a9e34fbe63d461211a91ca7aec3
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerCam
@@ -914,7 +906,7 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: e9a46a0dd74b0476e140c4f5e713e492
+      Hash: bb43e82112ba7a69b26b89c95cdfcd1a
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: UIController
@@ -1370,23 +1362,17 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 2ffcb833ef0db4a94236c03214ec24ed
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SwipeControls
-  - hash:
-      serializedVersion: 2
-      Hash: 7fd232b14676a20f9fd918cc20495547
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: HallManager
-  - hash:
-      serializedVersion: 2
-      Hash: 1e358451f56167eeebccf4b74e673cb6
+      Hash: 7444b58f52182e900b160d29d7754a27
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 308cf80cd499f826ead4f65031a77ead
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HallManager
   platform: 20
   scenePathNames:
   - Assets/Scenes/StartScene.unity
-  playerPath: C:/Users/Gamestudios VR/Documents/GitHub/XGS_SA_Unity_Web/XGS_Satama_Areena/Builds
+  playerPath: D:/GitHub/XGS_SA_Unity_Web/XGS_Satama_Areena/Builds

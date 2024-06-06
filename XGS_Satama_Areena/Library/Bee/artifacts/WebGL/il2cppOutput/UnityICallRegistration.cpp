@@ -608,6 +608,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.CharacterController
 
+	//Start Registrations for type : UnityEngine.Collider
+
+		//System.Void UnityEngine.Collider::set_enabled(System.Boolean)
+		void Register_UnityEngine_Collider_set_enabled();
+		Register_UnityEngine_Collider_set_enabled();
+
+	//End Registrations for type : UnityEngine.Collider
+
 	//Start Registrations for type : UnityEngine.Component
 
 		//System.Void UnityEngine.Component::GetComponentsForListInternal(System.Type,System.Object)

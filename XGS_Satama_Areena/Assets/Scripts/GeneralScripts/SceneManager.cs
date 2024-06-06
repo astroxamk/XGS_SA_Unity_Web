@@ -17,7 +17,6 @@ public class SceneManager : MonoBehaviour
         ExhibitionScene.onClick.AddListener(HandleExhibitionScene);
     }
 
-    // Vector3 basePosition = new Vector3(136.84, 45.653, -180.67)
     public void HandleEmptyScene()
     {
         Debug.Log("Empty Scene Enabled");

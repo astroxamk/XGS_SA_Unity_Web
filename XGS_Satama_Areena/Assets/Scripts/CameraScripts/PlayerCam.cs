@@ -27,74 +27,52 @@ public class PlayerCam : MonoBehaviour
     private float rotY = 0f;
     private Vector3 origRot;
 
-    private void Start()
-    {
+    private void Start() {
         origRot = playerBody.transform.eulerAngles;
         rotX = origRot.x;
         rotY = origRot.y;
     }
 
-    private void FixedUpdate()
-    {
-        if (Screen.height <= screenHeight)
-        {
+    private void FixedUpdate() {
+        if (Screen.height <= screenHeight) {
             KeyboardControls("Mouse X", "Mouse Y", mouseSensitivity);
             KeyboardControls("Rotate X", "Rotate Y", keyRotationSpeed);
         }
         else
-        {
             MobileControls(screenDivide);
-        }
     }
 
     /// <summary>
-    /// 
+    /// A Method that controls the camera with the keyboard
     /// </summary>
-    /// <param name="xAxis"></param>
-    /// <param name="yAxis"></param>
-    /// <param name="sensitivity"></param>
-    void KeyboardControls(string xAxis, string yAxis, float sensitivity)
-    {
+    /// <param name="xAxis"> A string variable that takes a base variable fromt the project settings -> input page. For the x axis. </param>
+    /// <param name="yAxis"> A string variable that takes a base variable fromt the project settings -> input page. For the y axis. </param>
+    /// <param name="sensitivity"> a float variabel that allows the manipulation of the turn sensitivity in the project </param>
+    void KeyboardControls(string xAxis, string yAxis, float sensitivity) {
         float rotationX = Input.GetAxisRaw(xAxis) * sensitivity * Time.deltaTime;
         float rotationY = Input.GetAxisRaw(yAxis) * sensitivity * Time.deltaTime;
 
-        RotationControl(rotationX, rotationY);
-    }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="axisX"></param>
-    /// <param name="axisY"></param>
-    void RotationControl(float axisX, float axisY)
-    {
-        xRotation -= axisY;
+        xRotation -= rotationY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        playerBody.Rotate(Vector3.up * axisX);
+        playerBody.Rotate(Vector3.up * rotationX);
     }
 
     /// <summary>
-    /// 
+    /// A method that controls the camera with touch controls
     /// </summary>
-    /// <param name="screenWidth"></param>
-    void MobileControls(float screenWidth)
-    {
-        if (Input.touchCount > 0)
-        {
-            for (int i = 0; i < Input.touchCount; i++)
-            {
+    /// <param name="screenWidth"> A base width that divied the screen in half and allows for use of either side for controlling </param>
+    void MobileControls(float screenWidth) {
+        if (Input.touchCount > 0) {
+            for (int i = 0; i < Input.touchCount; i++) {
                 Touch touch = Input.GetTouch(i);
 
-                if (touch.position.x > screenWidth)
-                {
-                    if (touch.phase == TouchPhase.Began)
-                    {
+                if (touch.position.x > screenWidth) {
+                    if (touch.phase == TouchPhase.Began){
                         initTouch = touch;
                     }
-                    else if (touch.phase == TouchPhase.Moved)
-                    {
+                    else if (touch.phase == TouchPhase.Moved){
 
                         float deltaX = initTouch.position.x - touch.position.x;
                         float deltaY = initTouch.position.y - touch.position.y;
@@ -106,8 +84,7 @@ public class PlayerCam : MonoBehaviour
 
                         playerBody.transform.eulerAngles = new Vector3(rotX, rotY, 0f);
                     }
-                    else if (touch.phase == TouchPhase.Ended)
-                    {
+                    else if (touch.phase == TouchPhase.Ended){
                         initTouch = new Touch();
                     }
                 }

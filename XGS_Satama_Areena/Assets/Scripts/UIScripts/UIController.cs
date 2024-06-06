@@ -18,63 +18,47 @@ public class UIController : MonoBehaviour
 
     public bool isSettingsViewActive = false;
 
-    void Start()
-    {
-        MenuBtn.onClick.AddListener(HandleMainMenuBtn);
-    }
+    void Start() { MenuBtn.onClick.AddListener(HandleMainMenuBtn); }
 
-    private void Update()
-    {
+    private void Update() {
         if (Input.GetKeyDown(menuKey))
-        {
             HandleMainMenuBtn();
-        }
     }
 
     /// <summary>
-    /// 
+    /// A method that handles the main menu button
     /// </summary>
-    void HandleMainMenuBtn()
-    {
+    void HandleMainMenuBtn() {
         isSettingsViewActive = !isSettingsViewActive;
         SettingsView.SetActive(isSettingsViewActive);
 
-        if(isSettingsViewActive)
-        {
+        if(isSettingsViewActive) {
             EnableMouse();
 
             if (Screen.height > screenHeight)
-            {
                 settingsLeft.SetActive(true);
-            }
             else
-            {
                 settingsLeft.SetActive(false);
-            }
         }
         else
-        {
             DisableMouse();
-        }
 
         bool newState = !playerCamera.enabled;
         playerCamera.enabled = newState;
     }
 
     /// <summary>
-    /// 
+    /// A simple method to disable the mouse
     /// </summary>
-    public void DisableMouse()
-    {
+    public void DisableMouse() {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
     /// <summary>
-    /// 
+    /// A simple method to enable the mouse
     /// </summary>
-    public void EnableMouse()
-    {
+    public void EnableMouse() {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }

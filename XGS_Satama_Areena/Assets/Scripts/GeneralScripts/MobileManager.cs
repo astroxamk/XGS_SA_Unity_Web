@@ -5,18 +5,13 @@ public class MobileManager : MonoBehaviour
     public GameObject mobileControls;
 
     /// <summary>
-    /// 
+    /// A method to enable or disable mobile controls
     /// </summary>
-    /// <param name="isEnabled"></param>
-    public void EnableMobileControls(bool isEnabled)
-    {
-        if (isEnabled){
+    /// <param name="isEnabled"> A boolean value to manipulate if a something is enabled or not </param>
+    public void EnableMobileControls(bool isEnabled) {
+        if (isEnabled)
             mobileControls.SetActive(true);
-            Debug.Log("Mobile Controls Enabled");
-        }
-        else {
+        else 
             mobileControls.SetActive(false);
-            Debug.Log("Mobile Controls Disabled");
-        }
     }
 }

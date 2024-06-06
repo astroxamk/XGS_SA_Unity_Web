@@ -21,62 +21,50 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (mobileControls.activeInHierarchy == true)
-        {
+        if (mobileControls.activeInHierarchy == true) {
             TouchControls();
             // Delete this line from final file
             uiController.EnableMouse();
         }
-        else
-        {
+        else{
             if (uiController.isSettingsViewActive == false)
-            {
                 KeyboardControls();
-            }
         }
-
         HandlePhysicsInGame();
     }
 
     /// <summary>
-    /// 
+    /// Method to control the player with the touch controls
     /// </summary>
-    void TouchControls()
-    {
+    void TouchControls() {
         float horizontalMovementMobile = joystick.Horizontal;
         float verticalMovementMobile = joystick.Vertical;
 
-        Vector3 movePlayerMobile = transform.right * horizontalMovementMobile 
-            + transform.forward * verticalMovementMobile;
+        Vector3 movePlayerMobile = transform.right * horizontalMovementMobile + transform.forward * verticalMovementMobile;
 
         controller.Move(movePlayerMobile * Time.deltaTime * speed);
     }
 
     /// <summary>
-    /// 
+    /// Method to control the player with the keyboard
     /// </summary>
-    void KeyboardControls()
-    {
+    void KeyboardControls() {
         float horizontalMovementKeyboard = Input.GetAxis("Horizontal");
         float verticalMovementKeyboard = Input.GetAxis("Vertical");
 
-        Vector3 movePlayerKeyboard = transform.right * horizontalMovementKeyboard
-            + transform.forward * verticalMovementKeyboard;
+        Vector3 movePlayerKeyboard = transform.right * horizontalMovementKeyboard + transform.forward * verticalMovementKeyboard;
 
         controller.Move(movePlayerKeyboard * Time.deltaTime * speed);
     }
     
     /// <summary>
-    /// 
+    /// Method to handle the basic physics of the player
     /// </summary>
-    void HandlePhysicsInGame()
-    {
+    void HandlePhysicsInGame() {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         if (isGrounded && velocity.y < 0)
-        {
             velocity.y = -2f;
-        }
 
         velocity.y += Physics.gravity.y * Time.deltaTime;
 
