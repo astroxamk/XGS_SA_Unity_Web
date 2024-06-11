@@ -7,6 +7,11 @@ public class PlayerPosition : MonoBehaviour
     [SerializeField] private Button mediumHallPosition;
     [SerializeField] private Button smallHallPosition;
     [SerializeField] private Button extraSmallHallPosition;
+
+    [Header("Move Player Buttons Mobile")]
+    [SerializeField] private Button mediumHallPositionMobile;
+    [SerializeField] private Button smallHallPositionMobile;
+    [SerializeField] private Button extraSmallHallPositionMobile;
     
     [Header("Player Character")]
     [SerializeField] private GameObject playerCharacter;
@@ -27,9 +32,15 @@ public class PlayerPosition : MonoBehaviour
     {
         characterController = playerCharacter.GetComponent<CharacterController>();
 
+        //PC Listeners
         mediumHallPosition.onClick.AddListener(() => MovePlayer(positionMediumHall, "Medium Hall"));
         smallHallPosition.onClick.AddListener(() => MovePlayer(positionSmallHall, "Small Hall"));
         extraSmallHallPosition.onClick.AddListener(() => MovePlayer(positionExtraSmallHall, "XS Hall"));
+        
+        // Mobile listeners
+        mediumHallPositionMobile.onClick.AddListener(() => MovePlayer(positionMediumHall, "Medium Hall"));
+        smallHallPositionMobile.onClick.AddListener(() => MovePlayer(positionSmallHall, "Small Hall"));
+        extraSmallHallPositionMobile.onClick.AddListener(() => MovePlayer(positionExtraSmallHall, "XS Hall"));
     }
 
     /// <summary>

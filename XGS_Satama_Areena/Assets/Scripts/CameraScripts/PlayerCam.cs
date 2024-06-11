@@ -14,7 +14,7 @@ public class PlayerCam : MonoBehaviour
     [Header("Camera controls (make private later)")]
     public float screenHeight = 720f;
 
-    private float screenDivide = Screen.width / 2;
+    private float screenDivide = Screen.width / 2 - 350;
 
     [Header("Rotation variables")]
     public float rotSpeed = 0.3f;
@@ -33,10 +33,10 @@ public class PlayerCam : MonoBehaviour
         rotY = origRot.y;
     }
 
-    private void FixedUpdate() {
+    private void Update() {
         if (Screen.height <= screenHeight) {
-            KeyboardControls("Mouse X", "Mouse Y", mouseSensitivity);
             KeyboardControls("Rotate X", "Rotate Y", keyRotationSpeed);
+            KeyboardControls("Mouse X", "Mouse Y", mouseSensitivity);
         }
         else
             MobileControls(screenDivide);
