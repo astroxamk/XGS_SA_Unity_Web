@@ -18,44 +18,12 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 7908808151040
-    m_Localized: "N\xE4kym\xE4t"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 9784035332096
-    m_Localized: "Tyhj\xE4"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10310894440448
-    m_Localized: Konsertti
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10449700737024
-    m_Localized: Seminaari
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11336464683008
-    m_Localized: "N\xE4yttely"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 338043524567040
-    m_Localized: "P\xE4\xE4salin Jako"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 338884314746880
-    m_Localized: 'Liiku Saliin:'
-    m_Metadata:
-      m_Items: []
   - m_Id: 727696178106368
     m_Localized: Ohjeet
     m_Metadata:
       m_Items: []
   - m_Id: 727902030352384
-    m_Localized: "P\xE4\xE4set asetuksiin painamalla \"V\xE4li\"-n\xE4pp\xE4int\xE4\n\nVaihtoehtoisesti
-      matkapuhelimessa paina 3 pistett\xE4 oikeassa yl\xE4kulmassa ja ota k\xE4ytt\xF6\xF6n
-      mobiiliohjaus.\n\nN\xE4kym\xE4t: Vaihda p\xE4\xE4salin n\xE4kym\xE4\xE4.\n\nP\xE4\xE4salin
-      jako: P\xE4\xE4sali on modulaarinen ja mahdollistaa useita mahdolisuuksia\n\nLiiku
-      Saliin: Siirry valittuun saliin, jos sali on valittu k\xE4ytt\xF6\xF6n."
+    m_Localized: "Ohjeet t\xE4h\xE4n"
     m_Metadata:
       m_Items: []
   - m_Id: 729616842182656
@@ -63,9 +31,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 729796903653376
-    m_Localized: "Yritystiedustelut: Marjukka Relander (marjukka.relander@satama.fi)\n\n\nVirtuaaliymp\xE4rist\xF6:
-      Xamk Game Studios, tiimi Satama Bytes\n\n\nOhjelmointi Roope Astr\xE9n\n\n3D-mallit:
-      XGS ja Daria Khilchuck\n\nMateriaalit ja muut: Viktoriia Gorovaia"
+    m_Localized: "Yhteystiedot t\xE4h\xE4n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8304308444680192
+    m_Localized: Sulje
     m_Metadata:
       m_Items: []
   references:

@@ -24,6 +24,24 @@ MonoBehaviour:
     - Locale-sv
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7d6a552ef41f0249857a6fdf2e7e450
+    m_Address: UI_sv
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-sv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f22227c403044874fb3041cc5679912f
+    m_Address: Hall Information_sv
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-sv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 500db8a1a8217b54ba5fa92e4131f639
+    m_Address: Hall Sizes_sv
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-sv
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: ecf75c17034107448b7fc1bd5b67b6a7, type: 2}
   m_SchemaSet:

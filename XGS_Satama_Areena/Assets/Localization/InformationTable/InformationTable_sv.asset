@@ -18,44 +18,12 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 7908808151040
-    m_Localized: Scener
-    m_Metadata:
-      m_Items: []
-  - m_Id: 9784035332096
-    m_Localized: Tomt
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10310894440448
-    m_Localized: Konsert
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10449700737024
-    m_Localized: Seminarium
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11336464683008
-    m_Localized: "Utst\xE4llning"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 338043524567040
-    m_Localized: Uppdelning av huvudhallen
-    m_Metadata:
-      m_Items: []
-  - m_Id: 338884314746880
-    m_Localized: Flytta till Sal
-    m_Metadata:
-      m_Items: []
   - m_Id: 727696178106368
     m_Localized: Instruktioner
     m_Metadata:
       m_Items: []
   - m_Id: 727902030352384
-    m_Localized: "Tryck p\xE5 \"Space\"-tangenten f\xF6r att komma till inst\xE4llningarna\n\nAlternativt
-      p\xE5 mobilen trycker du p\xE5 de 3 punkterna l\xE4ngst upp till h\xF6ger och
-      aktiverar mobila kontroller\n\nScener: \xC4ndra scenen i den stora hallen\n\nUppdelning
-      av huvudhallen: Huvudhallen \xE4r modul\xE4r och m\xF6jligg\xF6r flera variationer
-      av den\n\nFlytta till Sal: Flytta till en vald hall om hallen \xE4r aktiverad"
+    m_Localized: "Instruktioner h\xE4r"
     m_Metadata:
       m_Items: []
   - m_Id: 729616842182656
@@ -63,9 +31,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 729796903653376
-    m_Localized: "F\xF6rfr\xE5gningar fr\xE5n f\xF6retag: Marjukka Relander (marjukka.relander@satama.fi)\n\n\nVirtuell
-      milj\xF6 av Xamk Game Studios, team Satama Bytes\n\n\nProgrammering Roope Astr\xE9n\n\n3D-modeller:
-      XGS och Daria Khilchuck\n\nMaterial och \xF6vrigt: Viktoriia Gorovaia"
+    m_Localized: "Kontakt h\xE4r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8304308444680192
+    m_Localized: "N\xE4ra"
     m_Metadata:
       m_Items: []
   references:

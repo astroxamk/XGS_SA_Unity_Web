@@ -9,16 +9,25 @@ public class HallManager : MonoBehaviour
     [SerializeField] private Button multiHallAlt;
     [SerializeField] private Button multiHall;
 
-    [Header("Hall Control Buttons Mobile")]
+    [Header ("Hall Control Buttons Mobile")]
     [SerializeField] private Button extraLargeHallMobile;
     [SerializeField] private Button largeAndExtraSmallHallMobile;
     [SerializeField] private Button multiHallAltMobile;
     [SerializeField] private Button multiHallMobile;
 
-    [Header("Curtains (Add XS hall curtain)")]
+    [Header ("Curtains (Add XS hall curtain)")]
     [SerializeField] private GameObject curtainMediumHallSide;
     [SerializeField] private GameObject curtainSmallHallSide;
     [SerializeField] private GameObject curtainExtraSmallHall;
+
+    [Header ("GameObjects with Information abou halls")]
+    [SerializeField] private GameObject XL_HallInformation;
+    [SerializeField] private GameObject L_HallInformation;
+    [SerializeField] private GameObject M_HallInformation;
+    [SerializeField] private GameObject M_HallInformation_Alternative;
+    [SerializeField] private GameObject S_HallInformation;
+    [SerializeField] private GameObject S_HallInformation_Alternative;
+    [SerializeField] private GameObject XS_HallInformation;
 
     private bool mediumHallCurtainIsActive = true;
     private bool smallHallCurtainIsActive = true;
@@ -30,26 +39,90 @@ public class HallManager : MonoBehaviour
     private void Start()
     {
         // PC Listeners
-        extraLargeHall.onClick.AddListener(() => HandleHall(new[] {curtainSmallHallSide,
-            curtainMediumHallSide, curtainExtraSmallHall}, new[] {false, false, false}, 
-            "XL Hall"));
-        largeAndExtraSmallHall.onClick.AddListener(() => HandleHall(new[] { curtainSmallHallSide,
-            curtainMediumHallSide, curtainExtraSmallHall }, new[] { false, false, true }, 
-            "XS & L Hall"));
-        multiHall.onClick.AddListener(() => HandleHall(new[] { curtainSmallHallSide, 
-            curtainMediumHallSide, curtainExtraSmallHall }, new[] { true, true, true }, 
-            "XS, S & M Hall"));
+        extraLargeHall.onClick.AddListener(() => HandleHall(new[] 
+        {
+            curtainSmallHallSide,
+            curtainMediumHallSide, 
+            curtainExtraSmallHall,
+            XL_HallInformation,
+            L_HallInformation,
+            M_HallInformation,
+            M_HallInformation_Alternative,
+            S_HallInformation,
+            S_HallInformation_Alternative,
+            XS_HallInformation
+        }, new[] { false, false, false, true, false, false, false, false, false, false }, "XL Hall"));
+
+        largeAndExtraSmallHall.onClick.AddListener(() => HandleHall(new[] 
+        {
+            curtainSmallHallSide,
+            curtainMediumHallSide,
+            curtainExtraSmallHall,
+            XL_HallInformation,
+            L_HallInformation,
+            M_HallInformation,
+            M_HallInformation_Alternative,
+            S_HallInformation,
+            S_HallInformation_Alternative,
+            XS_HallInformation
+        }, new[] { false, false, true, false, true, false, false, false, false, true }, "XS & L Hall"));
+
+        multiHall.onClick.AddListener(() => HandleHall(new[] 
+        {
+            curtainSmallHallSide,
+            curtainMediumHallSide,
+            curtainExtraSmallHall,
+            XL_HallInformation,
+            L_HallInformation,
+            M_HallInformation,
+            M_HallInformation_Alternative,
+            S_HallInformation,
+            S_HallInformation_Alternative,
+            XS_HallInformation
+        }, new[] { true, true, true, false, false, true, false, true, false, true }, "XS, S & M Hall"));
         
         // Mobile Listeners
-        extraLargeHallMobile.onClick.AddListener(() => HandleHall(new[] {curtainSmallHallSide,
-            curtainMediumHallSide, curtainExtraSmallHall}, new[] { false, false, false},
-            "XL Hall"));
-        largeAndExtraSmallHallMobile.onClick.AddListener(() => HandleHall(new[] { curtainSmallHallSide,
-            curtainMediumHallSide, curtainExtraSmallHall }, new[] { false, false, true },
-            "XS & L Hall"));
-        multiHallMobile.onClick.AddListener(() => HandleHall(new[] { curtainSmallHallSide,
-            curtainMediumHallSide, curtainExtraSmallHall }, new[] { true, true, true },
-            "XS, S & M Hall"));
+        extraLargeHallMobile.onClick.AddListener(() => HandleHall(new[] 
+        {
+            curtainSmallHallSide,
+            curtainMediumHallSide,
+            curtainExtraSmallHall,
+            XL_HallInformation,
+            L_HallInformation,
+            M_HallInformation,
+            M_HallInformation_Alternative,
+            S_HallInformation,
+            S_HallInformation_Alternative,
+            XS_HallInformation
+        }, new[] { false, false, false, true, false, false, false, false, false, false }, "XL Hall"));
+
+        largeAndExtraSmallHallMobile.onClick.AddListener(() => HandleHall(new[] 
+        {
+            curtainSmallHallSide,
+            curtainMediumHallSide,
+            curtainExtraSmallHall,
+            XL_HallInformation,
+            L_HallInformation,
+            M_HallInformation,
+            M_HallInformation_Alternative,
+            S_HallInformation,
+            S_HallInformation_Alternative,
+            XS_HallInformation
+        }, new[] { false, false, true, false, true, false, false, false, false, true }, "XS & L Hall"));
+
+        multiHallMobile.onClick.AddListener(() => HandleHall(new[] 
+        {
+            curtainSmallHallSide,
+            curtainMediumHallSide,
+            curtainExtraSmallHall,
+            XL_HallInformation,
+            L_HallInformation,
+            M_HallInformation,
+            M_HallInformation_Alternative,
+            S_HallInformation,
+            S_HallInformation_Alternative,
+            XS_HallInformation
+        }, new[] { true, true, true, false, false, true, false, true, false, true }, "XS, S & M Hall"));
 
         // Alternate Buttons Listeners
         multiHallAlt.onClick.AddListener(ToggleCurtains);
@@ -60,15 +133,15 @@ public class HallManager : MonoBehaviour
     /// <summary>
     /// A method to handle the hall curtain activation
     /// </summary>
-    /// <param name="curtains"> A list of GameObjects that can be manipulated </param>
+    /// <param name="objects"> A list of GameObjects that can be manipulated </param>
     /// <param name="states"> A list of boolean states for the GameObjects. 
     /// The key positions refer to each key position in the curtains list </param>
     /// <param name="hallType"> Name of the Hall tat has been activated in the project </param>
-    private void HandleHall(GameObject[] curtains, bool[] states, string hallType)
+    private void HandleHall(GameObject[] objects, bool[] states, string hallType)
     {
-        for (int i = 0; i < curtains.Length; i++)
+        for (int i = 0; i < objects.Length; i++)
         {
-            curtains[i].SetActive(states[i]);
+            objects[i].SetActive(states[i]);
         }
         Debug.Log(hallType + " activated");
     }
@@ -83,15 +156,25 @@ public class HallManager : MonoBehaviour
     private void ToggleCurtains()
     {
         curtainExtraSmallHall.SetActive(true);
+        XL_HallInformation.SetActive(false);
+        L_HallInformation.SetActive(false);
         if (curtainMediumHallSide.activeInHierarchy)
         {
             mediumHallCurtainIsActive = false;
             smallHallCurtainIsActive = true;
+            M_HallInformation.SetActive(mediumHallCurtainIsActive);
+            M_HallInformation_Alternative.SetActive(smallHallCurtainIsActive);
+            S_HallInformation.SetActive(smallHallCurtainIsActive);
+            S_HallInformation_Alternative.SetActive(mediumHallCurtainIsActive);
         }
         else
         {
             mediumHallCurtainIsActive = true;
             smallHallCurtainIsActive = false;
+            M_HallInformation.SetActive(mediumHallCurtainIsActive);
+            M_HallInformation_Alternative.SetActive(smallHallCurtainIsActive);
+            S_HallInformation.SetActive(smallHallCurtainIsActive);
+            S_HallInformation_Alternative.SetActive(mediumHallCurtainIsActive);
         }
 
         curtainMediumHallSide.SetActive(mediumHallCurtainIsActive);

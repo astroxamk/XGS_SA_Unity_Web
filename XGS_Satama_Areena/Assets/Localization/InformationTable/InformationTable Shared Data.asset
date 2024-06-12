@@ -15,37 +15,6 @@ MonoBehaviour:
   m_TableCollectionName: InformationTable
   m_TableCollectionNameGuidString: 3c799641276d70748a082cdd90783d6e
   m_Entries:
-  - m_Id: 7908808151040
-    m_Key: SceneText
-    m_Metadata:
-      m_Items: []
-  - m_Id: 9784035332096
-    m_Key: 'EmptyText
-
-
-'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10310894440448
-    m_Key: ConcertText
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10449700737024
-    m_Key: SeminarText
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11336464683008
-    m_Key: ExhibitionText
-    m_Metadata:
-      m_Items: []
-  - m_Id: 338043524567040
-    m_Key: MainHallDiv
-    m_Metadata:
-      m_Items: []
-  - m_Id: 338884314746880
-    m_Key: MoveTo
-    m_Metadata:
-      m_Items: []
   - m_Id: 727696178106368
     m_Key: InstructionsTtile
     m_Metadata:
@@ -60,6 +29,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 729796903653376
     m_Key: ContactText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8304308444680192
+    m_Key: Close
     m_Metadata:
       m_Items: []
   m_Metadata:

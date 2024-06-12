@@ -3,20 +3,20 @@ using UnityEngine.UI;
 
 public class PlayerPosition : MonoBehaviour
 {
-    [Header("Move Player Buttons")]
+    [Header ("Move Player Buttons")]
     [SerializeField] private Button mediumHallPosition;
     [SerializeField] private Button smallHallPosition;
     [SerializeField] private Button extraSmallHallPosition;
 
-    [Header("Move Player Buttons Mobile")]
+    [Header ("Move Player Buttons Mobile")]
     [SerializeField] private Button mediumHallPositionMobile;
     [SerializeField] private Button smallHallPositionMobile;
     [SerializeField] private Button extraSmallHallPositionMobile;
     
-    [Header("Player Character")]
+    [Header ("Player Character")]
     [SerializeField] private GameObject playerCharacter;
     
-    [Header("Positions")]
+    [Header ("Positions")]
     [SerializeField] private Transform positionMediumHall;
     [SerializeField] private Transform positionSmallHall;
     [SerializeField] private Transform positionExtraSmallHall;

@@ -18,7 +18,7 @@ public class UIController : MonoBehaviour
     public PlayerCam playerCamera;
     public GameObject settingsLeft;
 
-    [Header("Control Settings Window")]
+    [Header ("Control Settings Window")]
     public GameObject RightSettings;
     public GameObject RightSettingsAlternative;
     public GameObject RightSettingsMobile;

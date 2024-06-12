@@ -36,9 +36,9 @@ ScriptsOnlyBuild:
     - UnityEngine.Localization.Locale
     - UnityEngine.Localization.LocalizationBehaviour
     - UnityEngine.Localization.Settings.LocalizationSettings
+    - UnityEngine.Localization.Tables.SharedTableData
+    - UnityEngine.Localization.Tables.StringTable
     - UnityEngine.Localization.VariantsPropertyDriver
-    Unity.ResourceManager.dll:
-    - MonoBehaviourCallbackHooks
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -131,51 +131,126 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
-  - assembly: Assembly-CSharp
-    fullTypeName: LocaleSelector
-    methodName: ChangeLocale
-  - assembly: Assembly-CSharp
-    fullTypeName: StartController
-    methodName: HandleButtonPress
-  - assembly: Assembly-CSharp
-    fullTypeName: LocaleSelector
-    methodName: ChangeLocale
-  - assembly: Assembly-CSharp
-    fullTypeName: StartController
-    methodName: HandleButtonPress
-  - assembly: Assembly-CSharp
-    fullTypeName: LocaleSelector
-    methodName: ChangeLocale
-  - assembly: Assembly-CSharp
-    fullTypeName: StartController
-    methodName: HandleButtonPress
-  - assembly: Assembly-CSharp
-    fullTypeName: LocaleSelector
-    methodName: ChangeLocale
-  - assembly: Assembly-CSharp
-    fullTypeName: StartController
-    methodName: HandleButtonPress
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: MobileManager
     methodName: EnableMobileControls
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
   - assembly: Assembly-CSharp
-    fullTypeName: QuitApplication
+    fullTypeName: UIController
+    methodName: HandleSeatings
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: HandleMainSettingsWindow
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: HandleSeatings
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: HandleMainSettingsWindow
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Assembly-CSharp
+    fullTypeName: LocaleSelector
+    methodName: ChangeLocale
+  - assembly: Assembly-CSharp
+    fullTypeName: StartController
+    methodName: HandleButtonPress
+  - assembly: Assembly-CSharp
+    fullTypeName: LocaleSelector
+    methodName: ChangeLocale
+  - assembly: Assembly-CSharp
+    fullTypeName: StartController
+    methodName: HandleButtonPress
+  - assembly: Assembly-CSharp
+    fullTypeName: LocaleSelector
+    methodName: ChangeLocale
+  - assembly: Assembly-CSharp
+    fullTypeName: StartController
+    methodName: HandleButtonPress
+  - assembly: Assembly-CSharp
+    fullTypeName: LocaleSelector
+    methodName: ChangeLocale
+  - assembly: Assembly-CSharp
+    fullTypeName: StartController
     methodName: HandleButtonPress
   - assembly: Unity.TextMeshPro
     fullTypeName: TMPro.TMP_Text
     methodName: set_text
-  - assembly: Assembly-CSharp
-    fullTypeName: UIController
-    methodName: HandleSeatings
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Assembly-CSharp
-    fullTypeName: UIController
-    methodName: HandleMainSettingsWindow
   - assembly: Unity.TextMeshPro
     fullTypeName: TMPro.TMP_Text
     methodName: set_text
@@ -191,18 +266,6 @@ ScriptsOnlyBuild:
   - assembly: Unity.TextMeshPro
     fullTypeName: TMPro.TMP_Text
     methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Assembly-CSharp
-    fullTypeName: UIController
-    methodName: HandleSeatings
-  - assembly: Assembly-CSharp
-    fullTypeName: UIController
-    methodName: HandleMainSettingsWindow
   - assembly: Unity.TextMeshPro
     fullTypeName: TMPro.TMP_Text
     methodName: set_text
@@ -269,59 +332,57 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1572}
     - Class: 114
-      Script: {instanceID: 2152}
+      Script: {instanceID: 2000}
     - Class: 114
-      Script: {instanceID: 2236}
+      Script: {instanceID: 2154}
     - Class: 114
-      Script: {instanceID: 2354}
+      Script: {instanceID: 2238}
     - Class: 114
-      Script: {instanceID: 2518}
+      Script: {instanceID: 2356}
     - Class: 114
-      Script: {instanceID: 2924}
+      Script: {instanceID: 2520}
     - Class: 114
-      Script: {instanceID: 3172}
+      Script: {instanceID: 2926}
     - Class: 114
-      Script: {instanceID: 3346}
+      Script: {instanceID: 3174}
     - Class: 114
-      Script: {instanceID: 3544}
+      Script: {instanceID: 3348}
     - Class: 114
-      Script: {instanceID: 3676}
+      Script: {instanceID: 3546}
     - Class: 114
-      Script: {instanceID: 4112}
+      Script: {instanceID: 3678}
     - Class: 114
-      Script: {instanceID: 4844}
+      Script: {instanceID: 4114}
     - Class: 114
-      Script: {instanceID: 5094}
+      Script: {instanceID: 4846}
     - Class: 114
-      Script: {instanceID: 5190}
+      Script: {instanceID: 5096}
     - Class: 114
-      Script: {instanceID: 5766}
+      Script: {instanceID: 5192}
     - Class: 114
-      Script: {instanceID: 5940}
+      Script: {instanceID: 5768}
     - Class: 114
-      Script: {instanceID: 5978}
+      Script: {instanceID: 5942}
     - Class: 114
-      Script: {instanceID: 6114}
+      Script: {instanceID: 5980}
     - Class: 114
-      Script: {instanceID: 6432}
+      Script: {instanceID: 6116}
     - Class: 114
-      Script: {instanceID: 6462}
+      Script: {instanceID: 6434}
     - Class: 114
-      Script: {instanceID: 6522}
+      Script: {instanceID: 6464}
     - Class: 114
-      Script: {instanceID: 6998}
+      Script: {instanceID: 7000}
     - Class: 114
-      Script: {instanceID: 7066}
+      Script: {instanceID: 7068}
     - Class: 114
-      Script: {instanceID: 7508}
+      Script: {instanceID: 7510}
     - Class: 114
-      Script: {instanceID: 8876}
+      Script: {instanceID: 8878}
     - Class: 114
-      Script: {instanceID: 8992}
+      Script: {instanceID: 8994}
     - Class: 114
-      Script: {instanceID: 9868}
-    - Class: 114
-      Script: {instanceID: 9872}
+      Script: {instanceID: 9018}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -411,6 +472,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Localization
     namespaceName: UnityEngine.Localization.Tables
     className: SharedTableData
+  - hash:
+      serializedVersion: 2
+      Hash: 8e9ca04ba1f73d8b31c4da15d67b058a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HallManager
   - hash:
       serializedVersion: 2
       Hash: d37ad14256fd8981fb1b86529147c9aa
@@ -1289,7 +1356,7 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
-      Hash: c60c4c8be3049998c16be3ee4c97463d
+      Hash: b4cf29ed68324fa279676d0999152621
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SceneManager
@@ -1311,6 +1378,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CloseBtnScript
+  - hash:
+      serializedVersion: 2
+      Hash: 578850245d2d90640da4af3dd3f364ca
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerPosition
   - hash:
       serializedVersion: 2
       Hash: 9a174471d4db2c0c6d3ac47d2f818db1
@@ -1397,16 +1470,10 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 578850245d2d90640da4af3dd3f364ca
+      Hash: ae15d2c7da5f24154e207cf60c3dd157
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: PlayerPosition
-  - hash:
-      serializedVersion: 2
-      Hash: 3130f1dc2001fdef4b264a6972133f80
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: HallManager
+    className: HallInformation
   platform: 20
   scenePathNames:
   - Assets/Scenes/StartScene.unity

@@ -300,6 +300,7 @@
 "Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs"
 "Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
 "Assets/Scripts/CameraScripts/PlayerCam.cs"
+"Assets/Scripts/GeneralScripts/HallInformation.cs"
 "Assets/Scripts/GeneralScripts/HallManager.cs"
 "Assets/Scripts/GeneralScripts/MobileManager.cs"
 "Assets/Scripts/GeneralScripts/PlayerPosition.cs"

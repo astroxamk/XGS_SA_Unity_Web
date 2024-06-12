@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("Character Controller")]
+    [Header ("Character Controller")]
     public CharacterController controller;
     public float speed = 12f;
     public Joystick joystick;
     public GameObject mobileControls;
 
-    [Header("Check Ground")]
+    [Header ("Check Ground")]
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;

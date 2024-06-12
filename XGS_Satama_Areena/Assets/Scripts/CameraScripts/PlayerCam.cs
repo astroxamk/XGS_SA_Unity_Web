@@ -2,21 +2,21 @@ using UnityEngine;
 
 public class PlayerCam : MonoBehaviour
 {
-    [Header("Sensitivity")]
+    [Header ("Sensitivity")]
     public float mouseSensitivity = 100f;
     public float keyRotationSpeed = 1.0f;
 
-    [Header("Player Orientation")]
+    [Header ("Player Orientation")]
     public Transform playerBody;
 
     float xRotation = 0f;
 
-    [Header("Camera controls (make private later)")]
+    [Header ("Camera controls (make private later)")]
     public float screenHeight = 720f;
 
     private float screenDivide = Screen.width / 2 - 350;
 
-    [Header("Rotation variables")]
+    [Header ("Rotation variables")]
     public float rotSpeed = 0.3f;
     [Range(-1, 1)]
     public int dir = -1;
