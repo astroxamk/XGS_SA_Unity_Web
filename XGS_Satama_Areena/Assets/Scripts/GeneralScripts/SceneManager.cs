@@ -17,6 +17,7 @@ public class SceneManager : MonoBehaviour
 
     [Header ("Other variables")]
     [SerializeField] private GameObject HallInformation;
+    [SerializeField] private GameObject Charts;
 
     private void Start()
     {
@@ -37,23 +38,27 @@ public class SceneManager : MonoBehaviour
     {
         Debug.Log("Empty Scene Enabled");
         HallInformation.SetActive(true);
+        Charts.SetActive(true);
     }
 
     public void HandleConcertScene()
     {
         Debug.Log("Concert Scene Enabled");
         HallInformation.SetActive(false);
+        Charts.SetActive(false);
     }
 
     public void HandleSemiarScene()
     {
         Debug.Log("Seminar Scene Enabled");
         HallInformation.SetActive(false);
+        Charts.SetActive(false);
     }
 
     public void HandleExhibitionScene()
     {
         Debug.Log("Exhibition Scene Enabled");
         HallInformation.SetActive(false);
+        Charts.SetActive(false);
     }
 }
