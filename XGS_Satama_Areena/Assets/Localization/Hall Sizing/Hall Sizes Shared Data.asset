@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Hall Sizes Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Hall Sizes
+  m_TableCollectionNameGuidString: de9b1cc5b9fae28448f98c0b032b624f
+  m_Entries:
+  - m_Id: 7716687872
+    m_Key: XL Hall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29610954752
+    m_Key: L Hall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43330523136
+    m_Key: M Hall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63362519040
+    m_Key: S Hall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153238065152
+    m_Key: XS Hall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174473826304
+    m_Key: XL Capacity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 220023967744
+    m_Key: L Capacity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 242518020096
+    m_Key: M Capacity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285488664576
+    m_Key: S Capacity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581887545344
+    m_Key: XS Capacity
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8454435454567317528
+  references:
+    version: 2
+    RefIds:
+    - rid: 8454435454567317528
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1718183776434

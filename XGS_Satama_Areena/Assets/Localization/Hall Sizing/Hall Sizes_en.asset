@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Hall Sizes_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: de9b1cc5b9fae28448f98c0b032b624f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7716687872
+    m_Localized: XL-Hall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29610954752
+    m_Localized: L-Hall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43330523136
+    m_Localized: M-Hall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63362519040
+    m_Localized: S-Hall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153238065152
+    m_Localized: XS-Hall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174473826304
+    m_Localized: 3200 Persons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 220023967744
+    m_Localized: "2200 Persons:\tStanding\n\n1550 Persons:\tSeated, with rows of
+      chairs + grandstand\n\n750 Persons:\tRound tables for 10 persons\n\n816 Persons:\tLong
+      tables for 8 persons"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 242518020096
+    m_Localized: "900 Persons:\tStanding\n\n400 Persons:\tSeated, with rows of chairs\n\n300
+      People:\tRound tables for 10 people"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285488664576
+    m_Localized: "600 Persons:\tStanding\n\n725 Persons:\tTelescopic grandstand"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581887545344
+    m_Localized: "308 Persons:\tSeated, rows of chairs\n\n312 People:\tLong tables
+      for 8 people\n\n204 People:\t2-person lecture tables"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
