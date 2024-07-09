@@ -64,7 +64,6 @@ public class InfoTableManager : MonoBehaviour
             textFields[i].SetActive(i == textPage);
         }
 
-        // Update titles visibility based on the current textPage
         if (textPage == textFields.Length - 1)
         {
             textTitles[0].SetActive(false);

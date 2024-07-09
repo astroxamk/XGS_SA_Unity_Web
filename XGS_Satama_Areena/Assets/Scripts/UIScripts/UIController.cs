@@ -96,12 +96,12 @@ public class UIController : MonoBehaviour
         Cursor.visible = true;
     }
 
-    public void HandleSeatings(){
+    public void HandleSeatings() {
         isSeatingActive = !isSeatingActive;
         StairSeatings.SetActive(isSeatingActive);
     }
 
-    public void HandleMainSettingsWindow(){
+    public void HandleMainSettingsWindow() {
         RightSettings.SetActive(false);
         RightSettingsMobile.SetActive(false);
         RightSettingsAlternative.SetActive(true);
