@@ -17,7 +17,85 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 7da106fd36c9f794c884a84253c471d2, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 10175264662441984
+    m_Localized: "N\xE4r alla kombinerbara utrymmen i Satama Arena tas i bruk kommer
+      XL-hallen att skapas. Hela L-hallen och XS-hallen med sina teleskopl\xE4ktare
+      kommer d\xE5 att vara tillg\xE4ngliga. Det \xE4r det st\xF6rsta och mest imponerande
+      enskilda utrymmet, vilket m\xF6jligg\xF6r ett brett utbud av evenemang. Hallens
+      maximala kapacitet f\xF6r st\xE5ende evenemang \xE4r cirka 3 200 personer.
+      Oavsett om det handlar om en stor konsert eller ett partym\xF6te \xE4r det
+      h\xE4r r\xE4tt plats!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10174413227118592
+    m_Localized: "Ljud\n\n- 18 x L-acoustics Kara linearray-h\xF6gtalare\n- 4 x L-acoustics
+      Kiva-h\xF6gtalare\n- 4 x L-acoustics SB28 subh\xF6gtalare\n- 6 z L-acoustics
+      HiQ15 monitorh\xF6gtalare\n- L-akustik effektf\xF6rst\xE4rkare\n- kablage,
+      upph\xE4ngningstillbeh\xF6r\n- 2 x Allen & Heath SQ5 + GX4816 + Slink-kort\n-
+      kablar och rack\n- utbud av mikrofoner, tr\xE5dbundna och tr\xE5dl\xF6sa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10174486900068352
+    m_Localized: "Belysning\n\n- 8 x Varilite VL1000-str\xE5lkastare\n- 12 x Tour
+      Par LED-bakgrundsbelysning\n- 1 x Chamsys MQ80 ljusstyrenhet\n- Kablar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10174524556529664
+    m_Localized: 'Lavar-struktur (fast)
+
+
+      - Layher 12 x 9m / Nivtec 12 x 9m
+
+      -
+      ramp, trappa
+
+      - 4 x Global Truss F34 fackverkslinor
+
+      - 15 motorlyftar
+
+      -
+      Molton tyger
+
+      - plattformens framsida'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10174865180151808
+    m_Localized: "Hall M p\xE5 f\xF6rsta v\xE5ningen bildas genom att Hall L delas
+      in i ett separat rum med en ljudisolerad skiljev\xE4gg. \n\nF\xF6rutom den
+      egna tekniken f\xF6r framtr\xE4danden inneh\xE5ller utrymmet ocks\xE5 en 12
+      x 9 m stor plattform f\xF6r framtr\xE4danden.\n\nExempel p\xE5 evenemang:\n\nSittande
+      middag med l\xE5ngbord f\xF6r 8 personer - upp till 424 platser\nRunda bord
+      f\xF6r 10 personer med maximalt 320 platser.\n\nF\xF6r konserter eller m\xF6ten
+      kan antalet stolar p\xE5 mezzaninv\xE5ningen rymma upp till 400.\n\nScenen
+      och den egna scentekniken l\xE4mpar sig v\xE4l f\xF6r evenemang som cocktails
+      eller konserter, d\xE4r antalet sittplatser \xE4r 400 personer."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10175024953774080
+    m_Localized: "Presentationsteknik\n\n- Projektor + sk\xE4rm\n- PA Lacoustics
+      A10 4 st per sida h\xE4ngande + 2 st SB28 p\xE5 golv.\n- LA8 med terminaler
+      och LR analog.\n- Midas mixer, lava box, kablage\n- D8 + motorlyftare, styrenhet
+      och kablage\n- 3 x F34 truss-linor \n- 8 x Tour Par LED-bakgrundsbelysning\n-
+      6 x frontljus, Chamsys ljuskontroll"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10175203660484608
+    m_Localized: "XS-hallen ligger p\xE5 andra v\xE5ningen i Port Arena och \xE4r
+      ett enda utrymme.\n\nEtt s\xE4rskilt staketliknande utrymme kan byggas f\xF6r
+      spelningen, med direkt utsikt \xF6ver scenen. Med l\xE5ngbord, catering som
+      dukas upp i utrymmet, toaletter p\xE5 andra v\xE5ningen i n\xE4rheten, en s\xE4rskild
+      slinga i huvudlobbyn och tillg\xE5ng till L-hallen (arenaniv\xE5) - det finns
+      tillr\xE4ckligt med VIP-personer f\xF6r alla!\n\nF\xF6r st\xF6rre m\xF6ten
+      kan en 6 x 4 meter stor scen byggas i denna hall, tillsammans med n\xF6dv\xE4ndig
+      presentationsutrustning. Scenen rymmer totalt 312 stolar per rad n\xE4r den
+      anv\xE4nds. Varje rad rymmer 14 stolar.\n\nI klassrumsl\xE4ge, dvs. med f\xF6rel\xE4sningsbord
+      f\xF6r 2 personer, kan XS-salen i b\xE4sta fall rymma 204 sittande personer
+      i detta utrymme.\n\nL\xE5nga bord f\xF6r 8 personer - 31 bord = 250 platser.\n\nLokalen
+      har \xE4ven 4 st 75\u2033 flyttbara sk\xE4rmar inklusive sk\xE4rmdelare (HDMI-bas)
+      och f\xF6rutom ljudanl\xE4ggning kan \xE4ven projektor och duk tas in i lokalen."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

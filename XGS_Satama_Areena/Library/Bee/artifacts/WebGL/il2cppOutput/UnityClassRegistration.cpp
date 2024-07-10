@@ -18,11 +18,14 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_HotReload();
 	RegisterModule_HotReload();
 
-	void RegisterModule_InputLegacy();
-	RegisterModule_InputLegacy();
-
 	void RegisterModule_IMGUI();
 	RegisterModule_IMGUI();
+
+	void RegisterModule_Input();
+	RegisterModule_Input();
+
+	void RegisterModule_InputLegacy();
+	RegisterModule_InputLegacy();
 
 	void RegisterModule_JSONSerialize();
 	RegisterModule_JSONSerialize();
@@ -32,6 +35,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 
 	void RegisterModule_RuntimeInitializeOnLoadManagerInitializer();
 	RegisterModule_RuntimeInitializeOnLoadManagerInitializer();
+
+	void RegisterModule_Subsystems();
+	RegisterModule_Subsystems();
 
 	void RegisterModule_TLS();
 	RegisterModule_TLS();
@@ -51,14 +57,23 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_UIElements();
 	RegisterModule_UIElements();
 
+	void RegisterModule_Umbra();
+	RegisterModule_Umbra();
+
 	void RegisterModule_UnityWebRequest();
 	RegisterModule_UnityWebRequest();
 
 	void RegisterModule_UnityWebRequestAssetBundle();
 	RegisterModule_UnityWebRequestAssetBundle();
 
+	void RegisterModule_VR();
+	RegisterModule_VR();
+
 	void RegisterModule_WebGL();
 	RegisterModule_WebGL();
+
+	void RegisterModule_XR();
+	RegisterModule_XR();
 
 }
 
@@ -141,16 +156,19 @@ class MeshCollider; template <> void RegisterUnityClass<MeshCollider>(const char
 class PhysicMaterial; template <> void RegisterUnityClass<PhysicMaterial>(const char*);
 class PhysicsManager; template <> void RegisterUnityClass<PhysicsManager>(const char*);
 class Rigidbody; template <> void RegisterUnityClass<Rigidbody>(const char*);
+class SphereCollider; template <> void RegisterUnityClass<SphereCollider>(const char*);
 namespace TextRendering { class Font; } template <> void RegisterUnityClass<TextRendering::Font>(const char*);
 namespace UI { class Canvas; } template <> void RegisterUnityClass<UI::Canvas>(const char*);
 namespace UI { class CanvasGroup; } template <> void RegisterUnityClass<UI::CanvasGroup>(const char*);
 namespace UI { class CanvasRenderer; } template <> void RegisterUnityClass<UI::CanvasRenderer>(const char*);
+class OcclusionCullingData; template <> void RegisterUnityClass<OcclusionCullingData>(const char*);
+class OcclusionCullingSettings; template <> void RegisterUnityClass<OcclusionCullingSettings>(const char*);
 
 void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 75 non stripped classes
+	//Total: 78 non stripped classes
 	//0. Animator
 	RegisterUnityClass<Animator>("Animation");
 	//1. AnimatorController
@@ -293,13 +311,19 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<PhysicsManager>("Physics");
 	//70. Rigidbody
 	RegisterUnityClass<Rigidbody>("Physics");
-	//71. Font
+	//71. SphereCollider
+	RegisterUnityClass<SphereCollider>("Physics");
+	//72. Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//72. Canvas
+	//73. Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//73. CanvasGroup
+	//74. CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//74. CanvasRenderer
+	//75. CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
+	//76. OcclusionCullingData
+	RegisterUnityClass<OcclusionCullingData>("Umbra");
+	//77. OcclusionCullingSettings
+	RegisterUnityClass<OcclusionCullingSettings>("Umbra");
 
 }

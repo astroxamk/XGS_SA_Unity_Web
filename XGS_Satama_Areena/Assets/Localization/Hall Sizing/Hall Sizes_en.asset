@@ -19,47 +19,79 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 7716687872
-    m_Localized: XL-Hall
+    m_Localized: "XL-Hall\n\n1860 m\xB2\n\n3200 Persons"
     m_Metadata:
       m_Items: []
   - m_Id: 29610954752
-    m_Localized: L-Hall
+    m_Localized: "L-Hall\n\n1480 m\xB2"
     m_Metadata:
       m_Items: []
   - m_Id: 43330523136
-    m_Localized: M-Hall
+    m_Localized: "M-Hall\n\n530 m\xB2"
     m_Metadata:
       m_Items: []
   - m_Id: 63362519040
-    m_Localized: S-Hall
+    m_Localized: "S-Hall\n\n680 m\xB2"
     m_Metadata:
       m_Items: []
   - m_Id: 153238065152
-    m_Localized: XS-Hall
+    m_Localized: "XS-Hall\n\n380 m\xB2"
     m_Metadata:
       m_Items: []
-  - m_Id: 174473826304
-    m_Localized: 3200 Persons
+  - m_Id: 10164468012240896
+    m_Localized: "M-Hall\n\n800 m\xB2"
     m_Metadata:
       m_Items: []
-  - m_Id: 220023967744
-    m_Localized: "2200 Persons:\tStanding\n\n1550 Persons:\tSeated, with rows of
-      chairs + grandstand\n\n750 Persons:\tRound tables for 10 persons\n\n816 Persons:\tLong
-      tables for 8 persons"
+  - m_Id: 10165651904876544
+    m_Localized: '2200 Persons: standing
+
+
+      1518 Persons: seated side by side
+      in chairs
+
+
+      750 Persons: Round tables of 10
+
+
+      820 Persons: Long
+      tables for 8 persons'
     m_Metadata:
       m_Items: []
-  - m_Id: 242518020096
-    m_Localized: "900 Persons:\tStanding\n\n400 Persons:\tSeated, with rows of chairs\n\n300
-      People:\tRound tables for 10 people"
+  - m_Id: 10165653515489280
+    m_Localized: '800 Persons: standing
+
+
+      400 Persons: seated, with rows of
+      chairs
+
+
+      320 People: Round tables for 10 people
+
+
+      424 Persons:
+      Long tables for 8 persons'
     m_Metadata:
       m_Items: []
-  - m_Id: 285488664576
-    m_Localized: "600 Persons:\tStanding\n\n725 Persons:\tTelescopic grandstand"
+  - m_Id: 10164471283798016
+    m_Localized: "S-Hall\n\n950 m\xB2"
     m_Metadata:
       m_Items: []
-  - m_Id: 581887545344
-    m_Localized: "308 Persons:\tSeated, rows of chairs\n\n312 People:\tLong tables
-      for 8 people\n\n204 People:\t2-person lecture tables"
+  - m_Id: 10165654647951360
+    m_Localized: '600 Persons: standing
+
+
+      725 Persons: Telescopic grandstand'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10165796146991104
+    m_Localized: '308 Persons: seated, rows of chairs
+
+
+      250 People: long tables
+      for 8 people
+
+
+      204 People: 2-person lecture tables'
     m_Metadata:
       m_Items: []
   references:

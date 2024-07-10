@@ -17,7 +17,73 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 7da106fd36c9f794c884a84253c471d2, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 10175264662441984
+    m_Localized: "Kun otetaan k\xE4ytt\xF6\xF6n kaikki Satama Areenan yhdistelt\xE4v\xE4t
+      tilat, muodostuu XL-sali. Silloin k\xE4yt\xF6ss\xE4 on koko L-sali ja XS-sali
+      teleskooppikatsomoineen. Se on suurin ja vaikuttavin yhten\xE4inen tila, joka
+      mahdollistaa monenlaiset tilaisuudet. Salin maksimikapasiteetti seisovissa
+      tilaisuuksissa on noin 3 200 henkil\xF6\xE4. Olipa kyseess\xE4 suurkonsertti
+      tai puoluekokous, t\xE4nne se mahtuu!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10174413227118592
+    m_Localized: "\xC4\xE4ni\n\n\u2022 18 x L-acoustics Kara linearray -kaiutin\n\u2022
+      4 x L-acoustics Kiva -kaiutin\n\u2022 4 x L-acoustics SB28 sub -kaiutin\n\u2022
+      6 z L-acoustics HiQ15 monitorikaiutin\n\u2022 L-acoustics p\xE4\xE4tevahvistimet\n\u2022
+      kaapelointi, ripustustarvikkeet\n\u2022 2 x Allen & Heath SQ5 + GX4816 + Slink
+      -kortti\n\u2022 kaapelit ja telineet\n\u2022 valikoima mikrofoneja, langallisia
+      ja langattomia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10174486900068352
+    m_Localized: "Valo\n\n\u2022 8 x Varilite VL1000 -etuvalot\n\u2022 12 x Tour
+      Par LED -takavalot\n\u2022 1 x Chamsys MQ80 valo-ohjain\n\u2022 kaapelit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10174524556529664
+    m_Localized: "Lavarakenne (kiinte\xE4)\n\n\u2022 Layher 12 x 9m / Nivtec 12 x
+      9m\r\n\u2022 ramppi, portaat\r\n\u2022 4 x Global Truss F34 trussilinjat\r\n\u2022
+      moottorinostimet 15 kpl\r\n\u2022 Molton-kankaat\r\n\u2022 lavan etumaskauskangas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10174865180151808
+    m_Localized: "Ensimm\xE4isess\xE4 kerroksessa sijaitseva M-sali muodostuu, kun
+      L-sali jaetaan \xE4\xE4nt\xE4 erist\xE4v\xE4ll\xE4 v\xE4lisein\xE4ll\xE4 erilliseksi
+      tilaksi. \r\n\r\nTilaan kuuluu talon esitystekniikan lis\xE4ksi 12 x 9m esiintymislava.\r\n\r\nTapahtumaesimerkkej\xE4:\r\n\r\nIstuva
+      illallinen pitkill\xE4 8 henkil\xF6n p\xF6ydill\xE4 \u2013 enimmill\xE4\xE4n
+      424 istumapaikkaa\r\nPy\xF6reill\xE4 10 henkil\xF6n p\xF6ydill\xE4 enimmill\xE4\xE4n
+      320 istumapaikkaa.\r\n\r\nKonserteissa tai kokouksissa tuolirivej\xE4 tasalattialle
+      mahtuu noin 400.\r\n\r\nEsiintymislava sek\xE4 talon esiintymistekniikka tukevat
+      hyvin esimerkiksi cocktailtilaisuuksia tai konsertteja, joissa 400 henkil\xF6n
+      (istuva) kapasiteetti on riitt\xE4v\xE4.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10175024953774080
+    m_Localized: "Esitystekniikka\n\n\u2022 Projektori + valkokangas\n\u2022 PA Lacoustics
+      A10 4 kpl per puoli ripustettuna + 2 kpl SB28 lattialla.\n\u2022 LA8 p\xE4\xE4tteill\xE4
+      ja LR analog.\n\u2022 Midas-mikseri, lavarasia, kaapeloinnit\n\u2022 D8 + moottorinostimet,
+      ohjain ja kaapelointi\n\u2022 3 x F34 -trussilinjat \n\u2022 8 x Tour Par LED-takavalo\n\u2022
+      6 x etuvalo, Chamsys -valo-ohjain"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10175203660484608
+    m_Localized: "Satama Areenan toisessa kerroksessa sijaitseva XS-sali on yhten\xE4inen
+      tila.\r\n\r\nTilaan voidaan keikan yhteyteen rakentaa oma aitiomainen tila,
+      josta on suora n\xE4kym\xE4 esiintymislavalle. Pitk\xE4t p\xF6yd\xE4t, tarjoilut
+      katetaan tilaan, toisen kerroksen WC-tilat l\xE4hell\xE4, p\xE4\xE4aulassa
+      oma narikka sek\xE4 kulku L-saliin (areenatasolle) \u2013 siin\xE4 VIPi\xE4
+      kerrakseen!\r\n\r\nIsompia kokouksia varten t\xE4h\xE4n saliin voidaan rakentaa
+      6 x 4m esiintymislava sek\xE4 tarvittava esitystekniikka. Lavan ollessa k\xE4yt\xF6ss\xE4
+      mahtuu tuoliriveitt\xE4in yhteens\xE4 312 tuolia. Yhteen riviin mahtuu 14 tuolia.\r\n\r\nLuokkamuodossa,
+      eli 2 henkil\xF6n luentop\xF6ydill\xE4, XS-saliin saadaan t\xE4h\xE4n tilaan
+      parhaimmillaan istuen 204 henkil\xF6\xE4.\r\n\r\nPitk\xE4t 8 henkil\xF6n p\xF6yd\xE4t
+      \u2013 31 p\xF6yt\xE4\xE4 = 250 istumapaikkaa.\r\n\r\nTilassa on my\xF6s 4kpl
+      75\u2033 liikuteltavia n\xE4ytt\xF6j\xE4 sis\xE4lt\xE4en n\xE4yt\xF6njakajan
+      (HDMI base), ja \xE4\xE4nentoiston lis\xE4ksi tilaan voidaan tuoda my\xF6s
+      projektori ja valkokangas.\r\n"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -15,24 +15,28 @@ MonoBehaviour:
   m_TableCollectionName: InformationTable
   m_TableCollectionNameGuidString: 3c799641276d70748a082cdd90783d6e
   m_Entries:
-  - m_Id: 727696178106368
-    m_Key: InstructionsTtile
+  - m_Id: 18488586503671808
+    m_Key: Intro Title
     m_Metadata:
       m_Items: []
-  - m_Id: 727902030352384
-    m_Key: InstructionsText
+  - m_Id: 18488629252018176
+    m_Key: Contact Title
     m_Metadata:
       m_Items: []
-  - m_Id: 729616842182656
-    m_Key: ContactTitle
+  - m_Id: 18488688865660928
+    m_Key: Intro Main Text
     m_Metadata:
       m_Items: []
-  - m_Id: 729796903653376
-    m_Key: ContactText
+  - m_Id: 18488721551872000
+    m_Key: Intro Sub Text
     m_Metadata:
       m_Items: []
-  - m_Id: 8304308444680192
-    m_Key: Close
+  - m_Id: 18488752975597568
+    m_Key: Contact Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18488780947410944
+    m_Key: Close Text
     m_Metadata:
       m_Items: []
   m_Metadata:

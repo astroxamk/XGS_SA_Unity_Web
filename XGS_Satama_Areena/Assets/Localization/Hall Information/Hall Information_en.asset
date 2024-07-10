@@ -17,7 +17,111 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 7da106fd36c9f794c884a84253c471d2, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 10175264662441984
+    m_Localized: When all the combinable spaces in the Satama Arena are taken into
+      use, the XL Hall will be created. The entire L Hall and the XS Hall with its
+      telescopic stands will then be available. It is the largest and most impressive
+      single space, allowing for a wide range of events. The maximum capacity of
+      the hall for standing events is around 3 200 people. Whether it's a major concert
+      or a party meeting, this is the place for it!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10174413227118592
+    m_Localized: 'Sound
+
+
+      - 18 x L-acoustics Kara linearray speaker
+
+      -
+      4 x L-acoustics Kiva speaker
+
+      - 4 x L-acoustics SB28 sub speaker
+
+      -
+      6 z L-acoustics HiQ15 monitor speaker
+
+      - L-acoustics power amplifiers
+
+      -
+      cabling, suspension accessories
+
+      - 2 x Allen & Heath SQ5 + GX4816 + Slink
+      card
+
+      - cables and racks
+
+      - range of microphones, wired and wireless'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10174486900068352
+    m_Localized: 'Light
+
+
+      - 8 x Varilite VL1000 floodlights
+
+      - 12 x Tour
+      Par LED backlights
+
+      - 1 x Chamsys MQ80 light controller
+
+      - cables'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10174524556529664
+    m_Localized: 'Stage structure (fixed)
+
+
+      - Layher 12 x 9m / Nivtec 12 x
+      9m
+
+      - ramp, stairs
+
+      - 4 x Global Truss F34 truss lines
+
+      -
+      15 motor lifters
+
+      - Molton fabrics
+
+      - front cover of the platform'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10174865180151808
+    m_Localized: "Hall M on the first floor is formed by dividing Hall L into a separate
+      room with a soundproof partition. \n\nIn addition to the in-house performance
+      technology, the space also includes a 12 x 9m performance platform.\n\nEvent
+      examples:\n\nSeated dinner with long tables for 8 people - up to 424 seats\nRound
+      tables for 10 people with a maximum of 320 seats.\n\nFor concerts or meetings,
+      the number of chairs on the mezzanine floor can accommodate up to 400.\n\nThe
+      stage and the in-house performance technology are well suited to events such
+      as cocktails or concerts, where the seating capacity is 400 people."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10175024953774080
+    m_Localized: "Presentation technology\n\n- Projector + screen\n- PA Lacoustics
+      A10 4 pcs per side suspended + 2 pcs SB28 on floor.\n- LA8 with terminals and
+      LR analogue.\n- Midas mixer, lava box, cabling\n- D8 + motor lifters, controller
+      and cabling\n- 3 x F34 truss lines \n- 8 x Tour Par LED backlight\n- 6 x front
+      light, Chamsys light controller"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10175203660484608
+    m_Localized: "Located on the second floor of the Port Arena, the XS hall is a
+      single space.\n\nA dedicated fence-like space can be built for the gig, with
+      a direct view of the stage. With long tables, catering set up in the space,
+      second floor toilets close by, a dedicated sling in the main lobby and access
+      to the L Hall (arena level) - there's enough VIPs to go around!\n\nFor larger
+      meetings, a 6 x 4m stage can be built in this hall, along with the necessary
+      presentation equipment. The stage can accommodate a total of 312 chairs per
+      row when in use. Each row can accommodate 14 chairs.\n\nIn classroom mode,
+      i.e. with 2-person lecture tables, the XS hall can accommodate 204 people seated
+      in this space at best.\n\nLong tables for 8 people - 31 tables = 250 seats.\n\nThe
+      room also has 4 pcs of 75\u2033 movable screens including a screen splitter
+      (HDMI base), and in addition to the sound system, a projector and screen can
+      also be brought into the room."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

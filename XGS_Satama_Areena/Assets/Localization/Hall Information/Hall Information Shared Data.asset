@@ -15,36 +15,32 @@ MonoBehaviour:
   m_TableCollectionName: Hall Information
   m_TableCollectionNameGuidString: 7da106fd36c9f794c884a84253c471d2
   m_Entries:
-  - m_Id: 16741311926272
-    m_Key: XL Description
+  - m_Id: 10175264662441984
+    m_Key: XL Hall Description
     m_Metadata:
       m_Items: []
-  - m_Id: 16783267549184
-    m_Key: L Description
+  - m_Id: 10174413227118592
+    m_Key: L Hall Sound Info
     m_Metadata:
       m_Items: []
-  - m_Id: 16822308130816
-    m_Key: L Description sound
+  - m_Id: 10174486900068352
+    m_Key: L Hall Lights Info
     m_Metadata:
       m_Items: []
-  - m_Id: 16858769215488
-    m_Key: L Description Lights
+  - m_Id: 10174524556529664
+    m_Key: L Hall Stage Info
     m_Metadata:
       m_Items: []
-  - m_Id: 16896928993280
-    m_Key: L Description Stage
+  - m_Id: 10174865180151808
+    m_Key: M Hall Description
     m_Metadata:
       m_Items: []
-  - m_Id: 17081088299008
-    m_Key: M Description
+  - m_Id: 10175024953774080
+    m_Key: S Hall Pres Tech
     m_Metadata:
       m_Items: []
-  - m_Id: 17102261145600
-    m_Key: S Description
-    m_Metadata:
-      m_Items: []
-  - m_Id: 17145198235648
-    m_Key: S Description Extra Tech
+  - m_Id: 10175203660484608
+    m_Key: XS Hall Description
     m_Metadata:
       m_Items: []
   m_Metadata:
