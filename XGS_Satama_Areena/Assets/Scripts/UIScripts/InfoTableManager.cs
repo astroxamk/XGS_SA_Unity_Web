@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class InfoTableManager : MonoBehaviour
 {
@@ -19,7 +18,8 @@ public class InfoTableManager : MonoBehaviour
     private int textPage = 0;
 
     /// <summary>
-    /// Method that closes the instructions tab and allows the player to move in the scene
+    /// Method that closes the instructions tab and allows 
+    /// the player to move in the scene
     /// </summary>
     public void onCloseButton()
     {

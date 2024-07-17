@@ -10,7 +10,7 @@ public class UIController : MonoBehaviour
 
     // Make this private in final file
     [Header ("Screen Height for Mobile Settings view")]
-    public float screenHeight = 720f;
+    public float screenHeight = 960f;
 
     [Header ("Main Menu Genrals")]
     public GameObject SettingsPc;

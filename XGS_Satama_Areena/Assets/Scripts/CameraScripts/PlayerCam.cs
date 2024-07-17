@@ -12,7 +12,7 @@ public class PlayerCam : MonoBehaviour
     float xRotation = 0f;
 
     [Header ("Camera controls (make private later)")]
-    public float screenHeight = 720f;
+    public float screenHeight = 960f;
 
     private float screenDivide = Screen.width / 2 - 350;
 
