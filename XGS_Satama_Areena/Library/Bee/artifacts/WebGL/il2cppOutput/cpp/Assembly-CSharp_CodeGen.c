@@ -115,7 +115,8 @@ extern void InfoTableManager_onNextPageButton_m955613B2B042683217BABA59525B95ED4
 extern void InfoTableManager_onPrevPageButton_mE7C87E2463AF12504D72FDB1949F52BB4E1AC81E (void);
 extern void InfoTableManager_UpdatePage_m68F1A2C21C07975E778FA861C6F9CEC840D24703 (void);
 extern void InfoTableManager__ctor_mD9672436FD363E739C04BE54714A6289CEA96C4A (void);
-extern void StartController_HandleButtonPress_mE4C7BAF4F75D29F0E490D75F00D0D79148252538 (void);
+extern void StartController_HandleLanguageButtonPress_m76451050E33BB1AA72388336C6A7E5BCA2A3AD5E (void);
+extern void StartController_HandlePlatformButtonPress_m753BC281AF91D01CD98AC53F31F24479CC0097AE (void);
 extern void StartController__ctor_mD134DE568B126C0D0B4EA20A3E229BD16AE011E2 (void);
 extern void UIController_Start_mDB390A5128712606F938A56F294FBDE7DFE649D4 (void);
 extern void UIController_Update_m8F538932F53B831D5B82191902ADADACD32B108B (void);
@@ -127,7 +128,7 @@ extern void UIController_HandleMainSettingsWindow_mBCAF0DF8C7FEA108E3BD68199067C
 extern void UIController__ctor_mFF218DBC8CCEFE36AAC295D2376501658CD8B7A2 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[115] = 
+static Il2CppMethodPointer s_methodPointers[116] = 
 {
 	JoystickPlayerExample_FixedUpdate_m9AEDBA111F95D67A006A5D3821956048224541B7,
 	JoystickPlayerExample__ctor_m702422E0AE29402330CF41FDDBEE76F0506342E2,
@@ -232,7 +233,8 @@ static Il2CppMethodPointer s_methodPointers[115] =
 	InfoTableManager_onPrevPageButton_mE7C87E2463AF12504D72FDB1949F52BB4E1AC81E,
 	InfoTableManager_UpdatePage_m68F1A2C21C07975E778FA861C6F9CEC840D24703,
 	InfoTableManager__ctor_mD9672436FD363E739C04BE54714A6289CEA96C4A,
-	StartController_HandleButtonPress_mE4C7BAF4F75D29F0E490D75F00D0D79148252538,
+	StartController_HandleLanguageButtonPress_m76451050E33BB1AA72388336C6A7E5BCA2A3AD5E,
+	StartController_HandlePlatformButtonPress_m753BC281AF91D01CD98AC53F31F24479CC0097AE,
 	StartController__ctor_mD134DE568B126C0D0B4EA20A3E229BD16AE011E2,
 	UIController_Start_mDB390A5128712606F938A56F294FBDE7DFE649D4,
 	UIController_Update_m8F538932F53B831D5B82191902ADADACD32B108B,
@@ -245,7 +247,7 @@ static Il2CppMethodPointer s_methodPointers[115] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[115] = 
+static const int32_t s_InvokerIndices[116] = 
 {
 	6478,
 	6478,
@@ -351,6 +353,7 @@ static const int32_t s_InvokerIndices[115] =
 	6478,
 	6478,
 	6478,
+	5234,
 	6478,
 	6478,
 	6478,
@@ -360,14 +363,14 @@ static const int32_t s_InvokerIndices[115] =
 	6478,
 	6478,
 	6478,
-	9296,
+	9297,
 	6478,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	115,
+	116,
 	s_methodPointers,
 	0,
 	NULL,

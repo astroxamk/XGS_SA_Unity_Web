@@ -210,6 +210,7 @@ IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE9945
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RectTransformUtility_t65C00A84A72F17D78B81F2E7D88C2AA98AB61244_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CSetLocaleU3Ed__2_tE6B33F4EAAC7F02E6975BEAC0BD1303733B8826D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
@@ -699,6 +700,10 @@ struct Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D
 	float ___m_YMin;
 	float ___m_Width;
 	float ___m_Height;
+};
+struct Scene_tA1DC762B79745EB5140F054C884855B922318356 
+{
+	int32_t ___m_Handle;
 };
 struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
 {
@@ -1775,7 +1780,8 @@ struct SceneManager_tC7A8B738D971E14D9BB35AC9A41E754C7B61F821  : public MonoBeha
 };
 struct StartController_t86E8884BE5CC79EF2E1A316ACCCABD3B1DDF9631  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___StartUI;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___languageSelection;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___platformSelection;
 };
 struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -1784,7 +1790,6 @@ struct UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2  : public MonoBeha
 {
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___MenuBtn;
 	int32_t ___menuKey;
-	float ___screenHeight;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___SettingsPc;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___SettingsMobile;
 	PlayerCam_t1DEB32D9E60017CBE67E041C350E8035F8A9EFF8* ___playerCamera;
@@ -1798,6 +1803,9 @@ struct UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2  : public MonoBeha
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___StairSeatings;
 	bool ___isSettingsViewActive;
 	bool ___isSeatingActive;
+	int32_t ___desktopScene;
+	int32_t ___mobileScene;
+	Scene_tA1DC762B79745EB5140F054C884855B922318356 ___scene;
 };
 struct DynamicJoystick_t98EE04BCEB0A14E5B15863006BAA5361C2D59E10  : public Joystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A
 {
@@ -2589,8 +2597,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIController_DisableMouse_m2DA3CCC48D652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfoTableManager_UpdatePage_m68F1A2C21C07975E778FA861C6F9CEC840D24703 (InfoTableManager_t98A4D7DB722ADA205BF4354462774608D128B4F6* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m0957E62F2A0A0243C79394E5B74E8EFA86BE5ED1 (int32_t ___0_sceneBuildIndex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2 (int32_t ___0_key, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIController_HandleMainMenuBtn_m76C1C864B0D64B2A023E80770362DCB4A90A9077 (UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Scene_get_buildIndex_m82B6E0C96C85C952B7A2D794DB73CDA99AA9A57E (Scene_tA1DC762B79745EB5140F054C884855B922318356* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1 (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9 (int32_t ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cursor_set_visible_m612FCB2E86C15F91CE2E6148D1B556667954A2B7 (bool ___0_value, const RuntimeMethod* method) ;
@@ -4091,7 +4102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerCam__ctor_m5A4401652352851B23213E6
 	{
 		__this->___mouseSensitivity = (100.0f);
 		__this->___keyRotationSpeed = (1.0f);
-		__this->___screenHeight = (720.0f);
+		__this->___screenHeight = (960.0f);
 		int32_t L_0;
 		L_0 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
 		__this->___screenDivide = ((float)((int32_t)il2cpp_codegen_subtract(((int32_t)(L_0/2)), ((int32_t)350))));
@@ -5604,11 +5615,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfoTableManager__ctor_mD9672436FD363E73
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartController_HandleButtonPress_mE4C7BAF4F75D29F0E490D75F00D0D79148252538 (StartController_t86E8884BE5CC79EF2E1A316ACCCABD3B1DDF9631* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartController_HandleLanguageButtonPress_m76451050E33BB1AA72388336C6A7E5BCA2A3AD5E (StartController_t86E8884BE5CC79EF2E1A316ACCCABD3B1DDF9631* __this, const RuntimeMethod* method) 
 {
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___StartUI;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___languageSelection;
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___platformSelection;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartController_HandlePlatformButtonPress_m753BC281AF91D01CD98AC53F31F24479CC0097AE (StartController_t86E8884BE5CC79EF2E1A316ACCCABD3B1DDF9631* __this, int32_t ___0_scene, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___0_scene;
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m0957E62F2A0A0243C79394E5B74E8EFA86BE5ED1(L_0, NULL);
 		return;
 	}
 }
@@ -5632,6 +5660,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIController_Start_mDB390A5128712606F938
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIController_HandleMainMenuBtn_m76C1C864B0D64B2A023E80770362DCB4A90A9077_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
@@ -5643,6 +5672,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIController_Start_mDB390A5128712606F938
 		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_2 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)UIController_HandleMainMenuBtn_m76C1C864B0D64B2A023E80770362DCB4A90A9077_RuntimeMethod_var), NULL);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_1, L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_3;
+		L_3 = SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8(NULL);
+		__this->___scene = L_3;
 		return;
 	}
 }
@@ -5699,94 +5732,97 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIController_HandleMainMenuBtn_m76C1C864
 	{
 		bool L_0 = __this->___isSettingsViewActive;
 		__this->___isSettingsViewActive = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-		int32_t L_1;
-		L_1 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
-		float L_2 = __this->___screenHeight;
-		if ((!(((float)((float)L_1)) <= ((float)L_2))))
+		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_1 = (Scene_tA1DC762B79745EB5140F054C884855B922318356*)(&__this->___scene);
+		int32_t L_2;
+		L_2 = Scene_get_buildIndex_m82B6E0C96C85C952B7A2D794DB73CDA99AA9A57E(L_1, NULL);
+		int32_t L_3 = __this->___desktopScene;
+		if ((((int32_t)L_2) > ((int32_t)L_3)))
 		{
-			goto IL_0030;
+			goto IL_0035;
 		}
 	}
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___SettingsPc;
-		bool L_4 = __this->___isSettingsViewActive;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, L_4, NULL);
-		goto IL_0041;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___SettingsPc;
+		bool L_5 = __this->___isSettingsViewActive;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, L_5, NULL);
+		goto IL_0046;
 	}
 
-IL_0030:
+IL_0035:
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___SettingsMobile;
-		bool L_6 = __this->___isSettingsViewActive;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, L_6, NULL);
-	}
-
-IL_0041:
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___SettingsMobile;
 		bool L_7 = __this->___isSettingsViewActive;
-		if (!L_7)
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, L_7, NULL);
+	}
+
+IL_0046:
+	{
+		bool L_8 = __this->___isSettingsViewActive;
+		if (!L_8)
 		{
-			goto IL_0079;
+			goto IL_0083;
 		}
 	}
 	{
 		UIController_EnableMouse_m48DCF4AE3C77904D07AF5C9BBADEFCD841E5F027(__this, NULL);
-		int32_t L_8;
-		L_8 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
-		float L_9 = __this->___screenHeight;
-		if ((!(((float)((float)L_8)) > ((float)L_9))))
+		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_9 = (Scene_tA1DC762B79745EB5140F054C884855B922318356*)(&__this->___scene);
+		int32_t L_10;
+		L_10 = Scene_get_buildIndex_m82B6E0C96C85C952B7A2D794DB73CDA99AA9A57E(L_9, NULL);
+		int32_t L_11 = __this->___mobileScene;
+		if ((!(((uint32_t)L_10) == ((uint32_t)L_11))))
 		{
-			goto IL_006b;
+			goto IL_0075;
 		}
 	}
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___settingsLeft;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)1, NULL);
-		goto IL_007f;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___settingsLeft;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
+		goto IL_0089;
 	}
 
-IL_006b:
+IL_0075:
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___settingsLeft;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)0, NULL);
-		goto IL_007f;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___settingsLeft;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
+		goto IL_0089;
 	}
 
-IL_0079:
+IL_0083:
 	{
 		UIController_DisableMouse_m2DA3CCC48D65239A8CCAA0A8CD508ABB29BC4FA5(__this, NULL);
 	}
 
-IL_007f:
+IL_0089:
 	{
-		int32_t L_12;
-		L_12 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
-		float L_13 = __this->___screenHeight;
-		if ((!(((float)((float)L_12)) <= ((float)L_13))))
+		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_14 = (Scene_tA1DC762B79745EB5140F054C884855B922318356*)(&__this->___scene);
+		int32_t L_15;
+		L_15 = Scene_get_buildIndex_m82B6E0C96C85C952B7A2D794DB73CDA99AA9A57E(L_14, NULL);
+		int32_t L_16 = __this->___desktopScene;
+		if ((((int32_t)L_15) > ((int32_t)L_16)))
 		{
-			goto IL_00a8;
+			goto IL_00b7;
 		}
 	}
 	{
-		PlayerCam_t1DEB32D9E60017CBE67E041C350E8035F8A9EFF8* L_14 = __this->___playerCamera;
-		bool L_15;
-		L_15 = Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1(L_14, NULL);
-		V_0 = (bool)((((int32_t)L_15) == ((int32_t)0))? 1 : 0);
-		PlayerCam_t1DEB32D9E60017CBE67E041C350E8035F8A9EFF8* L_16 = __this->___playerCamera;
-		bool L_17 = V_0;
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_16, L_17, NULL);
+		PlayerCam_t1DEB32D9E60017CBE67E041C350E8035F8A9EFF8* L_17 = __this->___playerCamera;
+		bool L_18;
+		L_18 = Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1(L_17, NULL);
+		V_0 = (bool)((((int32_t)L_18) == ((int32_t)0))? 1 : 0);
+		PlayerCam_t1DEB32D9E60017CBE67E041C350E8035F8A9EFF8* L_19 = __this->___playerCamera;
+		bool L_20 = V_0;
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_19, L_20, NULL);
 	}
 
-IL_00a8:
+IL_00b7:
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___RightSettings;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)1, NULL);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___RightSettingsMobile;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_19, (bool)1, NULL);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___RightSettingsAlternative;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, (bool)0, NULL);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___RightSettingsAlternativeMobile;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_21, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___RightSettings;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_21, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___RightSettingsMobile;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_22, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->___RightSettingsAlternative;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_23, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = __this->___RightSettingsAlternativeMobile;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_24, (bool)0, NULL);
 		return;
 	}
 }
@@ -5835,7 +5871,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIController__ctor_mFF218DBC8CCEFE36AAC2
 {
 	{
 		__this->___menuKey = ((int32_t)32);
-		__this->___screenHeight = (720.0f);
+		__this->___desktopScene = 1;
+		__this->___mobileScene = 2;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}

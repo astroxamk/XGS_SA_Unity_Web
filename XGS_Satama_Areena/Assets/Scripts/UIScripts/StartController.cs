@@ -3,10 +3,17 @@ using UnityEngine;
 public class StartController : MonoBehaviour
 {
     [Header ("UI Elements")]
-    public GameObject StartUI;
+    public GameObject languageSelection;
+    public GameObject platformSelection;
 
-    public void HandleButtonPress()
+    public void HandleLanguageButtonPress()
     {
-        StartUI.SetActive(false);
+        languageSelection.SetActive(false);
+        platformSelection.SetActive(true);
+    }
+
+    public void HandlePlatformButtonPress(int scene)
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(scene);
     }
 }

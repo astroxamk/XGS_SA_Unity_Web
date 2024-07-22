@@ -1,16 +1,13 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIController : MonoBehaviour
 {
     [Header ("Control Buttons")]
     public Button MenuBtn;
     public KeyCode menuKey = KeyCode.Space;
-
-    // Make this private in final file
-    [Header ("Screen Height for Mobile Settings view")]
-    public float screenHeight = 960f;
 
     [Header ("Main Menu Genrals")]
     public GameObject SettingsPc;
@@ -26,11 +23,17 @@ public class UIController : MonoBehaviour
     public TextMeshProUGUI seatingText;
     public TextMeshProUGUI seatingTextMobile;
     public GameObject StairSeatings;
-
     public bool isSettingsViewActive = false;
+    
     private bool isSeatingActive = false;
+    private int desktopScene = 1;
+    private int mobileScene = 2;
+    Scene scene;
 
-    void Start() { MenuBtn.onClick.AddListener(HandleMainMenuBtn); }
+    void Start() { 
+        MenuBtn.onClick.AddListener(HandleMainMenuBtn); 
+        scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
+    }
 
     private void Update() {
         if (Input.GetKeyDown(menuKey))
@@ -53,7 +56,7 @@ public class UIController : MonoBehaviour
     /// </summary>
     void HandleMainMenuBtn() {
         isSettingsViewActive = !isSettingsViewActive;
-        if (Screen.height <= screenHeight)
+        if (scene.buildIndex <= desktopScene)
             SettingsPc.SetActive(isSettingsViewActive);
         else
             SettingsMobile.SetActive(isSettingsViewActive);
@@ -61,7 +64,7 @@ public class UIController : MonoBehaviour
         if (isSettingsViewActive) {
             EnableMouse();
 
-            if (Screen.height > screenHeight)
+            if (scene.buildIndex == mobileScene)
                 settingsLeft.SetActive(true);
             else
                 settingsLeft.SetActive(false);
@@ -69,11 +72,12 @@ public class UIController : MonoBehaviour
         else
             DisableMouse();
 
-        if (Screen.height <= screenHeight)
+        if (scene.buildIndex <= desktopScene)
         {
             bool newState = !playerCamera.enabled;
             playerCamera.enabled = newState;
         }
+
         RightSettings.SetActive(true);
         RightSettingsMobile.SetActive(true);
         RightSettingsAlternative.SetActive(false);

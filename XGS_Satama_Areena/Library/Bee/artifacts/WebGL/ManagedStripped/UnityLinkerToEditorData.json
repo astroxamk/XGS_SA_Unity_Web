@@ -53,6 +53,8 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
@@ -67,6 +69,8 @@
           {
             "name": "AudioListener",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
@@ -104,6 +108,8 @@
           {
             "name": "Camera",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
@@ -118,7 +124,8 @@
           {
             "name": "ComputeShader",
             "scenes": [
-              "Assets/Scenes/StartScene.unity"
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -126,6 +133,8 @@
           {
             "name": "Cubemap",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
@@ -146,6 +155,8 @@
           {
             "name": "EditorExtension",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 1,
@@ -160,6 +171,8 @@
           {
             "name": "GameObject",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
@@ -186,6 +199,8 @@
           {
             "name": "LevelGameManager",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 1,
@@ -194,7 +209,8 @@
           {
             "name": "Light",
             "scenes": [
-              "Assets/Scenes/StartScene.unity"
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -202,7 +218,8 @@
           {
             "name": "LightProbes",
             "scenes": [
-              "Assets/Scenes/StartScene.unity"
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -210,7 +227,8 @@
           {
             "name": "LightingSettings",
             "scenes": [
-              "Assets/Scenes/StartScene.unity"
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -218,6 +236,8 @@
           {
             "name": "LightmapSettings",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
@@ -232,6 +252,8 @@
           {
             "name": "Material",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
@@ -240,7 +262,8 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/Scenes/StartScene.unity"
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -248,7 +271,8 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "Assets/Scenes/StartScene.unity"
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -256,7 +280,8 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/Scenes/StartScene.unity"
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -264,6 +289,8 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
@@ -278,6 +305,8 @@
           {
             "name": "MonoScript",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 1,
@@ -286,6 +315,8 @@
           {
             "name": "NamedObject",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 1,
@@ -318,6 +349,8 @@
           {
             "name": "RectTransform",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
@@ -326,7 +359,8 @@
           {
             "name": "ReflectionProbe",
             "scenes": [
-              "Assets/Scenes/StartScene.unity"
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -334,6 +368,8 @@
           {
             "name": "RenderSettings",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
@@ -366,6 +402,8 @@
           {
             "name": "Shader",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
@@ -386,6 +424,8 @@
           {
             "name": "Sprite",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
@@ -694,7 +734,8 @@
           {
             "name": "BoxCollider",
             "scenes": [
-              "Assets/Scenes/StartScene.unity"
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -702,7 +743,8 @@
           {
             "name": "CapsuleCollider",
             "scenes": [
-              "Assets/Scenes/StartScene.unity"
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -710,7 +752,8 @@
           {
             "name": "CharacterController",
             "scenes": [
-              "Assets/Scenes/StartScene.unity"
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -724,7 +767,8 @@
           {
             "name": "MeshCollider",
             "scenes": [
-              "Assets/Scenes/StartScene.unity"
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -732,7 +776,8 @@
           {
             "name": "PhysicMaterial",
             "scenes": [
-              "Assets/Scenes/StartScene.unity"
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -991,6 +1036,8 @@
           {
             "name": "Font",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
@@ -1034,6 +1081,8 @@
           {
             "name": "Canvas",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
@@ -1048,6 +1097,8 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity",
               "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
@@ -1071,7 +1122,8 @@
           {
             "name": "OcclusionCullingData",
             "scenes": [
-              "Assets/Scenes/StartScene.unity"
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -1079,7 +1131,8 @@
           {
             "name": "OcclusionCullingSettings",
             "scenes": [
-              "Assets/Scenes/StartScene.unity"
+              "Assets/Scenes/MainDesktopScene/DesktopScene.unity",
+              "Assets/Scenes/MainMobileScene/MobileScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
