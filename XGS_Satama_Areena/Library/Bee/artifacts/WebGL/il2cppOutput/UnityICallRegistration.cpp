@@ -1694,6 +1694,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Input_get_anyKey();
 		Register_UnityEngine_Input_get_anyKey();
 
+		//System.Boolean UnityEngine.Input::get_anyKeyDown()
+		void Register_UnityEngine_Input_get_anyKeyDown();
+		Register_UnityEngine_Input_get_anyKeyDown();
+
 		//System.Boolean UnityEngine.Input::get_mousePresent()
 		void Register_UnityEngine_Input_get_mousePresent();
 		Register_UnityEngine_Input_get_mousePresent();
@@ -3829,6 +3833,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Single UnityEngine.Time::get_realtimeSinceStartup()
 		void Register_UnityEngine_Time_get_realtimeSinceStartup();
 		Register_UnityEngine_Time_get_realtimeSinceStartup();
+
+		//System.Single UnityEngine.Time::get_time()
+		void Register_UnityEngine_Time_get_time();
+		Register_UnityEngine_Time_get_time();
 
 		//System.Single UnityEngine.Time::get_unscaledDeltaTime()
 		void Register_UnityEngine_Time_get_unscaledDeltaTime();

@@ -48,8 +48,14 @@ MonoBehaviour:
   uiController: {fileID: 0}
   playerController: {fileID: 0}
   Menu_UI: {fileID: 0}
-  TextInstructions: {fileID: 0}
-  TextContact: {fileID: 0}
-  CloseButton: {fileID: 0}
+  textTitles:
+  - {fileID: 0}
+  - {fileID: 0}
+  textFields:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  closeButton: {fileID: 0}
   nextPageBtn: {fileID: 0}
   prevPageBtn: {fileID: 0}
+  mobileControls: {fileID: 0}

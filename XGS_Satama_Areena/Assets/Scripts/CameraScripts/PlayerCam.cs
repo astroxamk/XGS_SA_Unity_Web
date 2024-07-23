@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerCam : MonoBehaviour
 {
@@ -8,13 +9,6 @@ public class PlayerCam : MonoBehaviour
 
     [Header ("Player Orientation")]
     public Transform playerBody;
-
-    float xRotation = 0f;
-
-    [Header ("Camera controls (make private later)")]
-    public float screenHeight = 960f;
-
-    private float screenDivide = Screen.width / 2 - 350;
 
     [Header ("Rotation variables")]
     public float rotSpeed = 0.3f;
@@ -26,15 +20,23 @@ public class PlayerCam : MonoBehaviour
     private float rotX = 0f;
     private float rotY = 0f;
     private Vector3 origRot;
+    float xRotation = 0f;
+
+    // Scene managment variables
+    Scene scene;
+    private int desktopScene = 1;
+    //private int mobileScene = 2;
+    private float screenDivide = Screen.width / 2 - 350;
 
     private void Start() {
         origRot = playerBody.transform.eulerAngles;
         rotX = origRot.x;
         rotY = origRot.y;
+        scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
     }
 
     private void Update() {
-        if (Screen.height <= screenHeight) {
+        if (scene.buildIndex == desktopScene) {
             KeyboardControls("Rotate X", "Rotate Y", keyRotationSpeed);
             KeyboardControls("Mouse X", "Mouse Y", mouseSensitivity);
         }

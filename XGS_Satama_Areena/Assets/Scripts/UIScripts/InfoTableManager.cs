@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InfoTableManager : MonoBehaviour
 {
@@ -14,8 +15,14 @@ public class InfoTableManager : MonoBehaviour
     public GameObject closeButton;
     public GameObject nextPageBtn;
     public GameObject prevPageBtn;
+    [Header("Other")]
+    public GameObject mobileControls;
 
     private int textPage = 0;
+    private int mobileScene = 2;
+    Scene scene;
+
+    private void Start() { scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene(); }
 
     /// <summary>
     /// Method that closes the instructions tab and allows 
@@ -30,6 +37,10 @@ public class InfoTableManager : MonoBehaviour
         closeButton.SetActive(false);
         nextPageBtn.SetActive(false);
         prevPageBtn.SetActive(false);
+        if (scene.buildIndex == mobileScene)
+        {
+            mobileControls.SetActive(true);
+        }
     }
 
     /// <summary>

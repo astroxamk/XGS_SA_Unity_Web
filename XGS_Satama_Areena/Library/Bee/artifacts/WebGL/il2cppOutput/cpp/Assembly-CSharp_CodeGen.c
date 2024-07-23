@@ -110,14 +110,25 @@ extern void PlayerController_TouchControls_m59A7FBE967D6E487B5E16160DB43C9905418
 extern void PlayerController_KeyboardControls_m7430A68EAADB8F5C0B0639AA4DB04590240DC270 (void);
 extern void PlayerController_HandlePhysicsInGame_mD13F9DC0B065353B8DB4315DBB4E5C95A20D995E (void);
 extern void PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33 (void);
+extern void InfoTableManager_Start_m1966979E44528F920F4B0D3B58941F68E1734D3C (void);
 extern void InfoTableManager_onCloseButton_m26647AED29290A9B5630A4DBBECB1229C5EB6531 (void);
 extern void InfoTableManager_onNextPageButton_m955613B2B042683217BABA59525B95ED4600FAE4 (void);
 extern void InfoTableManager_onPrevPageButton_mE7C87E2463AF12504D72FDB1949F52BB4E1AC81E (void);
 extern void InfoTableManager_UpdatePage_m68F1A2C21C07975E778FA861C6F9CEC840D24703 (void);
 extern void InfoTableManager__ctor_mD9672436FD363E739C04BE54714A6289CEA96C4A (void);
+extern void PressAnyKeyToContinue_Start_mF7856AC26337634FEB3D0E67BC37CA059F9692C1 (void);
+extern void PressAnyKeyToContinue_Update_mAF0313A86760A06594CCB61D6620D960DA83E491 (void);
+extern void PressAnyKeyToContinue__ctor_mB0A893A1C3FCC692E3B7FDB2EE526FC094D2B320 (void);
 extern void StartController_HandleLanguageButtonPress_m76451050E33BB1AA72388336C6A7E5BCA2A3AD5E (void);
 extern void StartController_HandlePlatformButtonPress_m753BC281AF91D01CD98AC53F31F24479CC0097AE (void);
+extern void StartController_LoadAsync_mDD7314AAD0699E0A88960ED42749FD2814F5B2DB (void);
 extern void StartController__ctor_mD134DE568B126C0D0B4EA20A3E229BD16AE011E2 (void);
+extern void U3CLoadAsyncU3Ed__5__ctor_m3A40496375BC56DB76776244BF945BBDEB64E625 (void);
+extern void U3CLoadAsyncU3Ed__5_System_IDisposable_Dispose_m0E97CE6FF51E673B905F157EBC44C8A415207170 (void);
+extern void U3CLoadAsyncU3Ed__5_MoveNext_mB21E34B09206224836740966576A8BAAB405E8FC (void);
+extern void U3CLoadAsyncU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD7060C1A7240AFEA105C29D75F23275C221FD572 (void);
+extern void U3CLoadAsyncU3Ed__5_System_Collections_IEnumerator_Reset_mCC2EBDBD87D0E16D577AA6322EB55B128D97D53E (void);
+extern void U3CLoadAsyncU3Ed__5_System_Collections_IEnumerator_get_Current_m36D701AB074204890FD0A7EE41010751D40387B1 (void);
 extern void UIController_Start_mDB390A5128712606F938A56F294FBDE7DFE649D4 (void);
 extern void UIController_Update_m8F538932F53B831D5B82191902ADADACD32B108B (void);
 extern void UIController_HandleMainMenuBtn_m76C1C864B0D64B2A023E80770362DCB4A90A9077 (void);
@@ -128,7 +139,7 @@ extern void UIController_HandleMainSettingsWindow_mBCAF0DF8C7FEA108E3BD68199067C
 extern void UIController__ctor_mFF218DBC8CCEFE36AAC295D2376501658CD8B7A2 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[116] = 
+static Il2CppMethodPointer s_methodPointers[127] = 
 {
 	JoystickPlayerExample_FixedUpdate_m9AEDBA111F95D67A006A5D3821956048224541B7,
 	JoystickPlayerExample__ctor_m702422E0AE29402330CF41FDDBEE76F0506342E2,
@@ -228,14 +239,25 @@ static Il2CppMethodPointer s_methodPointers[116] =
 	PlayerController_KeyboardControls_m7430A68EAADB8F5C0B0639AA4DB04590240DC270,
 	PlayerController_HandlePhysicsInGame_mD13F9DC0B065353B8DB4315DBB4E5C95A20D995E,
 	PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33,
+	InfoTableManager_Start_m1966979E44528F920F4B0D3B58941F68E1734D3C,
 	InfoTableManager_onCloseButton_m26647AED29290A9B5630A4DBBECB1229C5EB6531,
 	InfoTableManager_onNextPageButton_m955613B2B042683217BABA59525B95ED4600FAE4,
 	InfoTableManager_onPrevPageButton_mE7C87E2463AF12504D72FDB1949F52BB4E1AC81E,
 	InfoTableManager_UpdatePage_m68F1A2C21C07975E778FA861C6F9CEC840D24703,
 	InfoTableManager__ctor_mD9672436FD363E739C04BE54714A6289CEA96C4A,
+	PressAnyKeyToContinue_Start_mF7856AC26337634FEB3D0E67BC37CA059F9692C1,
+	PressAnyKeyToContinue_Update_mAF0313A86760A06594CCB61D6620D960DA83E491,
+	PressAnyKeyToContinue__ctor_mB0A893A1C3FCC692E3B7FDB2EE526FC094D2B320,
 	StartController_HandleLanguageButtonPress_m76451050E33BB1AA72388336C6A7E5BCA2A3AD5E,
 	StartController_HandlePlatformButtonPress_m753BC281AF91D01CD98AC53F31F24479CC0097AE,
+	StartController_LoadAsync_mDD7314AAD0699E0A88960ED42749FD2814F5B2DB,
 	StartController__ctor_mD134DE568B126C0D0B4EA20A3E229BD16AE011E2,
+	U3CLoadAsyncU3Ed__5__ctor_m3A40496375BC56DB76776244BF945BBDEB64E625,
+	U3CLoadAsyncU3Ed__5_System_IDisposable_Dispose_m0E97CE6FF51E673B905F157EBC44C8A415207170,
+	U3CLoadAsyncU3Ed__5_MoveNext_mB21E34B09206224836740966576A8BAAB405E8FC,
+	U3CLoadAsyncU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD7060C1A7240AFEA105C29D75F23275C221FD572,
+	U3CLoadAsyncU3Ed__5_System_Collections_IEnumerator_Reset_mCC2EBDBD87D0E16D577AA6322EB55B128D97D53E,
+	U3CLoadAsyncU3Ed__5_System_Collections_IEnumerator_get_Current_m36D701AB074204890FD0A7EE41010751D40387B1,
 	UIController_Start_mDB390A5128712606F938A56F294FBDE7DFE649D4,
 	UIController_Update_m8F538932F53B831D5B82191902ADADACD32B108B,
 	UIController_HandleMainMenuBtn_m76C1C864B0D64B2A023E80770362DCB4A90A9077,
@@ -247,7 +269,7 @@ static Il2CppMethodPointer s_methodPointers[116] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[116] = 
+static const int32_t s_InvokerIndices[127] = 
 {
 	6478,
 	6478,
@@ -353,8 +375,19 @@ static const int32_t s_InvokerIndices[116] =
 	6478,
 	6478,
 	6478,
+	6478,
+	6478,
+	6478,
+	6478,
+	5234,
+	4658,
+	6478,
 	5234,
 	6478,
+	6264,
+	6355,
+	6478,
+	6355,
 	6478,
 	6478,
 	6478,
@@ -370,7 +403,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	116,
+	127,
 	s_methodPointers,
 	0,
 	NULL,

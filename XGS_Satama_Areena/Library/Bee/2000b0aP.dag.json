@@ -208,7 +208,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 107,
       "PayloadLength": 44,
-      "PayloadDebugContentSnippet": "D:\\GitHub\\XGS_SA_Unity_Web\\XGS",
+      "PayloadDebugContentSnippet": "C:\\GitHub\\XGS_SA_Unity_Web\\XGS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt"
@@ -234,7 +234,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 42611,
       "PayloadLength": 57,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\GitHub\\XGS_SA_Uni",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\XGS_SA_Uni",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.TestRunner.rsp2"
@@ -1818,7 +1818,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 48402,
       "PayloadLength": 44,
-      "PayloadDebugContentSnippet": "D:\\GitHub\\XGS_SA_Unity_Web\\XGS",
+      "PayloadDebugContentSnippet": "C:\\GitHub\\XGS_SA_Unity_Web\\XGS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -1844,7 +1844,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 84554,
       "PayloadLength": 57,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\GitHub\\XGS_SA_Uni",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\XGS_SA_Uni",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.rsp2"
@@ -2343,7 +2343,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 90450,
       "PayloadLength": 44,
-      "PayloadDebugContentSnippet": "D:\\GitHub\\XGS_SA_Unity_Web\\XGS",
+      "PayloadDebugContentSnippet": "C:\\GitHub\\XGS_SA_Unity_Web\\XGS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.InternalAPIEngineBridge.013.UnityAdditionalFile.txt"
@@ -2369,7 +2369,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 119857,
       "PayloadLength": 57,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\GitHub\\XGS_SA_Uni",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\XGS_SA_Uni",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.InternalAPIEngineBridge.013.rsp2"
@@ -2793,7 +2793,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 125843,
       "PayloadLength": 44,
-      "PayloadDebugContentSnippet": "D:\\GitHub\\XGS_SA_Unity_Web\\XGS",
+      "PayloadDebugContentSnippet": "C:\\GitHub\\XGS_SA_Unity_Web\\XGS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Postprocessing.Runtime.UnityAdditionalFile.txt"
@@ -2819,7 +2819,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 160826,
       "PayloadLength": 57,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\GitHub\\XGS_SA_Uni",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\XGS_SA_Uni",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Postprocessing.Runtime.rsp2"
@@ -3279,7 +3279,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 166800,
       "PayloadLength": 44,
-      "PayloadDebugContentSnippet": "D:\\GitHub\\XGS_SA_Unity_Web\\XGS",
+      "PayloadDebugContentSnippet": "C:\\GitHub\\XGS_SA_Unity_Web\\XGS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.ResourceManager.UnityAdditionalFile.txt"
@@ -3305,7 +3305,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 201856,
       "PayloadLength": 57,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\GitHub\\XGS_SA_Uni",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\XGS_SA_Uni",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.ResourceManager.rsp2"
@@ -3760,7 +3760,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 207831,
       "PayloadLength": 44,
-      "PayloadDebugContentSnippet": "D:\\GitHub\\XGS_SA_Unity_Web\\XGS",
+      "PayloadDebugContentSnippet": "C:\\GitHub\\XGS_SA_Unity_Web\\XGS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.ScriptableBuildPipeline.UnityAdditionalFile.txt"
@@ -3786,7 +3786,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 237132,
       "PayloadLength": 57,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\GitHub\\XGS_SA_Uni",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\XGS_SA_Uni",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.ScriptableBuildPipeline.rsp2"
@@ -4191,7 +4191,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 243103,
       "PayloadLength": 44,
-      "PayloadDebugContentSnippet": "D:\\GitHub\\XGS_SA_Unity_Web\\XGS",
+      "PayloadDebugContentSnippet": "C:\\GitHub\\XGS_SA_Unity_Web\\XGS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
@@ -4217,7 +4217,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 277315,
       "PayloadLength": 57,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\GitHub\\XGS_SA_Uni",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\XGS_SA_Uni",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.rsp2"
@@ -4679,7 +4679,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 283271,
       "PayloadLength": 44,
-      "PayloadDebugContentSnippet": "D:\\GitHub\\XGS_SA_Unity_Web\\XGS",
+      "PayloadDebugContentSnippet": "C:\\GitHub\\XGS_SA_Unity_Web\\XGS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Timeline.UnityAdditionalFile.txt"
@@ -4705,7 +4705,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 318546,
       "PayloadLength": 57,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\GitHub\\XGS_SA_Uni",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\XGS_SA_Uni",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Timeline.rsp2"
@@ -5181,7 +5181,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 324511,
       "PayloadLength": 44,
-      "PayloadDebugContentSnippet": "D:\\GitHub\\XGS_SA_Unity_Web\\XGS",
+      "PayloadDebugContentSnippet": "C:\\GitHub\\XGS_SA_Unity_Web\\XGS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt"
@@ -5207,7 +5207,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 407305,
       "PayloadLength": 57,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\GitHub\\XGS_SA_Uni",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\XGS_SA_Uni",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Core.rsp2"
@@ -6039,7 +6039,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 413274,
       "PayloadLength": 44,
-      "PayloadDebugContentSnippet": "D:\\GitHub\\XGS_SA_Unity_Web\\XGS",
+      "PayloadDebugContentSnippet": "C:\\GitHub\\XGS_SA_Unity_Web\\XGS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Addressables.UnityAdditionalFile.txt"
@@ -6065,7 +6065,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 445023,
       "PayloadLength": 57,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\GitHub\\XGS_SA_Uni",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\XGS_SA_Uni",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Addressables.rsp2"
@@ -6517,7 +6517,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 451075,
       "PayloadLength": 44,
-      "PayloadDebugContentSnippet": "D:\\GitHub\\XGS_SA_Unity_Web\\XGS",
+      "PayloadDebugContentSnippet": "C:\\GitHub\\XGS_SA_Unity_Web\\XGS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
@@ -6543,7 +6543,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 529172,
       "PayloadLength": 57,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\GitHub\\XGS_SA_Uni",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\XGS_SA_Uni",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.rsp2"
@@ -7370,7 +7370,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 535229,
       "PayloadLength": 44,
-      "PayloadDebugContentSnippet": "D:\\GitHub\\XGS_SA_Unity_Web\\XGS",
+      "PayloadDebugContentSnippet": "C:\\GitHub\\XGS_SA_Unity_Web\\XGS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Localization.UnityAdditionalFile.txt"
@@ -7396,7 +7396,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 582129,
       "PayloadLength": 57,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\GitHub\\XGS_SA_Uni",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\XGS_SA_Uni",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Localization.rsp2"
@@ -8043,7 +8043,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 588436,
       "PayloadLength": 44,
-      "PayloadDebugContentSnippet": "D:\\GitHub\\XGS_SA_Unity_Web\\XGS",
+      "PayloadDebugContentSnippet": "C:\\GitHub\\XGS_SA_Unity_Web\\XGS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt"
@@ -8069,7 +8069,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 620914,
       "PayloadLength": 57,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\GitHub\\XGS_SA_Uni",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\GitHub\\XGS_SA_Uni",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.rsp2"
@@ -8529,7 +8529,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 627057,
       "PayloadLength": 44,
-      "PayloadDebugContentSnippet": "D:\\GitHub\\XGS_SA_Unity_Web\\XGS",
+      "PayloadDebugContentSnippet": "C:\\GitHub\\XGS_SA_Unity_Web\\XGS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -8541,7 +8541,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 627187,
-      "PayloadLength": 30441,
+      "PayloadLength": 30493,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -8553,7 +8553,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 657715,
+      "PayloadOffset": 657767,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -8782,6 +8782,7 @@
         "Assets/Scripts/Localizations/LocaleSelector.cs",
         "Assets/Scripts/PlayerScripts/PlayerController.cs",
         "Assets/Scripts/UIScripts/InfoTableManager.cs",
+        "Assets/Scripts/UIScripts/PressAnyKeyToContinue.cs",
         "Assets/Scripts/UIScripts/StartController.cs",
         "Assets/Scripts/UIScripts/UIController.cs",
         "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
@@ -8920,7 +8921,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 657811,
+      "PayloadOffset": 657863,
       "PayloadLength": 6540,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -9522,7 +9523,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Player/RuntimeInitializeOnLoads.json (+1 other)",
       "DisplayName": "BuildPlayerDataGenerator RuntimeInitializeOnLoads",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll\" -a=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Addressables.dll\" -a=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.013.dll\" -a=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Localization.dll\" -a=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll\" -a=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ResourceManager.dll\" -a=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ScriptableBuildPipeline.dll\" -a=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll\" -a=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll\" -a=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\AOT\\Newtonsoft.Json.dll\" -a=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\Managed\" -s=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\" -s=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\AOT\" -s=\"D:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Addressables.dll\" -a=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.013.dll\" -a=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Localization.dll\" -a=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll\" -a=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ResourceManager.dll\" -a=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ScriptableBuildPipeline.dll\" -a=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\AOT\\Newtonsoft.Json.dll\" -a=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\Managed\" -s=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\Bee\\PlayerScriptAssemblies\" -s=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\AOT\" -s=\"C:\\GitHub\\XGS_SA_Unity_Web\\XGS_Satama_Areena\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -9779,6 +9780,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/2000b0aP.dag.json",
-  "PayloadsFile": "D:/GitHub/XGS_SA_Unity_Web/XGS_Satama_Areena/Library/Bee/2000b0aP.dag.payloads",
+  "PayloadsFile": "C:/GitHub/XGS_SA_Unity_Web/XGS_Satama_Areena/Library/Bee/2000b0aP.dag.payloads",
   "RelativePathToRoot": "../.."
 }

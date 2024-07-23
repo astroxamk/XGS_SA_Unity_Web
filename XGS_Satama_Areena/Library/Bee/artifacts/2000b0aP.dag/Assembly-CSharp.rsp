@@ -310,6 +310,7 @@
 "Assets/Scripts/Localizations/LocaleSelector.cs"
 "Assets/Scripts/PlayerScripts/PlayerController.cs"
 "Assets/Scripts/UIScripts/InfoTableManager.cs"
+"Assets/Scripts/UIScripts/PressAnyKeyToContinue.cs"
 "Assets/Scripts/UIScripts/StartController.cs"
 "Assets/Scripts/UIScripts/UIController.cs"
 -langversion:9.0

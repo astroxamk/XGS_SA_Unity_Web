@@ -13,7 +13,6 @@ public class UIController : MonoBehaviour
     public GameObject SettingsPc;
     public GameObject SettingsMobile;
     public PlayerCam playerCamera;
-    public GameObject settingsLeft;
 
     [Header ("Control Settings Window")]
     public GameObject RightSettings;
@@ -25,10 +24,11 @@ public class UIController : MonoBehaviour
     public GameObject StairSeatings;
     public bool isSettingsViewActive = false;
     
+    // Private variables
     private bool isSeatingActive = false;
+    Scene scene;
     private int desktopScene = 1;
     private int mobileScene = 2;
-    Scene scene;
 
     void Start() { 
         MenuBtn.onClick.AddListener(HandleMainMenuBtn); 
@@ -39,13 +39,11 @@ public class UIController : MonoBehaviour
         if (Input.GetKeyDown(menuKey))
             HandleMainMenuBtn();
 
-        if (isSeatingActive)
-        {
+        if (isSeatingActive) {
             seatingText.text = "ON";
             seatingTextMobile.text = "ON";
         }
-        else
-        {
+        else {
             seatingText.text = "OFF"; 
             seatingTextMobile.text = "OFF";
         }
@@ -63,17 +61,11 @@ public class UIController : MonoBehaviour
 
         if (isSettingsViewActive) {
             EnableMouse();
-
-            if (scene.buildIndex == mobileScene)
-                settingsLeft.SetActive(true);
-            else
-                settingsLeft.SetActive(false);
         }
         else
             DisableMouse();
 
-        if (scene.buildIndex <= desktopScene)
-        {
+        if (scene.buildIndex <= desktopScene) {
             bool newState = !playerCamera.enabled;
             playerCamera.enabled = newState;
         }
