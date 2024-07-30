@@ -3980,12 +3980,12 @@ struct U3CU3Ec_tEEE693F41D7665EB0D90446C9739BF3BEC101332  : public RuntimeObject
 struct U3CU3Ec_t04E77827D54CC7D69F04FDFC5A84C3F7392F9A76  : public RuntimeObject
 {
 };
-struct U3CLoadAsyncU3Ed__5_t060582D6122B523CC911B0003B6540930B42127C  : public RuntimeObject
+struct U3CLoadAsyncU3Ed__6_tD029F19520186B7C552FDEB2212E75D7D2E09A37  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
-	int32_t ___scene;
 	StartController_t86E8884BE5CC79EF2E1A316ACCCABD3B1DDF9631* ___U3CU3E4__this;
+	int32_t ___scene;
 	AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* ___U3CoperationU3E5__2;
 };
 struct U3CU3Ec_t26646DD1212433C3F3E7825092F3BFF4FB7F6226  : public RuntimeObject
@@ -17613,6 +17613,7 @@ struct StartController_t86E8884BE5CC79EF2E1A316ACCCABD3B1DDF9631  : public MonoB
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___languageSelection;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___platformSelection;
 	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___slider;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___loadingNumber;
 };
 struct StringTable_tDCAFD2558506AB46374D3CB6479C9F5B5F6591E1  : public DetailedLocalizationTable_1_t7452A24D1BB260F6AA42A101F4967D4910B3A6D9
 {
@@ -24880,7 +24881,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize7442 = { sizeof(InfoTableMan
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7443;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize7443 = { sizeof(PressAnyKeyToContinue_t9A1A76CFE3631BB3EA83BB1E7A8BD87D20A2DDDB), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7444;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize7444 = { sizeof(U3CLoadAsyncU3Ed__5_t060582D6122B523CC911B0003B6540930B42127C), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize7444 = { sizeof(U3CLoadAsyncU3Ed__6_tD029F19520186B7C552FDEB2212E75D7D2E09A37), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7445;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize7445 = { sizeof(StartController_t86E8884BE5CC79EF2E1A316ACCCABD3B1DDF9631), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7446;

@@ -2618,12 +2618,12 @@ struct U3CU3Ec_tEEE693F41D7665EB0D90446C9739BF3BEC101332  : public RuntimeObject
 struct U3CU3Ec_t04E77827D54CC7D69F04FDFC5A84C3F7392F9A76  : public RuntimeObject
 {
 };
-struct U3CLoadAsyncU3Ed__5_t060582D6122B523CC911B0003B6540930B42127C  : public RuntimeObject
+struct U3CLoadAsyncU3Ed__6_tD029F19520186B7C552FDEB2212E75D7D2E09A37  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
-	int32_t ___scene;
 	StartController_t86E8884BE5CC79EF2E1A316ACCCABD3B1DDF9631* ___U3CU3E4__this;
+	int32_t ___scene;
 	AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* ___U3CoperationU3E5__2;
 };
 struct U3CU3Ec_t26646DD1212433C3F3E7825092F3BFF4FB7F6226  : public RuntimeObject
@@ -11281,6 +11281,7 @@ struct StartController_t86E8884BE5CC79EF2E1A316ACCCABD3B1DDF9631  : public MonoB
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___languageSelection;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___platformSelection;
 	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___slider;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___loadingNumber;
 };
 struct TMP_ScrollbarEventHandler_t84C389ED6800977DAEA8C025E18C9F3321888F4D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -16860,10 +16861,10 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7443[3] =
 	static_cast<int32_t>(offsetof(PressAnyKeyToContinue_t9A1A76CFE3631BB3EA83BB1E7A8BD87D20A2DDDB, ___text)),static_cast<int32_t>(offsetof(PressAnyKeyToContinue_t9A1A76CFE3631BB3EA83BB1E7A8BD87D20A2DDDB, ___pulseSpeed)),static_cast<int32_t>(offsetof(PressAnyKeyToContinue_t9A1A76CFE3631BB3EA83BB1E7A8BD87D20A2DDDB, ___originalAlpha)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7444[5] = 
 {
-	static_cast<int32_t>(offsetof(U3CLoadAsyncU3Ed__5_t060582D6122B523CC911B0003B6540930B42127C, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CLoadAsyncU3Ed__5_t060582D6122B523CC911B0003B6540930B42127C, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CLoadAsyncU3Ed__5_t060582D6122B523CC911B0003B6540930B42127C, ___scene)),static_cast<int32_t>(offsetof(U3CLoadAsyncU3Ed__5_t060582D6122B523CC911B0003B6540930B42127C, ___U3CU3E4__this)),static_cast<int32_t>(offsetof(U3CLoadAsyncU3Ed__5_t060582D6122B523CC911B0003B6540930B42127C, ___U3CoperationU3E5__2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7445[3] = 
+	static_cast<int32_t>(offsetof(U3CLoadAsyncU3Ed__6_tD029F19520186B7C552FDEB2212E75D7D2E09A37, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CLoadAsyncU3Ed__6_tD029F19520186B7C552FDEB2212E75D7D2E09A37, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CLoadAsyncU3Ed__6_tD029F19520186B7C552FDEB2212E75D7D2E09A37, ___U3CU3E4__this)),static_cast<int32_t>(offsetof(U3CLoadAsyncU3Ed__6_tD029F19520186B7C552FDEB2212E75D7D2E09A37, ___scene)),static_cast<int32_t>(offsetof(U3CLoadAsyncU3Ed__6_tD029F19520186B7C552FDEB2212E75D7D2E09A37, ___U3CoperationU3E5__2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7445[4] = 
 {
-	static_cast<int32_t>(offsetof(StartController_t86E8884BE5CC79EF2E1A316ACCCABD3B1DDF9631, ___languageSelection)),static_cast<int32_t>(offsetof(StartController_t86E8884BE5CC79EF2E1A316ACCCABD3B1DDF9631, ___platformSelection)),static_cast<int32_t>(offsetof(StartController_t86E8884BE5CC79EF2E1A316ACCCABD3B1DDF9631, ___slider)),};
+	static_cast<int32_t>(offsetof(StartController_t86E8884BE5CC79EF2E1A316ACCCABD3B1DDF9631, ___languageSelection)),static_cast<int32_t>(offsetof(StartController_t86E8884BE5CC79EF2E1A316ACCCABD3B1DDF9631, ___platformSelection)),static_cast<int32_t>(offsetof(StartController_t86E8884BE5CC79EF2E1A316ACCCABD3B1DDF9631, ___slider)),static_cast<int32_t>(offsetof(StartController_t86E8884BE5CC79EF2E1A316ACCCABD3B1DDF9631, ___loadingNumber)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7446[17] = 
 {
 	static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___MenuBtn)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___menuKey)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___SettingsPc)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___SettingsMobile)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___playerCamera)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___RightSettings)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___RightSettingsAlternative)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___RightSettingsMobile)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___RightSettingsAlternativeMobile)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___seatingText)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___seatingTextMobile)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___StairSeatings)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___isSettingsViewActive)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___isSeatingActive)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___scene)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___desktopScene)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___mobileScene)),};

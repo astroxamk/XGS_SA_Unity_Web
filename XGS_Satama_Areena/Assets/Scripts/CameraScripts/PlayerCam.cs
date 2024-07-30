@@ -7,13 +7,12 @@ public class PlayerCam : MonoBehaviour
     public float mouseSensitivity = 100f;
     public float keyRotationSpeed = 1.0f;
 
-    [Header ("Player Orientation")]
+    [Header("Camera Orientation")]
     public Transform playerBody;
 
     [Header ("Rotation variables")]
-    public float rotSpeed = 0.3f;
-    [Range(-1, 1)]
-    public int dir = -1;
+    public float rotSpeed = 1.0f;
+    private int dir = -1;
 
     // Rotation variables
     private Touch initTouch = new Touch();
@@ -26,7 +25,7 @@ public class PlayerCam : MonoBehaviour
     Scene scene;
     private int desktopScene = 1;
     //private int mobileScene = 2;
-    private float screenDivide = Screen.width / 2 - (Screen.width % 4);
+    private float screenDivide = Screen.width / 2 - (Screen.width * 0.25f);
 
     private void Start() {
         origRot = playerBody.transform.eulerAngles;

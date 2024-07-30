@@ -19,6 +19,7 @@ public class UIController : MonoBehaviour
     public GameObject RightSettingsAlternative;
     public GameObject RightSettingsMobile;
     public GameObject RightSettingsAlternativeMobile;
+    public GameObject LeftSettingsAlternativeMobile;
     public TextMeshProUGUI seatingText;
     public TextMeshProUGUI seatingTextMobile;
     public GameObject StairSeatings;
@@ -28,7 +29,7 @@ public class UIController : MonoBehaviour
     private bool isSeatingActive = false;
     Scene scene;
     private int desktopScene = 1;
-    private int mobileScene = 2;
+    //private int mobileScene = 2;
 
     void Start() { 
         MenuBtn.onClick.AddListener(HandleMainMenuBtn); 
@@ -74,6 +75,7 @@ public class UIController : MonoBehaviour
         RightSettingsMobile.SetActive(true);
         RightSettingsAlternative.SetActive(false);
         RightSettingsAlternativeMobile.SetActive(false);
+        LeftSettingsAlternativeMobile.SetActive(false);
     }
 
     /// <summary>
@@ -102,5 +104,6 @@ public class UIController : MonoBehaviour
         RightSettingsMobile.SetActive(false);
         RightSettingsAlternative.SetActive(true);
         RightSettingsAlternativeMobile.SetActive(true);
+        LeftSettingsAlternativeMobile.SetActive(true);
     }
 }
