@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MainMobileScene/MobileScene.unity
+- path: Assets/Scenes/MainDesktopScene/DesktopScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
