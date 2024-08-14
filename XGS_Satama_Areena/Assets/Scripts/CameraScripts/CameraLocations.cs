@@ -1,60 +1,46 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class CameraLocations : MonoBehaviour
 {
     [Header("Camera locations")]
-    [SerializeField] private Transform XL_cameraAngle;
-    [SerializeField] private Transform M_cameraAngle;
-    [SerializeField] private Transform S_cameraAngle;
-    [SerializeField] private Transform XS_cameraAngle;
+    [SerializeField] private Transform[] CameraAngles;
 
     [Header("UI Buttons")]
-    [SerializeField] private Button XL_cameraAngleBtn;
-    [SerializeField] private Button M_cameraAngleBtn;
-    [SerializeField] private Button S_cameraAngleBtn;
-    [SerializeField] private Button XS_cameraAngleBtn;
+    [SerializeField] private Button[] CameraBtns;
 
     [Header("Main Camera")]
     [SerializeField] private Camera mainCamera;
-    [SerializeField] private Transform PlayerCam;
-
-    Scene scene;
 
     private void Start()
     {
-        scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
-
-        XL_cameraAngleBtn.onClick.AddListener(() => MoveCamera(XL_cameraAngle));
-        M_cameraAngleBtn.onClick.AddListener(() => MoveCamera(M_cameraAngle));
-        S_cameraAngleBtn.onClick.AddListener(() => MoveCamera(S_cameraAngle));
-        XS_cameraAngleBtn.onClick.AddListener(() => MoveCamera(XS_cameraAngle));
-
-        //if (scene.buildIndex == 1)
-        //{
-        //    XL_cameraAngleBtn.enabled = false;
-        //    M_cameraAngleBtn.enabled = false;
-        //    S_cameraAngleBtn.enabled = false;
-        //    XS_cameraAngleBtn.enabled = false;
-        //}
-
-        XL_cameraAngleBtn.enabled = false;
-        M_cameraAngleBtn.enabled = false;
-        S_cameraAngleBtn.enabled = false;
-        XS_cameraAngleBtn.enabled = false;
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        for (int i = 0; i < CameraBtns.Length; i++)
         {
-            mainCamera.transform.position = PlayerCam.position;
+            int cameraInt = i;
+            CameraBtns[i].onClick.AddListener(() => changeCameraLocation(cameraInt));
         }
     }
 
-    void MoveCamera(Transform targetPosition)
+    public void changeCameraLocation(int cameraInt)
     {
-        mainCamera.transform.position = targetPosition.position;
+        CameraAngles[cameraInt].gameObject.SetActive(true);
+        mainCamera.gameObject.SetActive(false);
+        
+        foreach (Transform camera in CameraAngles)
+        {
+            if (camera != CameraAngles[cameraInt])
+            {
+                camera.gameObject.SetActive(false);
+            }
+        }
+    }
+
+    public void ReturnCamera()
+    {
+        foreach (Transform camera in CameraAngles)
+        {
+            camera.gameObject.SetActive(false);
+        }
+        mainCamera.gameObject.SetActive(true);
     }
 }

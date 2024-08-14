@@ -35,12 +35,16 @@ public class PlayerCam : MonoBehaviour
     }
 
     private void Update() {
-        if (scene.buildIndex == desktopScene) {
-            KeyboardControls("Rotate X", "Rotate Y", keyRotationSpeed);
-            KeyboardControls("Mouse X", "Mouse Y", mouseSensitivity);
+        if (this.gameObject.activeInHierarchy)
+        {
+            if (scene.buildIndex == desktopScene)
+            {
+                KeyboardControls("Rotate X", "Rotate Y", keyRotationSpeed);
+                KeyboardControls("Mouse X", "Mouse Y", mouseSensitivity);
+            }
+            else
+                MobileControls(screenDivide);
         }
-        else
-            MobileControls(screenDivide);
     }
 
     /// <summary>
