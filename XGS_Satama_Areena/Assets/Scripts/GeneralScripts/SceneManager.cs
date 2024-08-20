@@ -9,12 +9,6 @@ public class SceneManager : MonoBehaviour
     [SerializeField] private Button SeminarScene;
     [SerializeField] private Button ExhibitionScene;
 
-    [Header ("Scene management buttons mobile")]
-    [SerializeField] private Button InfoSceneMobile;
-    [SerializeField] private Button ConcertSceneMobile;
-    [SerializeField] private Button SeminarSceneMobile;
-    [SerializeField] private Button ExhibitionSceneMobile;
-
     [Header ("Other variables")]
     [SerializeField] private GameObject HallInformation;
     [SerializeField] private GameObject Charts;
@@ -26,12 +20,6 @@ public class SceneManager : MonoBehaviour
         ConcertScene.onClick.AddListener(HandleConcertScene);
         SeminarScene.onClick.AddListener(HandleSemiarScene);
         ExhibitionScene.onClick.AddListener(HandleExhibitionScene);
-
-        // Mobile listeners
-        InfoSceneMobile.onClick.AddListener(HandleInfoScene);
-        ConcertSceneMobile.onClick.AddListener(HandleConcertScene);
-        SeminarSceneMobile.onClick.AddListener(HandleSemiarScene);
-        ExhibitionSceneMobile.onClick.AddListener(HandleExhibitionScene);
     }
 
     public void HandleInfoScene()

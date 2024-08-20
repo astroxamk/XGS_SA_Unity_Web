@@ -1,9 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AdditionalCameraControl
+    - CameraLocations
     - FixedJoystick
     - HallManager
     - InfoTableManager
+    - InfoTableManager_Mobile
     - LocaleSelector
     - MobileManager
     - PlayerCam
@@ -13,6 +16,8 @@ ScriptsOnlyBuild:
     - SceneManager
     - StartController
     - UIController
+    - UIController_Mobile
+    - temporaryScript
     Unity.Addressables.Editor.dll:
     - UnityEditor.AddressableAssets.AddressableAssetSettingsDefaultObject
     - UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptFastMode
@@ -34,6 +39,8 @@ ScriptsOnlyBuild:
     - UnityEngine.Localization.Locale
     - UnityEngine.Localization.LocalizationBehaviour
     - UnityEngine.Localization.Settings.LocalizationSettings
+    - UnityEngine.Localization.Tables.SharedTableData
+    - UnityEngine.Localization.Tables.StringTable
     - UnityEngine.Localization.VariantsPropertyDriver
     Unity.Postprocessing.Runtime.dll:
     - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
@@ -51,6 +58,8 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.PostProcessing.PostProcessVolume
     - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
     - UnityEngine.Rendering.PostProcessing.Vignette
+    Unity.ResourceManager.dll:
+    - MonoBehaviourCallbackHooks
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -170,20 +179,20 @@ ScriptsOnlyBuild:
     methodName: HandlePlatformButtonPress
   - assembly: Assembly-CSharp
     fullTypeName: StartController
+    methodName: HandleLanguageButtonPress
+  - assembly: Assembly-CSharp
+    fullTypeName: StartController
+    methodName: HandleLanguageButtonPress
+  - assembly: Assembly-CSharp
+    fullTypeName: StartController
+    methodName: HandleLanguageButtonPress
+  - assembly: Assembly-CSharp
+    fullTypeName: StartController
+    methodName: HandleLanguageButtonPress
+  - assembly: Assembly-CSharp
+    fullTypeName: StartController
     methodName: HandlePlatformButtonPress
   - assembly: Assembly-CSharp
-    fullTypeName: StartController
-    methodName: HandleLanguageButtonPress
-  - assembly: Assembly-CSharp
-    fullTypeName: StartController
-    methodName: HandleLanguageButtonPress
-  - assembly: Assembly-CSharp
-    fullTypeName: StartController
-    methodName: HandleLanguageButtonPress
-  - assembly: Assembly-CSharp
-    fullTypeName: StartController
-    methodName: HandleLanguageButtonPress
-  - assembly: Assembly-CSharp
     fullTypeName: InfoTableManager
     methodName: onPrevPageButton
   - assembly: Assembly-CSharp
@@ -192,9 +201,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: InfoTableManager
     methodName: onCloseButton
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
+  - assembly: Assembly-CSharp
+    fullTypeName: CameraLocations
+    methodName: ReturnCamera
   - assembly: Assembly-CSharp
     fullTypeName: UIController
     methodName: HandleSeatings
@@ -204,126 +213,75 @@ ScriptsOnlyBuild:
   - assembly: Unity.TextMeshPro
     fullTypeName: TMPro.TMP_Text
     methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
   - assembly: Assembly-CSharp
-    fullTypeName: UIController
-    methodName: HandleMainSettingsWindow
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Assembly-CSharp
-    fullTypeName: UIController
-    methodName: HandleSeatings
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Assembly-CSharp
-    fullTypeName: UIController
-    methodName: HandleMainSettingsWindow
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
+    fullTypeName: CameraLocations
+    methodName: ReturnCamera
   - assembly: Unity.TextMeshPro
     fullTypeName: TMPro.TMP_Text
     methodName: set_text
@@ -339,81 +297,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: InfoTableManager
     methodName: onCloseButton
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Assembly-CSharp
-    fullTypeName: UIController
-    methodName: HandleSeatings
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Assembly-CSharp
-    fullTypeName: UIController
-    methodName: HandleMainSettingsWindow
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Assembly-CSharp
-    fullTypeName: UIController
-    methodName: HandleSeatings
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Assembly-CSharp
-    fullTypeName: UIController
-    methodName: HandleMainSettingsWindow
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_Text
-    methodName: set_text
   - assembly: Unity.TextMeshPro
     fullTypeName: TMPro.TMP_Text
     methodName: set_text
@@ -517,57 +400,61 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1598}
+      Script: {instanceID: 1626}
     - Class: 114
       Script: {instanceID: 1628}
     - Class: 114
-      Script: {instanceID: 1630}
+      Script: {instanceID: 1786}
     - Class: 114
       Script: {instanceID: 2072}
     - Class: 114
       Script: {instanceID: 2312}
     - Class: 114
-      Script: {instanceID: 2604}
+      Script: {instanceID: 2316}
     - Class: 114
-      Script: {instanceID: 2706}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 3026}
+      Script: {instanceID: 2708}
     - Class: 114
-      Script: {instanceID: 3276}
+      Script: {instanceID: 3028}
     - Class: 114
-      Script: {instanceID: 3662}
+      Script: {instanceID: 3278}
     - Class: 114
-      Script: {instanceID: 5250}
+      Script: {instanceID: 3458}
     - Class: 114
-      Script: {instanceID: 5692}
+      Script: {instanceID: 3666}
     - Class: 114
-      Script: {instanceID: 5864}
+      Script: {instanceID: 5254}
     - Class: 114
-      Script: {instanceID: 5940}
+      Script: {instanceID: 5696}
     - Class: 114
-      Script: {instanceID: 6292}
+      Script: {instanceID: 5868}
     - Class: 114
-      Script: {instanceID: 6646}
+      Script: {instanceID: 5944}
     - Class: 114
-      Script: {instanceID: 7194}
+      Script: {instanceID: 6160}
     - Class: 114
-      Script: {instanceID: 7262}
+      Script: {instanceID: 6298}
     - Class: 114
-      Script: {instanceID: 7706}
+      Script: {instanceID: 6652}
     - Class: 114
-      Script: {instanceID: 9076}
+      Script: {instanceID: 7200}
     - Class: 114
-      Script: {instanceID: 9098}
+      Script: {instanceID: 7268}
     - Class: 114
-      Script: {instanceID: 9240}
+      Script: {instanceID: 7712}
     - Class: 114
-      Script: {instanceID: 9444}
+      Script: {instanceID: 9082}
     - Class: 114
-      Script: {instanceID: 9870}
+      Script: {instanceID: 9104}
     - Class: 114
-      Script: {instanceID: 10134}
+      Script: {instanceID: 9210}
     - Class: 114
-      Script: {instanceID: 10138}
+      Script: {instanceID: 9248}
+    - Class: 114
+      Script: {instanceID: 9452}
+    - Class: 114
+      Script: {instanceID: 9878}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -634,57 +521,61 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1598}
+      Script: {instanceID: 1626}
     - Class: 114
       Script: {instanceID: 1628}
     - Class: 114
-      Script: {instanceID: 1630}
+      Script: {instanceID: 1786}
     - Class: 114
       Script: {instanceID: 2072}
     - Class: 114
       Script: {instanceID: 2312}
     - Class: 114
-      Script: {instanceID: 2604}
+      Script: {instanceID: 2316}
     - Class: 114
-      Script: {instanceID: 2706}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 3026}
+      Script: {instanceID: 2708}
     - Class: 114
-      Script: {instanceID: 3276}
+      Script: {instanceID: 3028}
     - Class: 114
-      Script: {instanceID: 3662}
+      Script: {instanceID: 3278}
     - Class: 114
-      Script: {instanceID: 5250}
+      Script: {instanceID: 3458}
     - Class: 114
-      Script: {instanceID: 5692}
+      Script: {instanceID: 3666}
     - Class: 114
-      Script: {instanceID: 5864}
+      Script: {instanceID: 5254}
     - Class: 114
-      Script: {instanceID: 5940}
+      Script: {instanceID: 5696}
     - Class: 114
-      Script: {instanceID: 6292}
+      Script: {instanceID: 5868}
     - Class: 114
-      Script: {instanceID: 6646}
+      Script: {instanceID: 5944}
     - Class: 114
-      Script: {instanceID: 7194}
+      Script: {instanceID: 6298}
     - Class: 114
-      Script: {instanceID: 7262}
+      Script: {instanceID: 6652}
     - Class: 114
-      Script: {instanceID: 7706}
+      Script: {instanceID: 7200}
     - Class: 114
-      Script: {instanceID: 9076}
+      Script: {instanceID: 7268}
     - Class: 114
-      Script: {instanceID: 9098}
+      Script: {instanceID: 7712}
     - Class: 114
-      Script: {instanceID: 9240}
+      Script: {instanceID: 9082}
     - Class: 114
-      Script: {instanceID: 9444}
+      Script: {instanceID: 9104}
     - Class: 114
-      Script: {instanceID: 9870}
+      Script: {instanceID: 9210}
     - Class: 114
-      Script: {instanceID: 10134}
+      Script: {instanceID: 9248}
     - Class: 114
-      Script: {instanceID: 10138}
+      Script: {instanceID: 9452}
+    - Class: 114
+      Script: {instanceID: 109902}
+    - Class: 114
+      Script: {instanceID: 447608}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -737,33 +628,35 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1628}
+      Script: {instanceID: 1626}
     - Class: 114
-      Script: {instanceID: 1630}
+      Script: {instanceID: 1628}
     - Class: 114
       Script: {instanceID: 2228}
     - Class: 114
-      Script: {instanceID: 2436}
+      Script: {instanceID: 2438}
     - Class: 114
-      Script: {instanceID: 2604}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 3026}
+      Script: {instanceID: 3028}
     - Class: 114
-      Script: {instanceID: 3276}
+      Script: {instanceID: 3278}
     - Class: 114
-      Script: {instanceID: 3662}
+      Script: {instanceID: 3666}
     - Class: 114
-      Script: {instanceID: 4996}
+      Script: {instanceID: 5000}
     - Class: 114
-      Script: {instanceID: 5348}
+      Script: {instanceID: 5352}
     - Class: 114
-      Script: {instanceID: 6190}
+      Script: {instanceID: 6196}
     - Class: 114
-      Script: {instanceID: 6292}
+      Script: {instanceID: 6298}
     - Class: 114
-      Script: {instanceID: 7262}
+      Script: {instanceID: 7268}
     - Class: 114
-      Script: {instanceID: 7706}
+      Script: {instanceID: 7712}
+    - Class: 114
+      Script: {instanceID: 2292186}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -783,12 +676,6 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: bb9900ae83710368292cc83bf78bcfd4
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: UIController
-  - hash:
-      serializedVersion: 2
       Hash: 540882762544409cc4530e60db00e951
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -805,6 +692,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UIElements
     className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 31420494680738a9bf165e281cc557ea
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AdditionalCameraControl
   - hash:
       serializedVersion: 2
       Hash: f45600bcc886206dd55a3208474aad61
@@ -861,7 +754,7 @@ ScriptsOnlyBuild:
     className: SharedTableData
   - hash:
       serializedVersion: 2
-      Hash: 8e9ca04ba1f73d8b31c4da15d67b058a
+      Hash: b4b2ff1c821ebc6b2a6c7f54d2c842c0
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: HallManager
@@ -883,6 +776,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: FixedJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: fc0ca8742a7669db10870e14cf4917f8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PressAnyKeyToContinue
   - hash:
       serializedVersion: 2
       Hash: b12640dfdb5966813e9dd838893e6c4a
@@ -1045,6 +944,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 62361ef77d48f611741a1ded3f5a1b84
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerCam
   - hash:
       serializedVersion: 2
       Hash: b98001682cba83786775c9e415b89a61
@@ -1293,7 +1198,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
-      Hash: 4b0fba9998dd7ee8bf46670903e27564
+      Hash: 4a922943dd8e6092e668978ed56ace74
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerController
@@ -1441,6 +1346,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 1d25d51f23abb2de5e2a364652210872
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIController
   - hash:
       serializedVersion: 2
       Hash: 522f6865b4ec12522e602206785309f8
@@ -1797,7 +1708,7 @@ ScriptsOnlyBuild:
     className: PostProcessProfile
   - hash:
       serializedVersion: 2
-      Hash: e64a69a92a8563c16d0d67d14ed8946b
+      Hash: 2c0805f556d09ba6c9e0dea5268ccc66
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SceneManager
@@ -1821,7 +1732,13 @@ ScriptsOnlyBuild:
     className: CompatibilityAssetBundleManifest
   - hash:
       serializedVersion: 2
-      Hash: 578850245d2d90640da4af3dd3f364ca
+      Hash: 961126bb72d68351848cf0063a759b15
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CameraLocations
+  - hash:
+      serializedVersion: 2
+      Hash: 7444b58f52182e900b160d29d7754a27
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerPosition
@@ -1929,16 +1846,22 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 62361ef77d48f611741a1ded3f5a1b84
+      Hash: d6b5bc4f1289a7f55065aab670fa92ab
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: PlayerCam
+    className: UIController_Mobile
   - hash:
       serializedVersion: 2
-      Hash: fc0ca8742a7669db10870e14cf4917f8
+      Hash: 25a0bf46aea4522c314368702cefd7b6
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: PressAnyKeyToContinue
+    className: InfoTableManager_Mobile
+  - hash:
+      serializedVersion: 2
+      Hash: 22ef99b4d639d2e515e0f297c892effc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: temporaryScript
   platform: 20
   scenePathNames:
   - Assets/Scenes/StartScene.unity

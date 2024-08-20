@@ -9,12 +9,6 @@ public class HallManager : MonoBehaviour
     [SerializeField] private Button multiHallAlt;
     [SerializeField] private Button multiHall;
 
-    [Header ("Hall Control Buttons Mobile")]
-    [SerializeField] private Button extraLargeHallMobile;
-    [SerializeField] private Button largeAndExtraSmallHallMobile;
-    [SerializeField] private Button multiHallAltMobile;
-    [SerializeField] private Button multiHallMobile;
-
     [Header ("Curtains (Add XS hall curtain)")]
     [SerializeField] private GameObject curtainMediumHallSide;
     [SerializeField] private GameObject curtainSmallHallSide;
@@ -81,53 +75,8 @@ public class HallManager : MonoBehaviour
             XS_HallInformation
         }, new[] { true, true, true, false, false, true, false, true, false, true }, "XS, S & M Hall"));
         
-        // Mobile Listeners
-        extraLargeHallMobile.onClick.AddListener(() => HandleHall(new[] 
-        {
-            curtainSmallHallSide,
-            curtainMediumHallSide,
-            curtainExtraSmallHall,
-            XL_HallInformation,
-            L_HallInformation,
-            M_HallInformation,
-            M_HallInformation_Alternative,
-            S_HallInformation,
-            S_HallInformation_Alternative,
-            XS_HallInformation
-        }, new[] { false, false, false, true, false, false, false, false, false, false }, "XL Hall"));
-
-        largeAndExtraSmallHallMobile.onClick.AddListener(() => HandleHall(new[] 
-        {
-            curtainSmallHallSide,
-            curtainMediumHallSide,
-            curtainExtraSmallHall,
-            XL_HallInformation,
-            L_HallInformation,
-            M_HallInformation,
-            M_HallInformation_Alternative,
-            S_HallInformation,
-            S_HallInformation_Alternative,
-            XS_HallInformation
-        }, new[] { false, false, true, false, true, false, false, false, false, true }, "XS & L Hall"));
-
-        multiHallMobile.onClick.AddListener(() => HandleHall(new[] 
-        {
-            curtainSmallHallSide,
-            curtainMediumHallSide,
-            curtainExtraSmallHall,
-            XL_HallInformation,
-            L_HallInformation,
-            M_HallInformation,
-            M_HallInformation_Alternative,
-            S_HallInformation,
-            S_HallInformation_Alternative,
-            XS_HallInformation
-        }, new[] { true, true, true, false, false, true, false, true, false, true }, "XS, S & M Hall"));
-
         // Alternate Buttons Listeners
         multiHallAlt.onClick.AddListener(ToggleCurtains);
-        multiHallAltMobile.onClick.AddListener(ToggleCurtains);
-
     }
 
     /// <summary>

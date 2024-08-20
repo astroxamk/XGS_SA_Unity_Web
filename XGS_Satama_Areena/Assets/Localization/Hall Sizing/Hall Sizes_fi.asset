@@ -17,56 +17,7 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: de9b1cc5b9fae28448f98c0b032b624f, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData:
-  - m_Id: 7716687872
-    m_Localized: "XL-Sali\n\n1860 m\xB2\n\n3200 Henkil\xF6\xE4"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 29610954752
-    m_Localized: "L-Sali\n\n1480 m\xB2\n"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 43330523136
-    m_Localized: "M-Sali\n\n530 m\xB2"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 63362519040
-    m_Localized: "S-Sali\n\n680 m\xB2"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 153238065152
-    m_Localized: "XS-Sali\n\n380 m\xB2"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10164471283798016
-    m_Localized: "S-Sali\n\n950 m\xB2"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10165654647951360
-    m_Localized: "600 Henkil\xF6\xE4: Seisovana\n\n725 Henkil\xF6\xE4: Teleskooppikatsomo"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10165651904876544
-    m_Localized: "2200 Henkil\xF6\xE4: \tSeisovana\n\n1518 Henkil\xF6\xE4: \tIstuvana
-      tuoliriveitt\xE4in\n\n750 Henkil\xF6\xE4: \tPy\xF6re\xE4t 10 henkil\xF6n p\xF6yd\xE4t\n\n820
-      Henkil\xF6\xE4:\tPitk\xE4t 8 henkil\xF6n p\xF6yd\xE4t"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10165653515489280
-    m_Localized: "800 Henkil\xF6\xE4:\tSeisovana\n\n400 Henkil\xF6\xE4:\tIstuvana,
-      tuolirivit\n\n320 Henkil\xF6\xE4:\tPy\xF6re\xE4t 10 henkil\xF6n p\xF6yd\xE4t\n\n424
-      Henkil\xF6\xE4:\tPitk\xE4t 8 henkil\xF6n p\xF6yd\xE4t"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10164468012240896
-    m_Localized: "M-Sali\n\n800 m\xB2"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10165796146991104
-    m_Localized: "308 Henkil\xF6\xE4:\tIstuvana, tuolirivit\n\n250 Henkil\xF6\xE4:\tPitk\xE4t
-      8 henkil\xF6n p\xF6yd\xE4t\n\n204 Henkil\xF6\xE4:\t2 henkil\xF6n luentop\xF6ydill\xE4"
-    m_Metadata:
-      m_Items: []
+  m_TableData: []
   references:
     version: 2
     RefIds: []

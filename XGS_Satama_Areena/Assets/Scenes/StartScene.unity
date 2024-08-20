@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1303691821660085638, guid: 27d1b30a61e3bc640bc8ad93b14d4c73, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1515935548955761313, guid: 27d1b30a61e3bc640bc8ad93b14d4c73, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -190,6 +194,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.3
       objectReference: {fileID: 0}
+    - target: {fileID: 3507289650899234621, guid: 27d1b30a61e3bc640bc8ad93b14d4c73, type: 3}
+      propertyPath: m_Color.a
+      value: 0.050980393
+      objectReference: {fileID: 0}
     - target: {fileID: 5356480363918289193, guid: 27d1b30a61e3bc640bc8ad93b14d4c73, type: 3}
       propertyPath: m_Value
       value: 0
@@ -201,6 +209,16 @@ PrefabInstance:
     - target: {fileID: 5535137699978649446, guid: 27d1b30a61e3bc640bc8ad93b14d4c73, type: 3}
       propertyPath: m_Name
       value: StartUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 6568226462714042674, guid: 27d1b30a61e3bc640bc8ad93b14d4c73, type: 3}
+      propertyPath: m_text
+      value: 'Mobile
+
+        Work in progress'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6568226462714042674, guid: 27d1b30a61e3bc640bc8ad93b14d4c73, type: 3}
+      propertyPath: m_fontSize
+      value: 38.5
       objectReference: {fileID: 0}
     - target: {fileID: 7592379813719204378, guid: 27d1b30a61e3bc640bc8ad93b14d4c73, type: 3}
       propertyPath: m_IsActive
@@ -289,8 +307,40 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8134968002923533686, guid: 27d1b30a61e3bc640bc8ad93b14d4c73, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 254684020}
   m_SourcePrefab: {fileID: 100100000, guid: 27d1b30a61e3bc640bc8ad93b14d4c73, type: 3}
+--- !u!1 &254684018 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8134968002923533686, guid: 27d1b30a61e3bc640bc8ad93b14d4c73, type: 3}
+  m_PrefabInstance: {fileID: 254684017}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &254684019 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4258115437691444804, guid: 27d1b30a61e3bc640bc8ad93b14d4c73, type: 3}
+  m_PrefabInstance: {fileID: 254684017}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254684018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &254684020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254684018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17ac0d9834cacb47b097e323479584e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisButton: {fileID: 254684019}
 --- !u!1 &800864554
 GameObject:
   m_ObjectHideFlags: 0

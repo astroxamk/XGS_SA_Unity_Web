@@ -17,56 +17,7 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: de9b1cc5b9fae28448f98c0b032b624f, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData:
-  - m_Id: 7716687872
-    m_Localized: "XL-Sal\n\n1860 m\xB2\n\n3200 Personer"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 29610954752
-    m_Localized: "L-Sal\n\n1480 m\xB2"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 43330523136
-    m_Localized: "M-Sal\n\n530 m\xB2"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 63362519040
-    m_Localized: "S-Sal\n\n680 m\xB2"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 153238065152
-    m_Localized: "XS-Sal\n\n380 m\xB2"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10165651904876544
-    m_Localized: "2200 Personer: st\xE5ende\n\n1518 Personer: sittande sida vid sida
-      i stolar\n\n750 Personer: Runda bord f\xF6r 10 personer\n\n820 Personer: L\xE5ngbord
-      f\xF6r 8 personer"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10165654647951360
-    m_Localized: "600 personer: st\xE5ende\n\n725 Personer: Teleskopl\xE4ktare"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10164471283798016
-    m_Localized: "S-Sal\n\n950 m\xB2"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10165653515489280
-    m_Localized: "800 personer: st\xE5ende\n\n400 personer: sittande, med rader av
-      stolar\n\n320 personer: Runda bord f\xF6r 10 personer\n\n424 Personer: L\xE5ngbord
-      f\xF6r 8 personer"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10164468012240896
-    m_Localized: "M-Sal\n\n800 m\xB2"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10165796146991104
-    m_Localized: "308 personer: sittande, rader av stolar\n\n250 Personer: l\xE5ngbord
-      f\xF6r 8 personer\n\n204 Personer: f\xF6rel\xE4sningsbord f\xF6r 2 personer"
-    m_Metadata:
-      m_Items: []
+  m_TableData: []
   references:
     version: 2
     RefIds: []

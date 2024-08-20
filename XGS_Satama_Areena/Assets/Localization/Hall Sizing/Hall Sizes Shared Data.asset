@@ -14,51 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: Hall Sizes
   m_TableCollectionNameGuidString: de9b1cc5b9fae28448f98c0b032b624f
-  m_Entries:
-  - m_Id: 7716687872
-    m_Key: XL Hall Main
-    m_Metadata:
-      m_Items: []
-  - m_Id: 29610954752
-    m_Key: L Hall Main
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10165651904876544
-    m_Key: L Capacity
-    m_Metadata:
-      m_Items: []
-  - m_Id: 43330523136
-    m_Key: M Hall Main
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10164468012240896
-    m_Key: M Hall (ALT)
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10165653515489280
-    m_Key: M Capacity
-    m_Metadata:
-      m_Items: []
-  - m_Id: 63362519040
-    m_Key: S Hall Main
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10164471283798016
-    m_Key: S Hall (ALT)
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10165654647951360
-    m_Key: S Capacity
-    m_Metadata:
-      m_Items: []
-  - m_Id: 153238065152
-    m_Key: XS Hall
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10165796146991104
-    m_Key: XS Capacity
-    m_Metadata:
-      m_Items: []
+  m_Entries: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

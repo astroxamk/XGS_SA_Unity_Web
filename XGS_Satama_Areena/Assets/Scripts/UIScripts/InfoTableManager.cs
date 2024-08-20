@@ -5,7 +5,7 @@ public class InfoTableManager : MonoBehaviour
 {
     [Header("Close Button")]
     public PlayerCam playerCamera;
-    public UIController uiController;
+    [SerializeField] private UIController uiController;
     public PlayerController playerController;
     public GameObject Menu_UI;
     [Header("Text Fields")]
@@ -18,17 +18,17 @@ public class InfoTableManager : MonoBehaviour
     [Header("Other")]
     public GameObject mobileControls;
 
-    private int textPage = 0;
-    private int mobileScene = 2;
-    Scene scene;
+    protected int textPage = 0;
+    protected int mobileScene = 2;
+    protected Scene scene;
 
-    private void Start() { scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene(); }
+    public void Start() { scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene(); }
 
     /// <summary>
     /// Method that closes the instructions tab and allows 
     /// the player to move in the scene
     /// </summary>
-    public void onCloseButton()
+    public virtual void onCloseButton()
     {
         uiController.DisableMouse();
         playerCamera.enabled = true;

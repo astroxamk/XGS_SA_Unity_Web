@@ -10,59 +10,57 @@ public class UIController : MonoBehaviour
     public KeyCode menuKey = KeyCode.Space;
 
     [Header ("Main Menu Genrals")]
-    public GameObject SettingsPc;
-    public GameObject SettingsMobile;
+    public GameObject Settings;
     public PlayerCam playerCamera;
 
     [Header ("Control Settings Window")]
     public GameObject RightSettings;
     public GameObject RightSettingsAlternative;
-    public GameObject RightSettingsMobile;
-    public GameObject RightSettingsAlternativeMobile;
-    public GameObject LeftSettingsAlternativeMobile;
     public TextMeshProUGUI seatingText;
-    public TextMeshProUGUI seatingTextMobile;
     public GameObject StairSeatings;
     public bool isSettingsViewActive = false;
+
+    [Header("Hall Settings Buttons")]
+    public Button[] buttons;
+    public GameObject[] hallSetting;
     
     // Private variables
-    private bool isSeatingActive = false;
-    Scene scene;
-    private int desktopScene = 1;
-    //private int mobileScene = 2;
+    protected bool isSeatingActive = false;
+    protected  Scene scene;
+    protected int desktopScene = 1;
 
-    void Start() { 
+    public void Start() { 
         MenuBtn.onClick.AddListener(HandleMainMenuBtn); 
         scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
+
+        for (int i = 0; i < buttons.Length; i++){
+            int buttonInt = i;
+            buttons[i].onClick.AddListener(() => HandleMainSettingsWindow(buttonInt));
+        }
     }
 
-    private void Update() {
+    public virtual void Update() {
         if (Input.GetKeyDown(menuKey))
             HandleMainMenuBtn();
+        else if (Input.GetKeyDown(KeyCode.Q))
+            RightSettingsAlternative.SetActive(false);
 
-        if (isSeatingActive) {
+        if (isSeatingActive) 
             seatingText.text = "ON";
-            seatingTextMobile.text = "ON";
-        }
-        else {
+        else
             seatingText.text = "OFF"; 
-            seatingTextMobile.text = "OFF";
-        }
     }
 
     /// <summary>
     /// A method that handles the main menu button
     /// </summary>
-    void HandleMainMenuBtn() {
+    public virtual void HandleMainMenuBtn() {
         isSettingsViewActive = !isSettingsViewActive;
-        if (scene.buildIndex <= desktopScene)
-            SettingsPc.SetActive(isSettingsViewActive);
-        else
-            SettingsMobile.SetActive(isSettingsViewActive);
+        if (scene.buildIndex == desktopScene)
+            Settings.SetActive(isSettingsViewActive);
 
-        if (isSettingsViewActive) {
+        if (isSettingsViewActive)
             EnableMouse();
-        }
         else
             DisableMouse();
 
@@ -72,10 +70,7 @@ public class UIController : MonoBehaviour
         }
 
         RightSettings.SetActive(true);
-        RightSettingsMobile.SetActive(true);
         RightSettingsAlternative.SetActive(false);
-        RightSettingsAlternativeMobile.SetActive(false);
-        LeftSettingsAlternativeMobile.SetActive(false);
     }
 
     /// <summary>
@@ -99,11 +94,14 @@ public class UIController : MonoBehaviour
         StairSeatings.SetActive(isSeatingActive);
     }
 
-    public void HandleMainSettingsWindow() {
-        RightSettings.SetActive(false);
-        RightSettingsMobile.SetActive(false);
+    public void HandleMainSettingsWindow(int buttonInt) {
         RightSettingsAlternative.SetActive(true);
-        RightSettingsAlternativeMobile.SetActive(true);
-        LeftSettingsAlternativeMobile.SetActive(true);
+        hallSetting[buttonInt].SetActive(true);
+
+        foreach (GameObject setting in hallSetting) {
+            if (setting != hallSetting[buttonInt]) {
+                setting.SetActive(false);
+            }
+        }
     }
 }

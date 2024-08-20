@@ -17,51 +17,7 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: ba23c3d5deb2ec94e940075e039b4a01, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData:
-  - m_Id: 2474688860160
-    m_Localized: Scener
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2782592716800
-    m_Localized: Info
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2910976167936
-    m_Localized: Konsert
-    m_Metadata:
-      m_Items: []
-  - m_Id: 3050579382272
-    m_Localized: Seminarium
-    m_Metadata:
-      m_Items: []
-  - m_Id: 3199598809088
-    m_Localized: "Utst\xE4llning"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 3406877118464
-    m_Localized: "Extra inst\xE4llningar"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 3619721269248
-    m_Localized: Hallkontroller
-    m_Metadata:
-      m_Items: []
-  - m_Id: 4272166227968
-    m_Localized: Flytta til sal
-    m_Metadata:
-      m_Items: []
-  - m_Id: 6619219054592
-    m_Localized: Teleskopiskt observatorium
-    m_Metadata:
-      m_Items: []
-  - m_Id: 7577458135040
-    m_Localized: "Huvudhallens m\xE5tt"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 9724274888704
-    m_Localized: Mobila kontroller
-    m_Metadata:
-      m_Items: []
+  m_TableData: []
   references:
     version: 2
     RefIds: []

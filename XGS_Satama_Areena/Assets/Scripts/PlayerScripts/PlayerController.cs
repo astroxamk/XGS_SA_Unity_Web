@@ -13,23 +13,16 @@ public class PlayerController : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
-    [Header ("Remember to delete from final file")]
-    public UIController uiController;
-
     Vector3 velocity;
     bool isGrounded;
+    public bool isSettingsViewActive = false;
 
-    private void Update()
-    {
-        if (mobileControls.activeInHierarchy == true) {
+    private void Update(){
+        if (mobileControls.activeInHierarchy == true)
             TouchControls();
-            // Delete this line from final file
-            uiController.EnableMouse();
-        }
-        else{
-            if (uiController.isSettingsViewActive == false)
-                KeyboardControls();
-        }
+        else
+            KeyboardControls();
+
         HandlePhysicsInGame();
     }
 
@@ -48,15 +41,23 @@ public class PlayerController : MonoBehaviour
     /// <summary>
     /// Method to control the player with the keyboard
     /// </summary>
-    void KeyboardControls() {
-        float horizontalMovementKeyboard = Input.GetAxis("Horizontal");
-        float verticalMovementKeyboard = Input.GetAxis("Vertical");
+    void KeyboardControls()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+            isSettingsViewActive = !isSettingsViewActive;
 
-        Vector3 movePlayerKeyboard = transform.right * horizontalMovementKeyboard + transform.forward * verticalMovementKeyboard;
+        if (isSettingsViewActive)
+            return;
+        else {
+            float horizontalMovementKeyboard = Input.GetAxis("Horizontal");
+            float verticalMovementKeyboard = Input.GetAxis("Vertical");
 
-        controller.Move(movePlayerKeyboard * Time.deltaTime * speed);
+            Vector3 movePlayerKeyboard = transform.right * horizontalMovementKeyboard + transform.forward * verticalMovementKeyboard;
+
+            controller.Move(movePlayerKeyboard * Time.deltaTime * speed);
+        }
     }
-    
+
     /// <summary>
     /// Method to handle the basic physics of the player
     /// </summary>
