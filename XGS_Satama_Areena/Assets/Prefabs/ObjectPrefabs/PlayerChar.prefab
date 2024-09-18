@@ -43,7 +43,6 @@ GameObject:
   - component: {fileID: 1398665182229877389}
   - component: {fileID: 5777782067866614937}
   - component: {fileID: 6723970580576823303}
-  - component: {fileID: 469868381919691481}
   - component: {fileID: 3906320668656797522}
   m_Layer: 0
   m_Name: Camera
@@ -142,28 +141,6 @@ MonoBehaviour:
   keyRotationSpeed: 75
   playerBody: {fileID: 7593550574155994880}
   rotSpeed: 0.35
---- !u!114 &469868381919691481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3340959698018566896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50bf3bb8531353945b8659cf5914fe1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  XL_cameraAngle: {fileID: 0}
-  M_cameraAngle: {fileID: 0}
-  S_cameraAngle: {fileID: 0}
-  XS_cameraAngle: {fileID: 0}
-  XL_cameraAngleBtn: {fileID: 0}
-  M_cameraAngleBtn: {fileID: 0}
-  S_cameraAngleBtn: {fileID: 0}
-  XS_cameraAngleBtn: {fileID: 0}
-  mainCamera: {fileID: 1398665182229877389}
-  PlayerCam: {fileID: 8701632552919325287}
 --- !u!114 &3906320668656797522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -415,7 +392,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 1024
-  uiController: {fileID: 0}
+  isSettingsViewActive: 0
 --- !u!1 &6614237320130586726
 GameObject:
   m_ObjectHideFlags: 0

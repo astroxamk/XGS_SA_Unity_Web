@@ -40,7 +40,7 @@ public class UIController : MonoBehaviour
     }
 
     public virtual void Update() {
-        if (Input.GetKeyDown(menuKey))
+        if (Input.GetKeyDown(menuKey)/*Add WASD cloing the settings windw*/)
             HandleMainMenuBtn();
         else if (Input.GetKeyDown(KeyCode.Q))
             RightSettingsAlternative.SetActive(false);

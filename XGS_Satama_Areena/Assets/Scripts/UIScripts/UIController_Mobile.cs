@@ -4,11 +4,16 @@ public class UIController_Mobile : UIController
 {
     [Header("Control Settings Window")]
     public GameObject LeftSettings;
-    public GameObject mobileControls;
 
-    public override void Update() {
+    public override void Update()
+    {
         if (Input.GetKeyDown(menuKey))
             HandleMainMenuBtn();
+
+        if (Input.GetKeyDown(KeyCode.E))
+            EnableMouse();
+        if (Input.GetKeyDown(KeyCode.R))
+            DisableMouse();
     }
 
     /// <summary>
@@ -20,22 +25,20 @@ public class UIController_Mobile : UIController
         if (scene.buildIndex != desktopScene)
             Settings.SetActive(isSettingsViewActive);
 
-        if (isSettingsViewActive) {
+        if (isSettingsViewActive)
             EnableMouse();
-            mobileControls.SetActive(!isSettingsViewActive);
-        }
         else {
             DisableMouse();
-            mobileControls.SetActive(!isSettingsViewActive);
-        }
 
-        if (scene.buildIndex <= desktopScene) {
-            bool newState = !playerCamera.enabled;
-            playerCamera.enabled = newState;
-        }
+            if (scene.buildIndex <= desktopScene)
+            {
+                bool newState = !playerCamera.enabled;
+                playerCamera.enabled = newState;
+            }
 
-        RightSettings.SetActive(true);
-        RightSettingsAlternative.SetActive(false);
-        LeftSettings.SetActive(true);
+            RightSettings.SetActive(true);
+            RightSettingsAlternative.SetActive(false);
+            LeftSettings.SetActive(true);
+        }
     }
 }

@@ -11728,7 +11728,6 @@ struct ToggleGroup_tF2E6FE7D4B17BDBF82462715CFB57C4FDE0A2A2C  : public UIBehavio
 struct UIController_Mobile_t806744079161500CF59539EAD7C834ED687EF17B  : public UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2
 {
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___LeftSettings;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___mobileControls;
 };
 struct VariableJoystick_t95B6EAEAADB3D548017BF6A0EB1C6456C9FD30A6  : public Joystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A
 {
@@ -16902,9 +16901,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7450[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7451[14] = 
 {
 	static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___MenuBtn)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___menuKey)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___Settings)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___playerCamera)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___RightSettings)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___RightSettingsAlternative)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___seatingText)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___StairSeatings)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___isSettingsViewActive)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___buttons)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___hallSetting)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___isSeatingActive)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___scene)),static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___desktopScene)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7452[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7452[1] = 
 {
-	static_cast<int32_t>(offsetof(UIController_Mobile_t806744079161500CF59539EAD7C834ED687EF17B, ___LeftSettings)),static_cast<int32_t>(offsetof(UIController_Mobile_t806744079161500CF59539EAD7C834ED687EF17B, ___mobileControls)),};
+	static_cast<int32_t>(offsetof(UIController_Mobile_t806744079161500CF59539EAD7C834ED687EF17B, ___LeftSettings)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7453[1] = 
 {
 	static_cast<int32_t>(offsetof(temporaryScript_tAA7C60E009BB9EB51E33BC8077BC6AFF4A2EE088, ___thisButton)),};
