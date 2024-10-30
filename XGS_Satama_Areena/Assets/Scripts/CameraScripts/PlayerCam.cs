@@ -25,7 +25,7 @@ public class PlayerCam : MonoBehaviour
     Scene scene;
     private int desktopScene = 1;
     //private int mobileScene = 2;
-    private float screenDivide = Screen.width / 2 - (Screen.width * 0.1f);
+    private float screenDivide = Screen.width / 2;// - (Screen.width * 0.1f);
 
     private void Start() {
         origRot = playerBody.transform.eulerAngles;
