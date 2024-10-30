@@ -38,6 +38,8 @@ ScriptsOnlyBuild:
     - UnityEngine.Localization.Locale
     - UnityEngine.Localization.LocalizationBehaviour
     - UnityEngine.Localization.Settings.LocalizationSettings
+    - UnityEngine.Localization.Tables.SharedTableData
+    - UnityEngine.Localization.Tables.StringTable
     - UnityEngine.Localization.VariantsPropertyDriver
     Unity.Postprocessing.Runtime.dll:
     - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
@@ -188,6 +190,12 @@ ScriptsOnlyBuild:
     fullTypeName: StartController
     methodName: HandleLanguageButtonPress
   - assembly: Assembly-CSharp
+    fullTypeName: CameraLocations
+    methodName: ReturnCamera
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: HandleSeatings
+  - assembly: Assembly-CSharp
     fullTypeName: InfoTableManager
     methodName: onPrevPageButton
   - assembly: Assembly-CSharp
@@ -196,12 +204,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: InfoTableManager
     methodName: onCloseButton
-  - assembly: Assembly-CSharp
-    fullTypeName: CameraLocations
-    methodName: ReturnCamera
-  - assembly: Assembly-CSharp
-    fullTypeName: UIController
-    methodName: HandleSeatings
   - assembly: Unity.TextMeshPro
     fullTypeName: TMPro.TMP_Text
     methodName: set_text
@@ -1203,7 +1205,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
-      Hash: 4a922943dd8e6092e668978ed56ace74
+      Hash: 7183c901aeb2412d613fd6bc7a301b28
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerController

@@ -1,3 +1,5 @@
+using System;
+using TMPro;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -12,6 +14,9 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
+
+    [Header ("testing case")]
+    public TextMeshProUGUI text;
 
     Vector3 velocity;
     bool isGrounded;
@@ -32,6 +37,7 @@ public class PlayerController : MonoBehaviour
     void TouchControls() {
         float horizontalMovementMobile = joystick.Horizontal;
         float verticalMovementMobile = joystick.Vertical;
+        text.text = "Horizontal: " + horizontalMovementMobile + " Vertical: " + verticalMovementMobile;
 
         Vector3 movePlayerMobile = transform.right * horizontalMovementMobile + transform.forward * verticalMovementMobile;
 
