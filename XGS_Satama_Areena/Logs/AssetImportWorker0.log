@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.29f1 (8d510ca76d2b) revision 9261324'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32675 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 15557 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ C:/GitHub/XGS_SA_Unity_Web/XGS_Satama_Areena
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55444
+64481
 Successfully changed project path to: C:/GitHub/XGS_SA_Unity_Web/XGS_Satama_Areena
 C:/GitHub/XGS_SA_Unity_Web/XGS_Satama_Areena
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/GitHub/XGS_SA_Unity_Web/XGS_Satama_Areena
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23980] Host "[IP] 91.158.26.158 [Port] 0 [Flags] 2 [Guid] 3558071804 [EditorId] 3558071804 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1K9BEAO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10412] Host "[IP] 192.168.152.100 [Port] 0 [Flags] 2 [Guid] 1344553050 [EditorId] 1344553050 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BB071SI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23980] Host "[IP] 91.158.26.158 [Port] 0 [Flags] 2 [Guid] 3558071804 [EditorId] 3558071804 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1K9BEAO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10412] Host "[IP] 192.168.152.100 [Port] 0 [Flags] 2 [Guid] 1344553050 [EditorId] 1344553050 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BB071SI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 8.54 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 10.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.29f1 (8d510ca76d2b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Resources/UnitySubsystems
@@ -62,54 +62,54 @@ Initialize engine version: 2022.3.29f1 (8d510ca76d2b)
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
     Vendor:   NVIDIA
-    VRAM:     8024 MB
+    VRAM:     3964 MB
     Driver:   32.0.15.6603
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006123 seconds.
-- Loaded All Assemblies, in  0.269 seconds
+Registered in 0.010421 seconds.
+- Loaded All Assemblies, in  0.361 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.215 seconds
-Domain Reload Profiling: 483ms
-	BeginReloadAssembly (83ms)
+- Finished resetting the current domain, in  0.324 seconds
+Domain Reload Profiling: 683ms
+	BeginReloadAssembly (111ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (103ms)
-		LoadAssemblies (81ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (109ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (101ms)
-			TypeCache.Refresh (100ms)
-				TypeCache.ScanAssembly (91ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (123ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (215ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (324ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (170ms)
+		SetupLoadedEditorAssemblies (254ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (120ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (171ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,85 +117,9 @@ Domain Reload Profiling: 483ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-0000018E12CE4C30 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E130E5440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E130E5440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018DF0F05010 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E12BE4230 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.ResourceManager.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E1354F010 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E130E5440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E130E5440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E130E5440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.013.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E1354F010 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Localization.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E130E5440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E12BE4230 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018DF0F28E20 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Localization.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018DF0F40C30 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E12AFE010 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E134B2C50 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E12BE4230 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E12A9A010 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E130E5440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.013.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E12AD1620 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018DF08AA290 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E134B2C50 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E12BE4230 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E130E5440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E12A16230 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018DF17AFB00 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E12B3F820 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018DF17D7520 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018DF0A864F0 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Addressables.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E12BE4230 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E134F7870 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018DF17D7520 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E12E73010 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E12BE4230 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018DF17D7520 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018DF17D7520 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018DF0AE7900 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000018E12EE2230 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Addressables.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.504 seconds
-Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.740 seconds
+Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -203,51 +127,50 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.534 seconds
-Domain Reload Profiling: 1036ms
-	BeginReloadAssembly (112ms)
+- Finished resetting the current domain, in  0.807 seconds
+Domain Reload Profiling: 1544ms
+	BeginReloadAssembly (156ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (326ms)
-		LoadAssemblies (235ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (490ms)
+		LoadAssemblies (341ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (156ms)
-			TypeCache.Refresh (138ms)
-				TypeCache.ScanAssembly (125ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (534ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (218ms)
+				TypeCache.ScanAssembly (198ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (807ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (423ms)
+		SetupLoadedEditorAssemblies (641ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (329ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (506ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.08 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 7.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4293 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (228.7 KB). Loaded Objects now: 4747.
-Memory consumption went from 165.1 MB to 164.9 MB.
-Total: 2.845600 ms (FindLiveObjects: 0.203700 ms CreateObjectMapping: 0.105400 ms MarkObjects: 2.398600 ms  DeleteObjects: 0.137100 ms)
+Unloading 52 unused Assets / (229.0 KB). Loaded Objects now: 4747.
+Memory consumption went from 164.9 MB to 164.7 MB.
+Total: 7.220600 ms (FindLiveObjects: 0.698700 ms CreateObjectMapping: 0.599200 ms MarkObjects: 5.676300 ms  DeleteObjects: 0.245100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
@@ -261,142 +184,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2065.407389 seconds.
+  Time since last request: 29529.684768 seconds.
   path: Assets/Models/TK.fbx
   artifactKey: Guid(a6217ed5510ba9746a9f98e8baf95cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/TK.fbx using Guid(a6217ed5510ba9746a9f98e8baf95cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The asset at  has been scheduled for reimport during the Refresh loop and Loading of it has been attempted.
-Doing this can lead to the AssetDatabase returning two versions of the same asset.
-Please ensure that code which attempts to reimport this asset does not run while the editor is Refreshing.
-You can do so by checking the value of EditorApplication.isUpdating
- -> (artifact id: 'ad36475e44bfba198735604c6a1b50e2') in 8.959308 seconds
+Start importing Assets/Models/TK.fbx using Guid(a6217ed5510ba9746a9f98e8baf95cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a94e3e7e8041f35cf8c290db288ca02') in 23.005355 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26207
+Number of asset objects unloaded after import = 26070
 ========================================================================
 Received Import Request.
-  Time since last request: 76.490704 seconds.
-  path: Assets/Models/Furniture3.fbx
-  artifactKey: Guid(096e4d8993a07854ea648bf823bbe674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Furniture3.fbx using Guid(096e4d8993a07854ea648bf823bbe674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9098bbf5de561cd503192eb02043ffc') in 0.175998 seconds
+  Time since last request: 97.805025 seconds.
+  path: Assets/Scenes/MainDesktopScene/DesktopScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainDesktopScene/DesktopScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4b299d3f55e36e8e3d012195d6b22f') in 0.020971 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 130
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 57.069845 seconds.
-  path: Assets/Models/TK.fbx
-  artifactKey: Guid(a6217ed5510ba9746a9f98e8baf95cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/TK.fbx using Guid(a6217ed5510ba9746a9f98e8baf95cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ec6e14824050b8f736f9c1e7d1d925') in 8.736463 seconds
+  Time since last request: 35.805963 seconds.
+  path: Assets/Prefabs/UI/Menu_UI_Mobile.prefab
+  artifactKey: Guid(cb3668e354fb28d43bb92e76a00c9bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Menu_UI_Mobile.prefab using Guid(cb3668e354fb28d43bb92e76a00c9bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41cfa23b7da6961956196ca112ac3144') in 0.168208 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26336
+Number of asset objects unloaded after import = 283
 ========================================================================
 Received Import Request.
-  Time since last request: 7.557511 seconds.
-  path: Assets/Models/TK.fbx
-  artifactKey: Guid(a6217ed5510ba9746a9f98e8baf95cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/TK.fbx using Guid(a6217ed5510ba9746a9f98e8baf95cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The asset at  has been scheduled for reimport during the Refresh loop and Loading of it has been attempted.
-Doing this can lead to the AssetDatabase returning two versions of the same asset.
-Please ensure that code which attempts to reimport this asset does not run while the editor is Refreshing.
-You can do so by checking the value of EditorApplication.isUpdating
- -> (artifact id: '2fa15eb9ba274c9838a2bed28c18cb2f') in 8.778156 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/UI/StartInstructionsDesktop.prefab
+  artifactKey: Guid(79f1af68040dfb74fb81d056fe5c35c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/StartInstructionsDesktop.prefab using Guid(79f1af68040dfb74fb81d056fe5c35c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da66ff3720dbeeb8251970e22a2b6ab') in 0.033358 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26207
+Number of asset objects unloaded after import = 52
 ========================================================================
 Received Import Request.
-  Time since last request: 379.384777 seconds.
-  path: Assets/Models/Blender Files/Furniture.fbx
-  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7ac2db173b8765fb8f95da7e6f3388') in 0.376553 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/UI/StartUI.prefab
+  artifactKey: Guid(27d1b30a61e3bc640bc8ad93b14d4c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/StartUI.prefab using Guid(27d1b30a61e3bc640bc8ad93b14d4c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b89a6870d6ca14c87b6b6306018dd4d') in 0.032290 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 334
+Number of asset objects unloaded after import = 115
 ========================================================================
 Received Import Request.
-  Time since last request: 133.203858 seconds.
-  path: Assets/Materials/Skybox/kloppenheim_06_puresky_2k.hdr
-  artifactKey: Guid(3ba34629caf488f47bae9f75a8ab94a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Skybox/kloppenheim_06_puresky_2k.hdr using Guid(3ba34629caf488f47bae9f75a8ab94a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d78d2f72b75ebc8878ab582f0eaafb2') in 0.051543 seconds
+  Time since last request: 3.396976 seconds.
+  path: Assets/Scenes/MainMobileScene/MobileScene.unity
+  artifactKey: Guid(9001c4f57d32bd04586bfbd69ab9ff16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMobileScene/MobileScene.unity using Guid(9001c4f57d32bd04586bfbd69ab9ff16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd8c258e495c1bb93f6637756f047fb') in 0.001558 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 387.101916 seconds.
-  path: Assets/Models/Blender Files/Furniture.fbx
-  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ee5c23202c4ba04666c43f2a81a526') in 0.374524 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 334
-========================================================================
-Received Import Request.
-  Time since last request: 64.696663 seconds.
-  path: Assets/Models/Blender Files/Furniture.fbx
-  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7511ccf6574b0dc120136a85bcccdb86') in 0.377239 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 334
-========================================================================
-Received Import Request.
-  Time since last request: 678.884541 seconds.
-  path: Assets/Models/Blender Files/Furniture.fbx
-  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c65d58eed6df8490e9f986f991c677') in 0.025379 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 380.546964 seconds.
-  path: Assets/Models/Blender Files/Furniture.fbx
-  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e27c6cb1a6b5f9a3fb82ac0d7ef996') in 0.412360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 334
-========================================================================
-Received Import Request.
-  Time since last request: 32.115897 seconds.
-  path: Assets/Models/Blender Files/Furniture.fbx
-  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd70c9b22443995201daf44eca34cee') in 0.437471 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 335
-========================================================================
-Received Import Request.
-  Time since last request: 11.834345 seconds.
-  path: Assets/Models/Blender Files/Furniture.fbx
-  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905aaac520bed2411155570c532dd614') in 0.430323 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 335
-========================================================================
-Received Import Request.
-  Time since last request: 4.136077 seconds.
-  path: Assets/Models/Blender Files/Furniture.fbx
-  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c3891b47000a0faf67d5df75d6ddd8') in 0.504602 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 334
-========================================================================
-Received Import Request.
-  Time since last request: 6.668694 seconds.
-  path: Assets/Models/Blender Files/Furniture.fbx
-  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f447de326db5a037c1e7167b052389e') in 0.418424 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 335
-========================================================================
-Received Import Request.
-  Time since last request: 2.680243 seconds.
-  path: Assets/Models/Blender Files/Furniture.fbx
-  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6c13c8933782907d0c95aee071140f') in 0.398894 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 335
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Models/Blender Files/Stage_Mat.mat
-  artifactKey: Guid(aefe60eca66d1f64fa4610b6bcb01030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blender Files/Stage_Mat.mat using Guid(aefe60eca66d1f64fa4610b6bcb01030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60eb6d746f7b3ae84d1f41626972223') in 0.007679 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 0

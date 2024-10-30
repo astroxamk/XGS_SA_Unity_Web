@@ -15,7 +15,7 @@ C:/GitHub/XGS_SA_Unity_Web/XGS_Satama_Areena
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56917
+55444
 Successfully changed project path to: C:/GitHub/XGS_SA_Unity_Web/XGS_Satama_Areena
 C:/GitHub/XGS_SA_Unity_Web/XGS_Satama_Areena
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/GitHub/XGS_SA_Unity_Web/XGS_Satama_Areena
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28548] Host "[IP] 91.158.26.158 [Port] 0 [Flags] 2 [Guid] 3975959530 [EditorId] 3975959530 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1K9BEAO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23980] Host "[IP] 91.158.26.158 [Port] 0 [Flags] 2 [Guid] 3558071804 [EditorId] 3558071804 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1K9BEAO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [28548] Host "[IP] 91.158.26.158 [Port] 0 [Flags] 2 [Guid] 3975959530 [EditorId] 3975959530 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1K9BEAO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23980] Host "[IP] 91.158.26.158 [Port] 0 [Flags] 2 [Guid] 3558071804 [EditorId] 3558071804 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1K9BEAO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 9.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.29f1 (8d510ca76d2b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007476 seconds.
-- Loaded All Assemblies, in  0.266 seconds
+Registered in 0.006123 seconds.
+- Loaded All Assemblies, in  0.269 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.216 seconds
-Domain Reload Profiling: 481ms
-	BeginReloadAssembly (85ms)
+- Finished resetting the current domain, in  0.215 seconds
+Domain Reload Profiling: 483ms
+	BeginReloadAssembly (83ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (25ms)
+	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (98ms)
-		LoadAssemblies (83ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (81ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (96ms)
-			TypeCache.Refresh (95ms)
-				TypeCache.ScanAssembly (86ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (100ms)
+				TypeCache.ScanAssembly (91ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (217ms)
+	FinalizeReload (215ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (172ms)
+		SetupLoadedEditorAssemblies (170ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (121ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,85 +117,85 @@ Domain Reload Profiling: 481ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-000002087DE25C30 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-0000018E12CE4C30 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087E212060 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file data-0000018E130E5440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087E212060 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-0000018E130E5440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002085C356820 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000018DF0F05010 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002085C37A630 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.ResourceManager.dll
+Symbol file data-0000018E12BE4230 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.ResourceManager.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087DBDB020 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000018E1354F010 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087E212060 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0000018E130E5440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087E212060 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll
+Symbol file data-0000018E130E5440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087E212060 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.013.dll
+Symbol file data-0000018E130E5440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.013.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087DBDB020 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Localization.Editor.dll
+Symbol file data-0000018E1354F010 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Localization.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087E212060 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000018E130E5440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002085C37A630 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000018E12BE4230 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002085C37A630 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Localization.dll
+Symbol file data-0000018DF0F28E20 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Localization.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002085C392440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000018DF0F40C30 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020838EE2080 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000018E12AFE010 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087E610020 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000018E134B2C50 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087E423830 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000018E12BE4230 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020838EF4890 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000018E12A9A010 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087E212060 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.013.dll
+Symbol file data-0000018E130E5440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.013.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087DC76620 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000018E12AD1620 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020838EF4890 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-0000018DF08AA290 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020838EF4890 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000018E134B2C50 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087DC76620 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000018E12BE4230 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087E212060 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0000018E130E5440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087E662E30 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0000018E12A16230 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087F3A2010 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0000018DF17AFB00 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002085C392440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0000018E12B3F820 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087DC23E30 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0000018DF17D7520 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087DFB2010 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Addressables.Editor.dll
+Symbol file data-0000018DF0A864F0 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Addressables.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002085C392440 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000018E12BE4230 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087E6ED820 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000018E134F7870 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087DC23E30 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000018DF17D7520 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087E2C0020 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000018E12E73010 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087E013420 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000018E12BE4230 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087E6F5630 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000018DF17D7520 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087E6F5630 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000018DF17D7520 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002087E013420 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll
+Symbol file data-0000018DF0AE7900 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020838F186A0 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Addressables.dll
+Symbol file data-0000018E12EE2230 doesn't match image C:\GitHub\XGS_SA_Unity_Web\XGS_Satama_Areena\Library\ScriptAssemblies\Unity.Addressables.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.537 seconds
-Refreshing native plugins compatible for Editor in 6.82 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.504 seconds
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -203,47 +203,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.546 seconds
-Domain Reload Profiling: 1080ms
+- Finished resetting the current domain, in  0.534 seconds
+Domain Reload Profiling: 1036ms
 	BeginReloadAssembly (112ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
+		CreateAndSetChildDomain (15ms)
 	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (359ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (326ms)
 		LoadAssemblies (235ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (188ms)
-			TypeCache.Refresh (155ms)
-				TypeCache.ScanAssembly (141ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (546ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (125ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (534ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (428ms)
+		SetupLoadedEditorAssemblies (423ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (336ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (329ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 6.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4293 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 52 unused Assets / (228.7 KB). Loaded Objects now: 4747.
 Memory consumption went from 165.1 MB to 164.9 MB.
-Total: 6.060700 ms (FindLiveObjects: 0.541100 ms CreateObjectMapping: 0.935800 ms MarkObjects: 4.412500 ms  DeleteObjects: 0.170600 ms)
+Total: 2.845600 ms (FindLiveObjects: 0.203700 ms CreateObjectMapping: 0.105400 ms MarkObjects: 2.398600 ms  DeleteObjects: 0.137100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -261,252 +261,140 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 64379.680530 seconds.
+  Time since last request: 2065.407389 seconds.
+  path: Assets/Models/TK.fbx
+  artifactKey: Guid(a6217ed5510ba9746a9f98e8baf95cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/TK.fbx using Guid(a6217ed5510ba9746a9f98e8baf95cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The asset at  has been scheduled for reimport during the Refresh loop and Loading of it has been attempted.
+Doing this can lead to the AssetDatabase returning two versions of the same asset.
+Please ensure that code which attempts to reimport this asset does not run while the editor is Refreshing.
+You can do so by checking the value of EditorApplication.isUpdating
+ -> (artifact id: 'ad36475e44bfba198735604c6a1b50e2') in 8.959308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26207
+========================================================================
+Received Import Request.
+  Time since last request: 76.490704 seconds.
   path: Assets/Models/Furniture3.fbx
   artifactKey: Guid(096e4d8993a07854ea648bf823bbe674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Furniture3.fbx using Guid(096e4d8993a07854ea648bf823bbe674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371a68852b58f3a2b05adf1d1b754243') in 0.287345 seconds
+Start importing Assets/Models/Furniture3.fbx using Guid(096e4d8993a07854ea648bf823bbe674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9098bbf5de561cd503192eb02043ffc') in 0.175998 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 130
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
+  Time since last request: 57.069845 seconds.
   path: Assets/Models/TK.fbx
   artifactKey: Guid(a6217ed5510ba9746a9f98e8baf95cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/TK.fbx using Guid(a6217ed5510ba9746a9f98e8baf95cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ed47b50144512fd70bbdaf551909c2') in 9.027986 seconds
+Start importing Assets/Models/TK.fbx using Guid(a6217ed5510ba9746a9f98e8baf95cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ec6e14824050b8f736f9c1e7d1d925') in 8.736463 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26067
+Number of asset objects unloaded after import = 26336
 ========================================================================
 Received Import Request.
-  Time since last request: 1563.610466 seconds.
-  path: Assets/Materials/Placeholder.mat
-  artifactKey: Guid(c4d75b4afd34fbf43ab0b280f98efdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Placeholder.mat using Guid(c4d75b4afd34fbf43ab0b280f98efdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7240e8b78b14f0e74e40809edbe82ae0') in 0.070134 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 41.445368 seconds.
-  path: Assets/Materials/Test
-  artifactKey: Guid(b5fa9368476ec644fb296f88cf13a369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Test using Guid(b5fa9368476ec644fb296f88cf13a369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9a409ac8d963fd0f98576ab34b1a31') in 0.000463 seconds
+  Time since last request: 7.557511 seconds.
+  path: Assets/Models/TK.fbx
+  artifactKey: Guid(a6217ed5510ba9746a9f98e8baf95cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/TK.fbx using Guid(a6217ed5510ba9746a9f98e8baf95cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The asset at  has been scheduled for reimport during the Refresh loop and Loading of it has been attempted.
+Doing this can lead to the AssetDatabase returning two versions of the same asset.
+Please ensure that code which attempts to reimport this asset does not run while the editor is Refreshing.
+You can do so by checking the value of EditorApplication.isUpdating
+ -> (artifact id: '2fa15eb9ba274c9838a2bed28c18cb2f') in 8.778156 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 26207
 ========================================================================
 Received Import Request.
-  Time since last request: 2.391508 seconds.
-  path: Assets/Materials/Furniture_mats
-  artifactKey: Guid(6e40013520937214b9e174fa760e29c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats using Guid(6e40013520937214b9e174fa760e29c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d11ea7df87780cca1d8cda8ab64340') in 0.000428 seconds
+  Time since last request: 379.384777 seconds.
+  path: Assets/Models/Blender Files/Furniture.fbx
+  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7ac2db173b8765fb8f95da7e6f3388') in 0.376553 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 334
 ========================================================================
 Received Import Request.
-  Time since last request: 0.079667 seconds.
-  path: Assets/Materials/Furniture_mats/bq_Flower_Dahlia-pinnata.mat
-  artifactKey: Guid(e9282ed38573d754485886d32d3e0252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/bq_Flower_Dahlia-pinnata.mat using Guid(e9282ed38573d754485886d32d3e0252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0b16d3cb701a9426b7fbe7f59b78dd') in 0.013525 seconds
+  Time since last request: 133.203858 seconds.
+  path: Assets/Materials/Skybox/kloppenheim_06_puresky_2k.hdr
+  artifactKey: Guid(3ba34629caf488f47bae9f75a8ab94a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skybox/kloppenheim_06_puresky_2k.hdr using Guid(3ba34629caf488f47bae9f75a8ab94a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d78d2f72b75ebc8878ab582f0eaafb2') in 0.051543 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002015 seconds.
-  path: Assets/Materials/Furniture_mats/bq_Stem_Rudbeckia-fulgida.mat
-  artifactKey: Guid(7e1ddba3e17beb342a8f28e973aaf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/bq_Stem_Rudbeckia-fulgida.mat using Guid(7e1ddba3e17beb342a8f28e973aaf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebdaba474953e7f6b9f94493a24196a') in 0.007826 seconds
+  Time since last request: 387.101916 seconds.
+  path: Assets/Models/Blender Files/Furniture.fbx
+  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ee5c23202c4ba04666c43f2a81a526') in 0.374524 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 334
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005718 seconds.
-  path: Assets/Materials/Furniture_mats/Glass_Transp_Mat.mat
-  artifactKey: Guid(03dea5f74134d2940b59ad0f43cbfc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Glass_Transp_Mat.mat using Guid(03dea5f74134d2940b59ad0f43cbfc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c606e4deabfcbc2080d2b892923df0b') in 0.010929 seconds
+  Time since last request: 64.696663 seconds.
+  path: Assets/Models/Blender Files/Furniture.fbx
+  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7511ccf6574b0dc120136a85bcccdb86') in 0.377239 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 334
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004033 seconds.
-  path: Assets/Materials/Furniture_mats/Glass_Mat.mat
-  artifactKey: Guid(e033c4555c2ef23418382d4ebd66c306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Glass_Mat.mat using Guid(e033c4555c2ef23418382d4ebd66c306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75da11cfa8c0516487a222ab70170283') in 0.022178 seconds
+  Time since last request: 678.884541 seconds.
+  path: Assets/Models/Blender Files/Furniture.fbx
+  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c65d58eed6df8490e9f986f991c677') in 0.025379 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Materials/Furniture_mats/Metal_Standart_Mat.mat
-  artifactKey: Guid(525ea64f6f0ce644db2fab9a70628fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Metal_Standart_Mat.mat using Guid(525ea64f6f0ce644db2fab9a70628fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8094fcee9e7585f986f9d1b6adbea453') in 0.010481 seconds
+  Time since last request: 380.546964 seconds.
+  path: Assets/Models/Blender Files/Furniture.fbx
+  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e27c6cb1a6b5f9a3fb82ac0d7ef996') in 0.412360 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 334
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Materials/Furniture_mats/FireExtinguisher_Mat.mat
-  artifactKey: Guid(7b3158325e42c474ca9d058e9b5cc5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/FireExtinguisher_Mat.mat using Guid(7b3158325e42c474ca9d058e9b5cc5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1e6c6ef86245668add0335f399c1ed') in 0.010734 seconds
+  Time since last request: 32.115897 seconds.
+  path: Assets/Models/Blender Files/Furniture.fbx
+  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd70c9b22443995201daf44eca34cee') in 0.437471 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 335
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Materials/Furniture_mats/Stool_Velvet_Mat.mat
-  artifactKey: Guid(07df18cdfc9e91a489538f6f7d4fbc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Stool_Velvet_Mat.mat using Guid(07df18cdfc9e91a489538f6f7d4fbc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2842493ec55a2977b441ea603ef5707') in 0.008821 seconds
+  Time since last request: 11.834345 seconds.
+  path: Assets/Models/Blender Files/Furniture.fbx
+  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905aaac520bed2411155570c532dd614') in 0.430323 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 335
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Materials/Furniture_mats/Paper_Wave_Mat.mat
-  artifactKey: Guid(b66bc0a6b02cf5d4aa07729474cc73f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Paper_Wave_Mat.mat using Guid(b66bc0a6b02cf5d4aa07729474cc73f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d102eb36b5b7192e03e5ed81d48fb76') in 0.009927 seconds
+  Time since last request: 4.136077 seconds.
+  path: Assets/Models/Blender Files/Furniture.fbx
+  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c3891b47000a0faf67d5df75d6ddd8') in 0.504602 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 334
+========================================================================
+Received Import Request.
+  Time since last request: 6.668694 seconds.
+  path: Assets/Models/Blender Files/Furniture.fbx
+  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f447de326db5a037c1e7167b052389e') in 0.418424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 335
+========================================================================
+Received Import Request.
+  Time since last request: 2.680243 seconds.
+  path: Assets/Models/Blender Files/Furniture.fbx
+  artifactKey: Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blender Files/Furniture.fbx using Guid(621a95ab93fda8346a43d761692d9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6c13c8933782907d0c95aee071140f') in 0.398894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 335
 ========================================================================
 Received Import Request.
   Time since last request: 0.000012 seconds.
-  path: Assets/Materials/Furniture_mats/Matte_White_Mat.mat
-  artifactKey: Guid(1e217e02629118740984554d6e14f280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Matte_White_Mat.mat using Guid(1e217e02629118740984554d6e14f280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db59c92f2d9523d1e648d7cca1a079f6') in 0.010109 seconds
+  path: Assets/Models/Blender Files/Stage_Mat.mat
+  artifactKey: Guid(aefe60eca66d1f64fa4610b6bcb01030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blender Files/Stage_Mat.mat using Guid(aefe60eca66d1f64fa4610b6bcb01030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60eb6d746f7b3ae84d1f41626972223') in 0.007679 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Materials/Furniture_mats/Stool_Fabric_Mat.mat
-  artifactKey: Guid(2096afda61e57b549b104e0d387975c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Stool_Fabric_Mat.mat using Guid(2096afda61e57b549b104e0d387975c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c063f36227b60ab66c96d6a342442a8') in 0.009602 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Materials/Furniture_mats/Metal_White_Mat.mat
-  artifactKey: Guid(17106e78a8ae4c5488cbcea8c537460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Metal_White_Mat.mat using Guid(17106e78a8ae4c5488cbcea8c537460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e799c0ec05b83c0bc8fd7ac450975f') in 0.008716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Materials/Furniture_mats/Wood_light_Mat.mat
-  artifactKey: Guid(ce4222b6fd9b7564c92700f212af80e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Wood_light_Mat.mat using Guid(ce4222b6fd9b7564c92700f212af80e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b25a2863dac5776272d8677022a1b03') in 0.007822 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Materials/Furniture_mats/FireExtinguisher_Gray_Mat.mat
-  artifactKey: Guid(9970953dd272e594cb79b6ebe3679877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/FireExtinguisher_Gray_Mat.mat using Guid(9970953dd272e594cb79b6ebe3679877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732d3f8bfcbe4de1fe025d7dde8e2dac') in 0.009631 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Materials/Furniture_mats/Plastic_Black_Grunge_Mat.mat
-  artifactKey: Guid(9a690f34cc9b10c4db2a8d92168dc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Plastic_Black_Grunge_Mat.mat using Guid(9a690f34cc9b10c4db2a8d92168dc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fc5bd99e444cbd4a58944fcdc48dc4') in 0.007745 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Materials/Furniture_mats/Sofa_Fabric_Mat.mat
-  artifactKey: Guid(75f297aa3f6ce8249adc8be57c235ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Sofa_Fabric_Mat.mat using Guid(75f297aa3f6ce8249adc8be57c235ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79f7a23f98a540a69a3fdca8bcd50ce') in 0.008812 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Materials/Furniture_mats/Stool_2_Mat.mat
-  artifactKey: Guid(e3e5008913d7f374ca0633c41407b796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Stool_2_Mat.mat using Guid(e3e5008913d7f374ca0633c41407b796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84692f103ebd4e0853c9c9872f66b6a9') in 0.007771 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Materials/Furniture_mats/Metal_Black_Mat.mat
-  artifactKey: Guid(7f8f30c0a0bfc8f4b8dc346bedd58526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Metal_Black_Mat.mat using Guid(7f8f30c0a0bfc8f4b8dc346bedd58526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00a8ab597c0e6dcf01509c93972823e') in 0.007550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Materials/Furniture_mats/Screen_Black_Mat.mat
-  artifactKey: Guid(2da0f988ff4a96340b0bf310f848f3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Screen_Black_Mat.mat using Guid(2da0f988ff4a96340b0bf310f848f3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51327efa589cd24088826138fb65d2af') in 0.008951 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Materials/Furniture_mats/Slide_Mat.001.mat
-  artifactKey: Guid(608ca14b78a7a0b4eaa415c12c111fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Slide_Mat.001.mat using Guid(608ca14b78a7a0b4eaa415c12c111fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343a4f2fea12b152813b34f01cf4237f') in 0.010040 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Materials/Furniture_mats/Emission_Mat.mat
-  artifactKey: Guid(d02e99368b7079147a643d6d2cc72794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Emission_Mat.mat using Guid(d02e99368b7079147a643d6d2cc72794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2f45dbdb94c4c3e549ee9302a31caa') in 0.009324 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Materials/Furniture_mats/Metal_Gold_Mat.mat
-  artifactKey: Guid(67cd4b2251320524d9a3713198dd6caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Metal_Gold_Mat.mat using Guid(67cd4b2251320524d9a3713198dd6caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1785ffa8f9578a6eecd574c1909fa8eb') in 0.009064 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Materials/Furniture_mats/Matte_White_Rough_Mat.mat
-  artifactKey: Guid(2e8327bc866bd5d40a8d0b58c05a68ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Furniture_mats/Matte_White_Rough_Mat.mat using Guid(2e8327bc866bd5d40a8d0b58c05a68ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f463768f7a780b8390b85eaba3a3218d') in 0.007869 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.687661 seconds.
-  path: Assets/Materials/Material_Maker_tex
-  artifactKey: Guid(acc434b9c68d81d4bafe4985a63975a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Material_Maker_tex using Guid(acc434b9c68d81d4bafe4985a63975a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54483f7d4febadd687f383948aa18a62') in 0.000535 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.232852 seconds.
-  path: Assets/Materials/Material_Maker_tex/BackWall
-  artifactKey: Guid(df6e776b81f3dc24482af1e0643e557e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Material_Maker_tex/BackWall using Guid(df6e776b81f3dc24482af1e0643e557e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd233f3b344d259f290c91836bc331c8a') in 0.000824 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.079629 seconds.
-  path: Assets/Materials/Material_Maker_tex/BackWall/_normal.png
-  artifactKey: Guid(4f751c3d18274cccb092130765089b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Material_Maker_tex/BackWall/_normal.png using Guid(4f751c3d18274cccb092130765089b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac0096468d050e4e1b2ee6fb26082bb') in 0.031886 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 9.280584 seconds.
-  path: Assets/Materials/Material_Maker_tex/Manty_Pysty/Mänty_Pysty.mat
-  artifactKey: Guid(7f04ef782f8c6644fa51c3f68d49a108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Material_Maker_tex/Manty_Pysty/Mänty_Pysty.mat using Guid(7f04ef782f8c6644fa51c3f68d49a108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0da9c912cef515972b8c074994e0199') in 0.113720 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
